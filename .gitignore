@@ -1,0 +1,51 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node.js
+**/node_modules/
+npm-debug.log*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_sk
+
+# Generated datasets
+data/*
+!data/demo_clinical.csv
+
+# Generated experimental results
+results/*
+!results/.gitkeep
+
+# Hyperledger Fabric runtime material
+blockchain/fabric-network/organizations/
+blockchain/fabric-network/channel-artifacts/
+blockchain/fabric-network/system-genesis-block/
+blockchain/fabric-network/logs/
+blockchain/fabric-network/runtime/
+*.block
+*.tx
+*.tar.gz
+*.tgz
+
+# Logs, archives and temporary files
+logs/
+*.log
+*.zip
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local development history
+.gitignore.before_github
+PATCH_NOTES_v*.md

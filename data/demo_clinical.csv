@@ -1,0 +1,2001 @@
+patient_id,first_name,last_name,birthdate,age,gender,race,marital,city,state,zip_code,bmi,smoker,systolic_bp,glucose,condition,high_risk
+P0000000,First0,Last0,1972-01-01,54,F,white,married,Worcester,MA,01615,24.1,0,119,108,asthma,0
+P0000001,First1,Last1,1996-01-01,30,F,white,married,San Diego,CA,92110,20.2,1,130,90,asthma,0
+P0000002,First2,Last2,1963-01-01,63,M,white,married,Austin,TX,78707,26.8,1,160,101,hypertension,1
+P0000003,First3,Last3,1960-01-01,66,F,white,married,Rochester,NY,14618,30.8,1,169,85,hypertension,1
+P0000004,First4,Last4,2008-01-01,18,F,black,single,Los Angeles,CA,90022,23.4,0,104,92,none,0
+P0000005,First5,Last5,2000-01-01,26,M,other,married,Buffalo,NY,14201,27.0,0,115,92,none,0
+P0000006,First6,Last6,1975-01-01,51,F,black,single,Oakland,CA,94607,26.4,0,135,89,none,1
+P0000007,First7,Last7,1983-01-01,43,F,white,divorced,Austin,TX,78711,33.0,0,138,81,none,0
+P0000008,First8,Last8,1977-01-01,49,M,white,married,San Diego,CA,92107,24.3,0,127,86,none,0
+P0000009,First9,Last9,1992-01-01,34,F,asian,married,Houston,TX,77014,24.5,1,131,104,none,1
+P0000010,First10,Last10,1961-01-01,65,F,asian,married,Buffalo,NY,14203,23.1,0,138,73,none,1
+P0000011,First11,Last11,1963-01-01,63,M,white,married,Buffalo,NY,14201,21.6,0,137,76,none,1
+P0000012,First12,Last12,1976-01-01,50,F,other,single,Worcester,MA,01613,30.3,0,117,80,none,1
+P0000013,First13,Last13,1957-01-01,69,F,white,divorced,San Diego,CA,92112,26.8,0,133,86,none,0
+P0000014,First14,Last14,1969-01-01,57,F,asian,divorced,Dallas,TX,75215,27.8,0,124,89,none,0
+P0000015,First15,Last15,1992-01-01,34,M,other,single,San Diego,CA,92114,34.1,1,112,100,asthma,0
+P0000016,First16,Last16,1970-01-01,56,F,black,married,Boston,MA,02115,34.4,0,114,100,none,1
+P0000017,First17,Last17,1994-01-01,32,F,white,married,Rochester,NY,14616,18.9,0,106,77,none,0
+P0000018,First18,Last18,1961-01-01,65,F,black,married,Oakland,CA,94608,30.9,0,133,97,none,0
+P0000019,First19,Last19,1978-01-01,48,F,white,married,Austin,TX,78709,28.7,0,126,96,none,0
+P0000020,First20,Last20,1980-01-01,46,M,asian,divorced,Cambridge,MA,02151,25.1,0,128,61,none,1
+P0000021,First21,Last21,1989-01-01,37,F,white,married,Boston,MA,02113,29.2,0,120,100,none,0
+P0000022,First22,Last22,1955-01-01,71,M,black,married,Albany,NY,12221,18.5,0,132,75,none,0
+P0000023,First23,Last23,1980-01-01,46,F,other,married,Boston,MA,02111,35.1,0,116,85,none,1
+P0000024,First24,Last24,1985-01-01,41,F,white,married,Austin,TX,78702,30.2,1,138,91,none,1
+P0000025,First25,Last25,1983-01-01,43,M,white,divorced,Buffalo,NY,14208,23.0,0,118,81,none,0
+P0000026,First26,Last26,1967-01-01,59,F,black,married,Buffalo,NY,14214,24.5,0,125,94,none,1
+P0000027,First27,Last27,1970-01-01,56,F,white,married,Cambridge,MA,02142,18.6,1,130,85,none,0
+P0000028,First28,Last28,1970-01-01,56,M,white,married,Buffalo,NY,14213,25.9,0,120,84,none,1
+P0000029,First29,Last29,1969-01-01,57,F,white,divorced,Dallas,TX,75203,25.0,1,130,109,asthma,1
+P0000030,First30,Last30,1938-01-01,88,M,white,single,Rochester,NY,14615,20.6,1,147,103,hypertension,1
+P0000031,First31,Last31,1984-01-01,42,M,black,single,Boston,MA,02116,31.5,1,126,92,none,0
+P0000032,First32,Last32,1986-01-01,40,F,black,married,Cambridge,MA,02140,34.1,0,129,98,none,1
+P0000033,First33,Last33,1992-01-01,34,F,white,married,Austin,TX,78711,27.4,0,120,73,none,0
+P0000034,First34,Last34,1966-01-01,60,F,white,divorced,Dallas,TX,75211,25.9,0,148,119,hypertension,1
+P0000035,First35,Last35,1957-01-01,69,F,white,married,Cambridge,MA,02145,29.8,0,152,78,hypertension,1
+P0000036,First36,Last36,1979-01-01,47,F,white,married,San Diego,CA,92104,27.4,1,152,88,hypertension,1
+P0000037,First37,Last37,1992-01-01,34,M,black,single,Cambridge,MA,02139,21.9,0,119,75,none,0
+P0000038,First38,Last38,1992-01-01,34,F,white,married,Albany,NY,12221,24.1,0,120,76,none,0
+P0000039,First39,Last39,1965-01-01,61,M,white,married,Boston,MA,02117,26.0,0,126,83,none,1
+P0000040,First40,Last40,1964-01-01,62,F,other,divorced,Oakland,CA,94619,28.8,0,143,80,hypertension,0
+P0000041,First41,Last41,1967-01-01,59,F,white,married,Dallas,TX,75211,27.5,0,124,106,none,0
+P0000042,First42,Last42,1989-01-01,37,F,black,married,Worcester,MA,01620,28.6,0,102,67,none,0
+P0000043,First43,Last43,1973-01-01,53,M,white,married,Rochester,NY,14606,19.6,0,141,97,hypertension,0
+P0000044,First44,Last44,1975-01-01,51,F,white,single,Boston,MA,02115,31.0,1,121,99,none,0
+P0000045,First45,Last45,1973-01-01,53,F,white,married,Cambridge,MA,02148,27.5,0,132,83,none,1
+P0000046,First46,Last46,1961-01-01,65,M,asian,married,Worcester,MA,01609,40.8,1,138,107,none,1
+P0000047,First47,Last47,1973-01-01,53,M,asian,single,Boston,MA,02110,25.5,0,139,84,none,1
+P0000048,First48,Last48,1965-01-01,61,F,white,single,Dallas,TX,75210,29.2,0,147,76,hypertension,1
+P0000049,First49,Last49,1976-01-01,50,M,white,widowed,Boston,MA,02121,42.2,0,138,81,none,1
+P0000050,First50,Last50,1972-01-01,54,F,white,married,Austin,TX,78710,28.5,0,142,98,hypertension,1
+P0000051,First51,Last51,1966-01-01,60,F,black,married,Worcester,MA,01608,27.1,1,139,98,none,0
+P0000052,First52,Last52,2003-01-01,23,F,black,single,Rochester,NY,14618,22.4,0,131,80,none,0
+P0000053,First53,Last53,1983-01-01,43,F,black,single,Rochester,NY,14606,35.4,0,133,85,none,0
+P0000054,First54,Last54,1985-01-01,41,F,other,married,Dallas,TX,75204,21.5,0,107,78,none,0
+P0000055,First55,Last55,1988-01-01,38,M,white,single,Cambridge,MA,02152,29.7,0,120,81,none,0
+P0000056,First56,Last56,1982-01-01,44,F,black,married,Worcester,MA,01619,25.0,1,126,60,none,0
+P0000057,First57,Last57,1950-01-01,76,M,white,divorced,Oakland,CA,94621,26.5,0,138,94,none,1
+P0000058,First58,Last58,1993-01-01,33,M,white,divorced,San Diego,CA,92113,20.1,1,100,85,none,1
+P0000059,First59,Last59,1960-01-01,66,M,other,married,San Diego,CA,92110,34.5,0,143,97,hypertension,1
+P0000060,First60,Last60,2007-01-01,19,M,white,widowed,Boston,MA,02112,26.1,0,90,103,none,0
+P0000061,First61,Last61,1983-01-01,43,M,black,widowed,Worcester,MA,01612,21.2,1,98,67,none,0
+P0000062,First62,Last62,1974-01-01,52,M,black,married,Los Angeles,CA,90026,34.0,0,126,83,none,0
+P0000063,First63,Last63,1966-01-01,60,F,other,married,Oakland,CA,94619,24.9,0,122,90,none,1
+P0000064,First64,Last64,1964-01-01,62,F,white,single,Los Angeles,CA,90017,29.2,0,124,95,none,0
+P0000065,First65,Last65,1963-01-01,63,F,white,married,Cambridge,MA,02143,31.9,0,101,67,asthma,0
+P0000066,First66,Last66,1983-01-01,43,M,asian,married,Cambridge,MA,02142,30.0,0,113,95,none,1
+P0000067,First67,Last67,1985-01-01,41,F,asian,married,Houston,TX,77006,16.1,0,113,81,none,0
+P0000068,First68,Last68,1962-01-01,64,M,white,widowed,Oakland,CA,94619,31.1,0,129,64,none,1
+P0000069,First69,Last69,1980-01-01,46,F,asian,married,Cambridge,MA,02138,27.0,1,134,84,none,0
+P0000070,First70,Last70,2000-01-01,26,M,white,single,Austin,TX,78707,25.8,0,125,68,none,0
+P0000071,First71,Last71,1997-01-01,29,F,black,married,Buffalo,NY,14215,26.9,0,118,75,none,0
+P0000072,First72,Last72,1994-01-01,32,F,asian,married,Boston,MA,02116,19.1,0,122,60,none,1
+P0000073,First73,Last73,1968-01-01,58,F,white,divorced,Albany,NY,12213,28.5,0,143,96,hypertension,0
+P0000074,First74,Last74,1974-01-01,52,F,white,married,Oakland,CA,94611,20.4,0,112,108,none,0
+P0000075,First75,Last75,1965-01-01,61,F,other,married,Albany,NY,12208,26.0,0,136,93,none,0
+P0000076,First76,Last76,1985-01-01,41,F,asian,married,Buffalo,NY,14204,28.3,0,131,60,none,0
+P0000077,First77,Last77,1974-01-01,52,F,asian,single,Los Angeles,CA,90013,33.1,0,124,95,none,1
+P0000078,First78,Last78,1966-01-01,60,F,white,married,Boston,MA,02109,23.2,0,121,84,none,1
+P0000079,First79,Last79,1983-01-01,43,F,other,married,Dallas,TX,75203,35.0,0,130,75,none,0
+P0000080,First80,Last80,1969-01-01,57,F,white,married,Albany,NY,12211,32.4,1,123,97,none,1
+P0000081,First81,Last81,1989-01-01,37,F,white,married,Albany,NY,12207,25.3,0,104,94,none,0
+P0000082,First82,Last82,1984-01-01,42,F,white,married,Los Angeles,CA,90026,21.7,0,111,72,none,0
+P0000083,First83,Last83,1984-01-01,42,F,asian,single,San Diego,CA,92102,20.0,1,129,60,none,0
+P0000084,First84,Last84,1999-01-01,27,F,other,married,Albany,NY,12212,28.9,0,114,60,none,0
+P0000085,First85,Last85,1968-01-01,58,F,black,married,San Diego,CA,92114,23.7,0,140,77,hypertension,0
+P0000086,First86,Last86,1985-01-01,41,M,black,single,Houston,TX,77003,33.7,0,113,86,none,1
+P0000087,First87,Last87,1977-01-01,49,M,white,single,Oakland,CA,94614,24.0,0,113,77,none,0
+P0000088,First88,Last88,1968-01-01,58,M,white,married,Oakland,CA,94619,22.8,1,141,77,hypertension,1
+P0000089,First89,Last89,1969-01-01,57,F,white,married,Boston,MA,02116,28.7,0,122,98,none,1
+P0000090,First90,Last90,1965-01-01,61,M,white,married,Albany,NY,12210,23.9,0,124,94,none,0
+P0000091,First91,Last91,1979-01-01,47,F,white,widowed,Albany,NY,12218,27.5,0,103,89,none,0
+P0000092,First92,Last92,1985-01-01,41,M,asian,married,Cambridge,MA,02148,32.6,1,132,99,none,1
+P0000093,First93,Last93,1978-01-01,48,M,black,married,San Diego,CA,92106,28.1,1,148,78,hypertension,0
+P0000094,First94,Last94,2007-01-01,19,M,asian,married,Worcester,MA,01608,28.1,0,95,64,asthma,0
+P0000095,First95,Last95,2003-01-01,23,M,white,married,Worcester,MA,01608,28.6,0,120,73,asthma,0
+P0000096,First96,Last96,2001-01-01,25,F,white,married,Cambridge,MA,02150,18.7,0,105,66,none,0
+P0000097,First97,Last97,1995-01-01,31,M,white,married,Worcester,MA,01612,29.5,1,102,60,none,1
+P0000098,First98,Last98,1970-01-01,56,M,white,single,Worcester,MA,01610,28.3,0,120,82,none,1
+P0000099,First99,Last99,1993-01-01,33,F,white,single,San Diego,CA,92108,32.1,0,106,101,none,0
+P0000100,First100,Last100,1984-01-01,42,M,white,single,Albany,NY,12220,30.7,1,125,98,none,0
+P0000101,First101,Last101,1954-01-01,72,F,white,single,Worcester,MA,01608,26.4,1,150,100,hypertension,1
+P0000102,First102,Last102,1983-01-01,43,M,black,married,Boston,MA,02108,32.9,0,144,91,hypertension,0
+P0000103,First103,Last103,1964-01-01,62,M,white,divorced,Oakland,CA,94613,26.0,1,123,110,none,1
+P0000104,First104,Last104,1994-01-01,32,F,white,single,Worcester,MA,01618,28.8,0,110,68,none,1
+P0000105,First105,Last105,1981-01-01,45,M,white,divorced,Albany,NY,12214,25.9,0,112,71,none,1
+P0000106,First106,Last106,1994-01-01,32,F,white,single,Rochester,NY,14617,29.9,1,108,100,none,0
+P0000107,First107,Last107,1983-01-01,43,M,white,married,Albany,NY,12207,25.5,0,121,84,none,1
+P0000108,First108,Last108,1962-01-01,64,M,white,married,Austin,TX,78706,36.1,0,138,87,asthma,0
+P0000109,First109,Last109,2008-01-01,18,M,black,married,Oakland,CA,94612,38.0,0,90,93,none,0
+P0000110,First110,Last110,1969-01-01,57,M,white,married,Austin,TX,78706,32.0,0,132,86,none,1
+P0000111,First111,Last111,1973-01-01,53,F,other,married,Austin,TX,78708,35.5,0,118,81,none,1
+P0000112,First112,Last112,1988-01-01,38,F,white,married,Boston,MA,02119,19.5,0,115,67,none,0
+P0000113,First113,Last113,2003-01-01,23,F,white,married,Cambridge,MA,02142,20.1,0,119,79,asthma,0
+P0000114,First114,Last114,1976-01-01,50,F,white,widowed,Worcester,MA,01619,25.8,0,130,89,none,0
+P0000115,First115,Last115,1987-01-01,39,F,white,single,Albany,NY,12209,27.7,1,128,105,none,1
+P0000116,First116,Last116,1973-01-01,53,F,white,single,Albany,NY,12215,26.5,0,121,83,none,0
+P0000117,First117,Last117,1977-01-01,49,F,asian,married,Cambridge,MA,02143,19.0,0,122,77,none,0
+P0000118,First118,Last118,1948-01-01,78,F,white,single,Cambridge,MA,02146,33.5,0,152,119,hypertension,1
+P0000119,First119,Last119,1981-01-01,45,M,black,divorced,Albany,NY,12208,38.7,0,133,107,none,0
+P0000120,First120,Last120,1995-01-01,31,F,white,single,San Diego,CA,92115,34.2,0,116,88,none,0
+P0000121,First121,Last121,1974-01-01,52,M,white,single,San Diego,CA,92114,33.1,1,139,69,none,0
+P0000122,First122,Last122,1973-01-01,53,F,white,married,Dallas,TX,75213,28.7,1,120,77,none,1
+P0000123,First123,Last123,1953-01-01,73,F,white,married,Worcester,MA,01621,23.1,0,130,76,none,0
+P0000124,First124,Last124,1962-01-01,64,F,white,single,Albany,NY,12209,27.9,1,149,92,hypertension,1
+P0000125,First125,Last125,1971-01-01,55,F,other,widowed,Dallas,TX,75208,38.4,0,143,88,hypertension,1
+P0000126,First126,Last126,1951-01-01,75,F,black,married,San Diego,CA,92105,25.7,0,141,115,hypertension,1
+P0000127,First127,Last127,1998-01-01,28,F,other,married,Rochester,NY,14617,25.1,0,127,60,none,0
+P0000128,First128,Last128,1989-01-01,37,F,white,married,Rochester,NY,14606,33.3,0,126,71,none,1
+P0000129,First129,Last129,1994-01-01,32,F,asian,married,Boston,MA,02111,33.6,1,121,90,none,1
+P0000130,First130,Last130,1984-01-01,42,M,white,widowed,Houston,TX,77012,23.1,0,105,89,asthma,0
+P0000131,First131,Last131,2002-01-01,24,F,black,single,Oakland,CA,94608,26.1,0,125,60,none,0
+P0000132,First132,Last132,1966-01-01,60,M,other,married,Buffalo,NY,14211,24.9,0,139,64,none,1
+P0000133,First133,Last133,1981-01-01,45,F,black,married,Buffalo,NY,14205,27.9,0,142,82,hypertension,0
+P0000134,First134,Last134,2003-01-01,23,M,asian,married,Buffalo,NY,14210,33.2,0,135,102,none,0
+P0000135,First135,Last135,1995-01-01,31,M,black,married,Cambridge,MA,02151,23.3,1,105,106,none,0
+P0000136,First136,Last136,1971-01-01,55,M,white,single,Los Angeles,CA,90021,33.2,0,117,86,none,1
+P0000137,First137,Last137,1962-01-01,64,M,black,divorced,Rochester,NY,14607,28.0,0,103,89,none,0
+P0000138,First138,Last138,1941-01-01,85,F,white,single,Boston,MA,02108,39.6,0,163,93,hypertension,1
+P0000139,First139,Last139,1936-01-01,90,M,other,married,Buffalo,NY,14201,29.2,0,158,108,hypertension,1
+P0000140,First140,Last140,1970-01-01,56,F,asian,single,Houston,TX,77003,27.0,0,130,110,none,0
+P0000141,First141,Last141,1995-01-01,31,M,white,single,Rochester,NY,14612,30.5,0,102,101,none,0
+P0000142,First142,Last142,2008-01-01,18,M,white,married,Rochester,NY,14609,25.7,0,104,77,none,0
+P0000143,First143,Last143,1972-01-01,54,F,white,single,Oakland,CA,94610,18.2,0,126,70,none,0
+P0000144,First144,Last144,1992-01-01,34,M,white,single,Oakland,CA,94610,26.2,0,124,82,none,0
+P0000145,First145,Last145,1984-01-01,42,F,white,divorced,Los Angeles,CA,90026,26.2,0,123,103,none,0
+P0000146,First146,Last146,1988-01-01,38,M,black,married,Houston,TX,77003,19.2,0,122,73,none,0
+P0000147,First147,Last147,1980-01-01,46,M,white,married,Cambridge,MA,02142,27.1,0,121,60,none,0
+P0000148,First148,Last148,1958-01-01,68,F,asian,married,Austin,TX,78708,16.8,0,145,80,hypertension,1
+P0000149,First149,Last149,1974-01-01,52,M,white,married,Houston,TX,77002,25.7,0,133,83,asthma,1
+P0000150,First150,Last150,1980-01-01,46,M,white,married,Buffalo,NY,14214,28.8,0,111,61,none,0
+P0000151,First151,Last151,1996-01-01,30,F,white,single,Oakland,CA,94608,28.0,0,129,85,none,0
+P0000152,First152,Last152,2007-01-01,19,F,asian,married,Cambridge,MA,02148,25.4,0,119,84,none,0
+P0000153,First153,Last153,1986-01-01,40,F,white,married,Rochester,NY,14613,27.1,1,131,110,none,1
+P0000154,First154,Last154,1978-01-01,48,M,white,widowed,Boston,MA,02120,23.4,1,132,65,none,1
+P0000155,First155,Last155,1945-01-01,81,F,white,single,Worcester,MA,01617,27.6,0,163,106,hypertension,1
+P0000156,First156,Last156,1975-01-01,51,M,asian,married,Houston,TX,77013,27.8,0,108,101,none,0
+P0000157,First157,Last157,1959-01-01,67,M,white,single,Boston,MA,02114,22.8,0,148,96,hypertension,0
+P0000158,First158,Last158,1986-01-01,40,F,black,married,Buffalo,NY,14208,28.9,1,122,71,none,0
+P0000159,First159,Last159,1998-01-01,28,F,black,married,Cambridge,MA,02148,28.9,0,125,67,none,0
+P0000160,First160,Last160,1994-01-01,32,M,black,single,Albany,NY,12215,26.6,0,115,83,none,0
+P0000161,First161,Last161,1990-01-01,36,M,white,married,Albany,NY,12214,40.1,0,109,93,none,0
+P0000162,First162,Last162,1939-01-01,87,F,white,married,Cambridge,MA,02141,26.8,0,143,89,hypertension,1
+P0000163,First163,Last163,1992-01-01,34,F,white,married,San Diego,CA,92104,26.0,0,126,100,none,0
+P0000164,First164,Last164,1962-01-01,64,F,white,divorced,Austin,TX,78706,25.3,0,131,84,none,1
+P0000165,First165,Last165,1993-01-01,33,M,black,married,Rochester,NY,14604,22.5,1,113,60,none,0
+P0000166,First166,Last166,1960-01-01,66,F,white,single,Dallas,TX,75207,31.1,1,137,91,none,0
+P0000167,First167,Last167,1970-01-01,56,M,white,married,San Diego,CA,92101,23.9,0,135,93,none,0
+P0000168,First168,Last168,1980-01-01,46,F,white,single,Los Angeles,CA,90020,24.5,0,141,89,hypertension,0
+P0000169,First169,Last169,1978-01-01,48,M,black,married,Boston,MA,02118,24.7,1,106,89,none,1
+P0000170,First170,Last170,1989-01-01,37,F,white,married,Boston,MA,02116,22.4,0,146,101,hypertension,0
+P0000171,First171,Last171,1969-01-01,57,F,black,single,Austin,TX,78711,18.4,1,135,67,none,0
+P0000172,First172,Last172,1985-01-01,41,M,white,single,Buffalo,NY,14201,25.1,1,132,77,none,1
+P0000173,First173,Last173,1999-01-01,27,M,other,married,Albany,NY,12207,32.0,0,108,105,none,0
+P0000174,First174,Last174,2000-01-01,26,F,black,married,Los Angeles,CA,90022,28.5,0,111,60,asthma,0
+P0000175,First175,Last175,1974-01-01,52,F,white,married,Cambridge,MA,02150,35.6,0,132,92,none,1
+P0000176,First176,Last176,1949-01-01,77,F,white,married,Los Angeles,CA,90022,31.4,0,132,114,none,1
+P0000177,First177,Last177,1974-01-01,52,F,white,single,Cambridge,MA,02147,30.2,0,119,106,none,1
+P0000178,First178,Last178,1979-01-01,47,F,white,married,Houston,TX,77012,37.3,0,141,102,hypertension,0
+P0000179,First179,Last179,1972-01-01,54,M,white,single,Worcester,MA,01619,27.0,0,111,97,none,0
+P0000180,First180,Last180,1953-01-01,73,F,asian,married,Cambridge,MA,02148,27.8,0,145,79,hypertension,1
+P0000181,First181,Last181,1973-01-01,53,M,black,married,San Diego,CA,92112,27.4,0,123,107,none,1
+P0000182,First182,Last182,1984-01-01,42,F,white,married,Cambridge,MA,02139,35.5,0,114,73,none,0
+P0000183,First183,Last183,1957-01-01,69,F,white,married,Dallas,TX,75201,27.5,0,159,76,hypertension,0
+P0000184,First184,Last184,1969-01-01,57,M,white,married,Los Angeles,CA,90017,24.1,0,118,92,none,1
+P0000185,First185,Last185,1949-01-01,77,F,other,divorced,Cambridge,MA,02145,30.6,0,131,89,none,1
+P0000186,First186,Last186,1974-01-01,52,M,white,married,Worcester,MA,01619,23.3,0,123,88,none,0
+P0000187,First187,Last187,1999-01-01,27,F,black,divorced,Dallas,TX,75206,30.3,0,104,89,none,0
+P0000188,First188,Last188,2002-01-01,24,M,asian,married,San Diego,CA,92105,29.7,0,110,106,none,0
+P0000189,First189,Last189,1947-01-01,79,M,white,married,Houston,TX,77013,26.5,1,152,100,hypertension,1
+P0000190,First190,Last190,1946-01-01,80,M,white,married,Worcester,MA,01611,30.4,0,148,88,hypertension,0
+P0000191,First191,Last191,1980-01-01,46,F,white,married,Dallas,TX,75213,19.8,0,118,90,none,0
+P0000192,First192,Last192,1984-01-01,42,F,asian,single,Albany,NY,12209,28.3,1,120,74,asthma,1
+P0000193,First193,Last193,1951-01-01,75,F,white,divorced,Oakland,CA,94612,25.1,0,147,105,hypertension,0
+P0000194,First194,Last194,1997-01-01,29,M,black,single,Rochester,NY,14610,42.4,1,125,92,none,1
+P0000195,First195,Last195,1993-01-01,33,F,asian,single,Worcester,MA,01612,28.3,0,110,89,asthma,0
+P0000196,First196,Last196,1965-01-01,61,F,asian,married,Dallas,TX,75201,24.4,0,147,63,hypertension,0
+P0000197,First197,Last197,1984-01-01,42,F,white,married,Austin,TX,78704,20.3,0,116,60,none,0
+P0000198,First198,Last198,1977-01-01,49,F,white,single,Rochester,NY,14609,34.3,0,140,70,hypertension,1
+P0000199,First199,Last199,1980-01-01,46,F,black,married,Austin,TX,78705,25.7,1,143,109,hypertension,0
+P0000200,First200,Last200,1971-01-01,55,F,white,married,Cambridge,MA,02149,23.4,0,141,70,hypertension,0
+P0000201,First201,Last201,1952-01-01,74,F,asian,widowed,Worcester,MA,01608,29.2,0,149,105,hypertension,0
+P0000202,First202,Last202,1975-01-01,51,M,white,widowed,Worcester,MA,01613,30.9,0,128,81,none,1
+P0000203,First203,Last203,1965-01-01,61,F,white,single,Rochester,NY,14604,30.8,1,140,89,hypertension,1
+P0000204,First204,Last204,2008-01-01,18,F,asian,married,Cambridge,MA,02151,27.6,0,103,78,none,1
+P0000205,First205,Last205,1978-01-01,48,M,white,divorced,Albany,NY,12218,28.3,0,101,110,none,0
+P0000206,First206,Last206,1992-01-01,34,M,white,married,Boston,MA,02122,28.7,1,131,92,none,0
+P0000207,First207,Last207,1999-01-01,27,F,white,married,San Diego,CA,92114,29.2,0,115,87,none,0
+P0000208,First208,Last208,1993-01-01,33,M,white,married,San Diego,CA,92105,29.7,0,125,102,none,0
+P0000209,First209,Last209,1983-01-01,43,M,asian,divorced,Oakland,CA,94617,33.2,0,122,80,none,0
+P0000210,First210,Last210,1961-01-01,65,M,white,divorced,Boston,MA,02112,27.8,0,142,106,hypertension,1
+P0000211,First211,Last211,2001-01-01,25,M,white,single,Los Angeles,CA,90025,23.3,0,93,90,none,0
+P0000212,First212,Last212,1976-01-01,50,M,white,married,Boston,MA,02114,26.7,0,112,99,none,1
+P0000213,First213,Last213,1986-01-01,40,F,other,married,Oakland,CA,94612,31.4,1,101,85,none,0
+P0000214,First214,Last214,1983-01-01,43,F,white,married,Rochester,NY,14617,18.2,0,115,73,none,0
+P0000215,First215,Last215,1959-01-01,67,M,other,divorced,Buffalo,NY,14213,18.2,0,123,73,none,1
+P0000216,First216,Last216,1967-01-01,59,M,asian,married,Boston,MA,02122,32.3,0,123,81,none,1
+P0000217,First217,Last217,1953-01-01,73,F,white,married,Los Angeles,CA,90012,35.4,0,147,86,hypertension,1
+P0000218,First218,Last218,1980-01-01,46,F,asian,single,Austin,TX,78704,20.9,0,115,87,none,0
+P0000219,First219,Last219,1990-01-01,36,M,black,married,San Diego,CA,92105,28.0,0,101,80,none,0
+P0000220,First220,Last220,1981-01-01,45,F,white,divorced,Houston,TX,77008,25.4,0,149,90,hypertension,1
+P0000221,First221,Last221,1973-01-01,53,M,white,married,Austin,TX,78708,26.1,1,133,94,none,1
+P0000222,First222,Last222,1974-01-01,52,F,asian,divorced,Boston,MA,02112,29.1,0,116,74,none,1
+P0000223,First223,Last223,1997-01-01,29,M,asian,married,Oakland,CA,94618,20.8,0,102,62,none,0
+P0000224,First224,Last224,1975-01-01,51,M,black,married,Cambridge,MA,02141,21.7,0,122,80,none,1
+P0000225,First225,Last225,1973-01-01,53,M,other,married,Rochester,NY,14614,25.9,0,125,76,asthma,0
+P0000226,First226,Last226,1936-01-01,90,M,white,married,Boston,MA,02120,26.7,0,164,85,hypertension,0
+P0000227,First227,Last227,1943-01-01,83,M,asian,single,Houston,TX,77011,21.6,1,149,116,hypertension,1
+P0000228,First228,Last228,1992-01-01,34,M,asian,married,Los Angeles,CA,90017,31.6,0,138,64,none,0
+P0000229,First229,Last229,1982-01-01,44,M,white,married,Cambridge,MA,02140,25.3,0,116,112,none,0
+P0000230,First230,Last230,2003-01-01,23,F,white,single,Albany,NY,12209,25.3,0,112,82,none,0
+P0000231,First231,Last231,1988-01-01,38,M,white,married,Albany,NY,12218,29.0,0,130,99,none,1
+P0000232,First232,Last232,1971-01-01,55,F,asian,single,Los Angeles,CA,90019,26.8,0,141,100,hypertension,1
+P0000233,First233,Last233,1955-01-01,71,M,white,single,Dallas,TX,75201,31.9,0,155,104,hypertension,0
+P0000234,First234,Last234,1990-01-01,36,M,black,married,Worcester,MA,01622,22.6,0,112,103,none,0
+P0000235,First235,Last235,1989-01-01,37,F,white,single,Buffalo,NY,14211,20.2,0,114,64,none,0
+P0000236,First236,Last236,2008-01-01,18,F,white,married,Albany,NY,12219,25.9,1,85,75,none,0
+P0000237,First237,Last237,1980-01-01,46,F,black,married,Rochester,NY,14610,27.8,0,121,74,none,0
+P0000238,First238,Last238,1996-01-01,30,M,white,married,Rochester,NY,14618,21.0,0,122,60,none,0
+P0000239,First239,Last239,1987-01-01,39,F,asian,divorced,Cambridge,MA,02140,20.3,0,125,70,none,0
+P0000240,First240,Last240,1993-01-01,33,F,white,single,Boston,MA,02110,28.4,0,114,109,none,1
+P0000241,First241,Last241,1979-01-01,47,M,other,single,Albany,NY,12220,23.6,0,141,81,hypertension,0
+P0000242,First242,Last242,2008-01-01,18,M,white,widowed,Austin,TX,78714,19.9,0,98,101,none,0
+P0000243,First243,Last243,2003-01-01,23,F,other,married,Boston,MA,02115,32.5,0,103,112,none,0
+P0000244,First244,Last244,1939-01-01,87,F,black,divorced,Cambridge,MA,02139,24.2,0,142,137,hypertension,0
+P0000245,First245,Last245,2000-01-01,26,M,white,single,Los Angeles,CA,90016,33.5,0,101,111,asthma,0
+P0000246,First246,Last246,1997-01-01,29,M,white,divorced,Austin,TX,78712,27.6,1,126,114,none,0
+P0000247,First247,Last247,1944-01-01,82,M,white,divorced,Buffalo,NY,14213,29.0,1,156,101,hypertension,1
+P0000248,First248,Last248,1936-01-01,90,F,black,widowed,Worcester,MA,01613,26.4,1,163,100,hypertension,1
+P0000249,First249,Last249,1998-01-01,28,F,asian,married,San Diego,CA,92101,16.0,0,102,78,none,0
+P0000250,First250,Last250,1984-01-01,42,F,white,single,Buffalo,NY,14210,21.6,0,117,81,none,0
+P0000251,First251,Last251,1971-01-01,55,M,white,divorced,Oakland,CA,94618,26.8,0,104,90,none,0
+P0000252,First252,Last252,1946-01-01,80,F,black,single,Worcester,MA,01614,29.4,0,149,107,hypertension,1
+P0000253,First253,Last253,1995-01-01,31,F,white,married,Boston,MA,02116,18.2,1,118,69,none,0
+P0000254,First254,Last254,1981-01-01,45,M,black,widowed,Worcester,MA,01622,27.2,0,110,66,none,0
+P0000255,First255,Last255,1963-01-01,63,M,white,married,San Diego,CA,92104,21.7,0,130,92,none,1
+P0000256,First256,Last256,1969-01-01,57,M,black,married,Albany,NY,12215,28.7,1,135,80,none,1
+P0000257,First257,Last257,1984-01-01,42,F,other,single,Cambridge,MA,02147,27.4,0,140,77,hypertension,1
+P0000258,First258,Last258,1979-01-01,47,F,white,married,Rochester,NY,14612,31.4,0,114,87,none,0
+P0000259,First259,Last259,2002-01-01,24,F,white,single,Oakland,CA,94620,33.0,0,115,78,asthma,0
+P0000260,First260,Last260,1981-01-01,45,F,white,married,Cambridge,MA,02147,29.9,0,111,103,none,0
+P0000261,First261,Last261,1982-01-01,44,M,white,single,Los Angeles,CA,90019,32.0,1,125,86,none,1
+P0000262,First262,Last262,1973-01-01,53,F,white,divorced,Oakland,CA,94608,25.7,0,130,103,none,1
+P0000263,First263,Last263,1987-01-01,39,M,other,married,Albany,NY,12217,42.2,0,123,97,none,1
+P0000264,First264,Last264,1969-01-01,57,M,black,single,Austin,TX,78702,21.2,0,127,84,none,1
+P0000265,First265,Last265,1959-01-01,67,M,white,married,Austin,TX,78701,24.8,1,145,92,hypertension,0
+P0000266,First266,Last266,1974-01-01,52,F,asian,divorced,Cambridge,MA,02145,32.2,1,130,73,none,0
+P0000267,First267,Last267,1971-01-01,55,F,white,widowed,Cambridge,MA,02146,31.4,1,147,96,hypertension,0
+P0000268,First268,Last268,1976-01-01,50,F,asian,married,Cambridge,MA,02152,30.0,1,130,101,none,1
+P0000269,First269,Last269,1977-01-01,49,F,white,single,Boston,MA,02118,31.0,0,125,103,none,1
+P0000270,First270,Last270,1990-01-01,36,F,black,single,Albany,NY,12219,16.7,0,116,60,none,0
+P0000271,First271,Last271,1971-01-01,55,F,other,single,Dallas,TX,75206,35.8,1,142,73,hypertension,1
+P0000272,First272,Last272,1979-01-01,47,M,asian,single,Austin,TX,78708,26.4,0,130,78,none,0
+P0000273,First273,Last273,1939-01-01,87,F,asian,married,Cambridge,MA,02152,34.0,0,155,121,hypertension,1
+P0000274,First274,Last274,1949-01-01,77,M,white,single,Albany,NY,12213,16.9,0,143,91,hypertension,1
+P0000275,First275,Last275,1970-01-01,56,F,asian,married,Worcester,MA,01620,28.8,0,126,79,none,1
+P0000276,First276,Last276,1991-01-01,35,F,white,married,Rochester,NY,14611,24.6,0,103,61,none,0
+P0000277,First277,Last277,1997-01-01,29,F,black,divorced,Worcester,MA,01611,30.5,1,105,74,none,1
+P0000278,First278,Last278,1956-01-01,70,F,white,married,Houston,TX,77010,29.1,0,120,83,none,0
+P0000279,First279,Last279,1972-01-01,54,F,white,single,Dallas,TX,75204,29.4,0,148,102,hypertension,0
+P0000280,First280,Last280,1968-01-01,58,M,white,married,Cambridge,MA,02138,22.0,0,104,100,none,1
+P0000281,First281,Last281,2008-01-01,18,F,white,divorced,San Diego,CA,92104,27.2,0,119,64,none,0
+P0000282,First282,Last282,1960-01-01,66,F,black,single,Buffalo,NY,14203,26.6,0,126,101,none,0
+P0000283,First283,Last283,1969-01-01,57,M,asian,married,Oakland,CA,94612,30.1,0,144,100,hypertension,1
+P0000284,First284,Last284,1997-01-01,29,F,other,married,Albany,NY,12220,32.6,0,91,68,none,0
+P0000285,First285,Last285,1985-01-01,41,M,white,married,Worcester,MA,01613,28.3,0,118,84,none,0
+P0000286,First286,Last286,1972-01-01,54,F,other,widowed,Los Angeles,CA,90024,20.9,0,141,89,hypertension,0
+P0000287,First287,Last287,1976-01-01,50,M,white,single,Worcester,MA,01616,28.1,0,134,90,none,0
+P0000288,First288,Last288,1982-01-01,44,F,white,married,Buffalo,NY,14201,41.1,0,124,70,none,0
+P0000289,First289,Last289,1979-01-01,47,F,asian,single,Cambridge,MA,02140,36.1,0,106,94,none,0
+P0000290,First290,Last290,1982-01-01,44,M,white,married,Oakland,CA,94620,16.0,0,102,87,none,0
+P0000291,First291,Last291,1974-01-01,52,M,white,married,Oakland,CA,94616,27.8,0,142,110,hypertension,1
+P0000292,First292,Last292,1951-01-01,75,F,white,married,Worcester,MA,01621,32.3,1,146,88,hypertension,0
+P0000293,First293,Last293,2008-01-01,18,M,white,married,Albany,NY,12211,26.6,0,104,70,none,1
+P0000294,First294,Last294,1981-01-01,45,F,asian,single,Los Angeles,CA,90022,25.1,0,124,81,none,0
+P0000295,First295,Last295,1974-01-01,52,F,white,divorced,Cambridge,MA,02149,26.1,0,112,91,none,0
+P0000296,First296,Last296,1972-01-01,54,F,white,divorced,Buffalo,NY,14215,30.4,0,134,91,none,1
+P0000297,First297,Last297,1984-01-01,42,M,black,divorced,San Diego,CA,92101,21.5,0,113,89,none,0
+P0000298,First298,Last298,2008-01-01,18,F,white,married,Rochester,NY,14618,33.7,0,112,67,asthma,0
+P0000299,First299,Last299,1971-01-01,55,M,black,married,Los Angeles,CA,90017,27.2,0,122,94,none,0
+P0000300,First300,Last300,1946-01-01,80,F,other,single,Rochester,NY,14616,22.6,0,125,82,none,0
+P0000301,First301,Last301,2005-01-01,21,M,asian,widowed,Oakland,CA,94615,33.3,1,112,81,none,0
+P0000302,First302,Last302,1961-01-01,65,M,asian,single,Boston,MA,02116,19.5,0,138,110,none,1
+P0000303,First303,Last303,1983-01-01,43,F,white,married,Cambridge,MA,02143,24.6,1,131,64,none,1
+P0000304,First304,Last304,1978-01-01,48,F,asian,single,Boston,MA,02120,24.5,1,130,81,none,1
+P0000305,First305,Last305,1996-01-01,30,F,white,single,Dallas,TX,75204,38.6,0,128,71,none,0
+P0000306,First306,Last306,1983-01-01,43,M,white,divorced,Dallas,TX,75208,23.9,0,117,85,none,0
+P0000307,First307,Last307,1954-01-01,72,F,black,single,Los Angeles,CA,90020,16.3,0,135,100,none,1
+P0000308,First308,Last308,1967-01-01,59,M,white,married,Worcester,MA,01619,24.5,0,124,90,none,0
+P0000309,First309,Last309,1946-01-01,80,F,asian,married,Albany,NY,12214,29.9,0,156,95,hypertension,1
+P0000310,First310,Last310,1956-01-01,70,M,black,married,Oakland,CA,94617,31.6,0,143,114,hypertension,0
+P0000311,First311,Last311,1969-01-01,57,F,other,married,San Diego,CA,92108,39.3,0,129,101,none,0
+P0000312,First312,Last312,1946-01-01,80,F,white,widowed,Boston,MA,02117,34.8,0,131,111,none,1
+P0000313,First313,Last313,1969-01-01,57,M,white,single,Austin,TX,78711,28.5,0,142,100,hypertension,0
+P0000314,First314,Last314,1962-01-01,64,F,black,married,Worcester,MA,01618,22.9,0,124,60,none,0
+P0000315,First315,Last315,1982-01-01,44,M,white,married,Cambridge,MA,02150,35.9,1,133,90,none,0
+P0000316,First316,Last316,1976-01-01,50,F,white,single,Dallas,TX,75209,25.6,0,150,71,hypertension,0
+P0000317,First317,Last317,1990-01-01,36,F,black,single,Rochester,NY,14606,24.1,0,124,69,none,0
+P0000318,First318,Last318,1959-01-01,67,M,other,married,Rochester,NY,14614,25.3,0,153,111,hypertension,1
+P0000319,First319,Last319,1998-01-01,28,M,black,divorced,Buffalo,NY,14202,21.0,1,110,72,none,0
+P0000320,First320,Last320,1963-01-01,63,M,white,married,Houston,TX,77005,25.1,0,144,116,hypertension,0
+P0000321,First321,Last321,1980-01-01,46,F,white,married,Worcester,MA,01619,26.3,0,123,66,none,1
+P0000322,First322,Last322,1956-01-01,70,F,black,married,Oakland,CA,94613,31.3,1,151,80,hypertension,1
+P0000323,First323,Last323,1963-01-01,63,F,white,single,Boston,MA,02115,25.5,0,155,100,hypertension,1
+P0000324,First324,Last324,1944-01-01,82,M,white,single,Boston,MA,02122,20.9,0,139,87,none,0
+P0000325,First325,Last325,1964-01-01,62,F,white,divorced,Buffalo,NY,14204,19.2,0,129,89,none,1
+P0000326,First326,Last326,2005-01-01,21,F,white,married,Rochester,NY,14604,28.6,0,98,78,none,0
+P0000327,First327,Last327,1978-01-01,48,F,white,widowed,Cambridge,MA,02139,27.9,0,134,85,none,1
+P0000328,First328,Last328,1998-01-01,28,F,white,single,Albany,NY,12210,24.6,0,104,75,none,0
+P0000329,First329,Last329,1986-01-01,40,F,black,married,Los Angeles,CA,90022,25.1,0,129,85,none,0
+P0000330,First330,Last330,1950-01-01,76,F,white,married,Rochester,NY,14615,29.5,0,124,104,none,1
+P0000331,First331,Last331,1966-01-01,60,M,black,married,San Diego,CA,92109,34.7,0,141,117,hypertension,1
+P0000332,First332,Last332,1990-01-01,36,M,white,divorced,Oakland,CA,94610,23.4,1,115,78,none,1
+P0000333,First333,Last333,1995-01-01,31,F,asian,married,Rochester,NY,14611,28.0,0,122,77,none,0
+P0000334,First334,Last334,1976-01-01,50,M,white,married,Buffalo,NY,14201,32.5,0,128,83,none,0
+P0000335,First335,Last335,1999-01-01,27,M,white,single,Buffalo,NY,14211,23.5,0,104,99,asthma,0
+P0000336,First336,Last336,1989-01-01,37,F,white,divorced,Buffalo,NY,14210,27.4,0,113,93,none,1
+P0000337,First337,Last337,1971-01-01,55,F,white,single,Worcester,MA,01608,27.3,0,119,62,none,0
+P0000338,First338,Last338,1956-01-01,70,F,white,single,Worcester,MA,01620,20.7,0,144,61,hypertension,0
+P0000339,First339,Last339,1966-01-01,60,F,asian,married,Cambridge,MA,02149,28.4,0,121,79,none,0
+P0000340,First340,Last340,2008-01-01,18,M,other,divorced,Albany,NY,12211,27.7,0,103,82,asthma,0
+P0000341,First341,Last341,1972-01-01,54,M,white,married,Austin,TX,78710,30.4,0,133,90,none,0
+P0000342,First342,Last342,1976-01-01,50,F,white,married,Rochester,NY,14613,21.3,0,140,90,hypertension,0
+P0000343,First343,Last343,1970-01-01,56,M,black,widowed,Rochester,NY,14606,27.6,0,129,86,none,0
+P0000344,First344,Last344,1948-01-01,78,F,black,married,Rochester,NY,14606,34.7,0,143,119,hypertension,1
+P0000345,First345,Last345,2008-01-01,18,M,white,married,Oakland,CA,94617,38.3,0,114,96,none,0
+P0000346,First346,Last346,1988-01-01,38,M,asian,single,Rochester,NY,14618,34.2,0,98,89,none,0
+P0000347,First347,Last347,1966-01-01,60,F,white,married,Buffalo,NY,14209,21.4,0,116,102,none,0
+P0000348,First348,Last348,2005-01-01,21,F,black,married,Oakland,CA,94615,29.8,0,104,60,none,0
+P0000349,First349,Last349,1950-01-01,76,M,white,single,Worcester,MA,01617,25.0,0,133,91,none,0
+P0000350,First350,Last350,1970-01-01,56,M,white,single,Buffalo,NY,14207,29.0,1,119,92,none,0
+P0000351,First351,Last351,1962-01-01,64,F,white,single,Albany,NY,12207,23.5,0,142,97,hypertension,0
+P0000352,First352,Last352,1987-01-01,39,F,black,married,Oakland,CA,94612,18.6,0,118,60,none,0
+P0000353,First353,Last353,1962-01-01,64,F,white,single,Dallas,TX,75214,25.7,0,135,86,none,1
+P0000354,First354,Last354,1958-01-01,68,M,asian,divorced,San Diego,CA,92113,31.3,0,131,100,asthma,1
+P0000355,First355,Last355,1973-01-01,53,M,asian,married,Buffalo,NY,14214,29.0,0,129,96,none,1
+P0000356,First356,Last356,1973-01-01,53,M,black,married,Worcester,MA,01610,29.6,0,134,106,none,1
+P0000357,First357,Last357,1972-01-01,54,M,white,married,Buffalo,NY,14208,28.6,0,126,100,none,0
+P0000358,First358,Last358,1993-01-01,33,M,white,single,San Diego,CA,92109,29.6,0,121,83,none,0
+P0000359,First359,Last359,1980-01-01,46,M,white,married,Austin,TX,78704,30.3,0,115,97,none,0
+P0000360,First360,Last360,1980-01-01,46,F,black,single,Los Angeles,CA,90015,26.1,0,123,82,none,0
+P0000361,First361,Last361,1970-01-01,56,M,other,widowed,Boston,MA,02119,27.9,0,142,91,hypertension,0
+P0000362,First362,Last362,1959-01-01,67,F,white,married,Oakland,CA,94617,36.6,0,154,109,hypertension,1
+P0000363,First363,Last363,1996-01-01,30,F,asian,single,Houston,TX,77011,28.2,0,128,81,none,0
+P0000364,First364,Last364,1979-01-01,47,M,white,married,Oakland,CA,94611,27.7,0,127,91,none,1
+P0000365,First365,Last365,1950-01-01,76,M,white,married,San Diego,CA,92108,28.0,0,142,108,hypertension,1
+P0000366,First366,Last366,1990-01-01,36,M,white,single,Rochester,NY,14604,26.4,0,111,93,none,0
+P0000367,First367,Last367,1992-01-01,34,F,black,married,Los Angeles,CA,90013,25.2,0,95,99,none,1
+P0000368,First368,Last368,1973-01-01,53,M,white,widowed,Worcester,MA,01615,28.6,1,120,121,none,0
+P0000369,First369,Last369,1962-01-01,64,F,white,single,Boston,MA,02112,24.9,0,131,99,none,0
+P0000370,First370,Last370,1977-01-01,49,F,asian,married,Oakland,CA,94621,26.7,0,123,80,none,1
+P0000371,First371,Last371,1953-01-01,73,F,white,married,Houston,TX,77009,23.4,0,153,98,hypertension,0
+P0000372,First372,Last372,1962-01-01,64,M,white,married,Houston,TX,77003,28.1,0,149,98,hypertension,1
+P0000373,First373,Last373,1962-01-01,64,F,white,divorced,Worcester,MA,01608,30.5,0,128,101,none,0
+P0000374,First374,Last374,1967-01-01,59,M,white,single,Cambridge,MA,02148,26.4,0,140,110,hypertension,1
+P0000375,First375,Last375,1936-01-01,90,F,white,married,Worcester,MA,01610,17.1,0,140,68,hypertension,1
+P0000376,First376,Last376,1981-01-01,45,F,white,single,Oakland,CA,94609,30.6,1,138,109,none,0
+P0000377,First377,Last377,2008-01-01,18,M,black,single,Los Angeles,CA,90018,28.1,0,115,105,none,0
+P0000378,First378,Last378,1948-01-01,78,F,white,single,Dallas,TX,75204,22.3,0,154,99,hypertension,1
+P0000379,First379,Last379,1985-01-01,41,M,black,married,Worcester,MA,01617,31.5,0,116,96,none,0
+P0000380,First380,Last380,1975-01-01,51,M,white,married,Buffalo,NY,14208,20.2,0,134,79,none,1
+P0000381,First381,Last381,1953-01-01,73,F,white,married,Oakland,CA,94608,32.9,1,129,97,none,1
+P0000382,First382,Last382,2006-01-01,20,M,white,married,Cambridge,MA,02149,27.2,0,121,89,none,0
+P0000383,First383,Last383,2000-01-01,26,M,white,married,Dallas,TX,75207,16.0,0,105,82,none,0
+P0000384,First384,Last384,2006-01-01,20,M,white,married,Rochester,NY,14613,28.4,0,107,90,none,0
+P0000385,First385,Last385,1991-01-01,35,M,white,married,Boston,MA,02108,25.4,0,93,90,asthma,0
+P0000386,First386,Last386,1969-01-01,57,M,other,married,Worcester,MA,01617,24.6,0,124,100,none,0
+P0000387,First387,Last387,1968-01-01,58,M,asian,married,Dallas,TX,75205,23.7,0,144,98,hypertension,0
+P0000388,First388,Last388,1972-01-01,54,F,white,divorced,Los Angeles,CA,90019,26.8,0,123,73,none,0
+P0000389,First389,Last389,2002-01-01,24,M,black,single,San Diego,CA,92105,25.0,0,116,90,none,0
+P0000390,First390,Last390,2008-01-01,18,M,black,married,Oakland,CA,94621,17.8,0,102,98,none,0
+P0000391,First391,Last391,1976-01-01,50,M,asian,single,Albany,NY,12210,34.1,1,147,91,hypertension,1
+P0000392,First392,Last392,1985-01-01,41,M,white,married,Los Angeles,CA,90025,26.2,1,128,105,none,0
+P0000393,First393,Last393,1969-01-01,57,F,white,divorced,Dallas,TX,75214,23.7,0,118,74,none,0
+P0000394,First394,Last394,1964-01-01,62,M,white,single,Worcester,MA,01614,21.6,0,131,86,none,0
+P0000395,First395,Last395,1975-01-01,51,M,white,married,Los Angeles,CA,90016,31.5,1,153,81,hypertension,1
+P0000396,First396,Last396,1963-01-01,63,F,white,divorced,Cambridge,MA,02143,20.7,0,136,105,none,0
+P0000397,First397,Last397,1973-01-01,53,F,asian,divorced,Boston,MA,02122,28.2,0,126,111,asthma,0
+P0000398,First398,Last398,1967-01-01,59,M,other,divorced,Albany,NY,12216,24.5,1,162,86,hypertension,1
+P0000399,First399,Last399,1990-01-01,36,F,white,married,Houston,TX,77010,24.8,0,128,98,asthma,0
+P0000400,First400,Last400,1980-01-01,46,M,white,married,Worcester,MA,01608,21.8,1,136,105,none,1
+P0000401,First401,Last401,1973-01-01,53,F,white,single,Rochester,NY,14616,24.3,0,129,85,none,0
+P0000402,First402,Last402,1962-01-01,64,F,white,married,San Diego,CA,92102,27.5,1,149,93,hypertension,1
+P0000403,First403,Last403,1984-01-01,42,M,white,single,Boston,MA,02108,28.7,0,129,96,asthma,1
+P0000404,First404,Last404,1968-01-01,58,M,white,single,San Diego,CA,92105,23.4,0,105,75,none,0
+P0000405,First405,Last405,1982-01-01,44,M,asian,married,Dallas,TX,75208,27.0,0,126,87,none,1
+P0000406,First406,Last406,1979-01-01,47,M,other,married,Worcester,MA,01621,32.1,0,124,119,none,0
+P0000407,First407,Last407,1962-01-01,64,M,black,married,Boston,MA,02119,18.9,0,125,78,none,0
+P0000408,First408,Last408,2008-01-01,18,M,black,married,Austin,TX,78703,27.5,1,110,90,none,1
+P0000409,First409,Last409,2000-01-01,26,M,white,single,Boston,MA,02113,22.6,1,98,85,none,0
+P0000410,First410,Last410,2004-01-01,22,M,white,single,Cambridge,MA,02149,22.0,1,93,74,none,1
+P0000411,First411,Last411,2008-01-01,18,M,white,married,Houston,TX,77009,28.9,0,120,82,none,0
+P0000412,First412,Last412,1989-01-01,37,F,black,single,Dallas,TX,75203,24.7,0,121,106,none,0
+P0000413,First413,Last413,1964-01-01,62,F,white,single,San Diego,CA,92106,21.2,0,104,94,none,0
+P0000414,First414,Last414,1982-01-01,44,M,asian,single,Rochester,NY,14613,34.4,0,119,100,none,0
+P0000415,First415,Last415,1973-01-01,53,M,white,married,Houston,TX,77016,32.3,0,139,113,none,0
+P0000416,First416,Last416,1957-01-01,69,M,white,single,San Diego,CA,92110,17.5,0,130,82,none,1
+P0000417,First417,Last417,1953-01-01,73,F,white,single,Los Angeles,CA,90012,19.8,0,150,74,hypertension,0
+P0000418,First418,Last418,1978-01-01,48,M,other,married,Oakland,CA,94617,30.6,0,137,113,none,1
+P0000419,First419,Last419,1953-01-01,73,F,white,single,San Diego,CA,92104,26.0,0,124,94,none,1
+P0000420,First420,Last420,1975-01-01,51,M,white,divorced,Buffalo,NY,14213,35.3,0,128,105,none,0
+P0000421,First421,Last421,1992-01-01,34,M,white,married,Albany,NY,12212,30.7,0,112,74,none,0
+P0000422,First422,Last422,1988-01-01,38,M,black,single,Rochester,NY,14606,29.1,0,103,90,none,0
+P0000423,First423,Last423,2004-01-01,22,M,other,widowed,Albany,NY,12214,22.2,1,97,61,none,0
+P0000424,First424,Last424,1993-01-01,33,F,white,divorced,Rochester,NY,14607,30.1,0,107,85,none,1
+P0000425,First425,Last425,1983-01-01,43,F,other,married,Rochester,NY,14607,20.9,1,118,72,asthma,1
+P0000426,First426,Last426,1963-01-01,63,M,white,single,Oakland,CA,94615,34.3,1,147,83,hypertension,1
+P0000427,First427,Last427,1946-01-01,80,M,black,widowed,Albany,NY,12218,29.7,0,157,92,hypertension,1
+P0000428,First428,Last428,2002-01-01,24,F,white,single,Worcester,MA,01620,23.2,0,113,60,asthma,0
+P0000429,First429,Last429,1970-01-01,56,F,white,married,Boston,MA,02113,31.7,0,139,75,none,1
+P0000430,First430,Last430,1996-01-01,30,F,black,married,Worcester,MA,01609,39.2,0,115,100,asthma,0
+P0000431,First431,Last431,1968-01-01,58,F,white,single,Oakland,CA,94614,26.4,0,137,93,none,0
+P0000432,First432,Last432,1979-01-01,47,F,white,married,Buffalo,NY,14207,30.4,0,123,73,asthma,0
+P0000433,First433,Last433,2008-01-01,18,F,asian,married,Worcester,MA,01610,25.3,1,107,85,none,0
+P0000434,First434,Last434,1960-01-01,66,M,other,married,San Diego,CA,92114,27.9,0,156,79,hypertension,0
+P0000435,First435,Last435,1988-01-01,38,F,white,single,Boston,MA,02122,19.7,0,89,89,none,0
+P0000436,First436,Last436,1987-01-01,39,F,black,married,Boston,MA,02108,27.5,1,105,82,none,1
+P0000437,First437,Last437,1996-01-01,30,F,asian,divorced,Oakland,CA,94618,27.7,1,124,77,none,0
+P0000438,First438,Last438,1989-01-01,37,F,white,single,Rochester,NY,14613,36.9,0,119,88,none,0
+P0000439,First439,Last439,1969-01-01,57,M,asian,widowed,San Diego,CA,92104,18.2,0,110,119,none,0
+P0000440,First440,Last440,1980-01-01,46,F,white,divorced,San Diego,CA,92110,26.0,1,118,74,none,1
+P0000441,First441,Last441,1971-01-01,55,M,asian,married,Austin,TX,78702,34.2,0,121,96,none,0
+P0000442,First442,Last442,1970-01-01,56,M,white,single,Boston,MA,02109,26.2,1,145,99,hypertension,0
+P0000443,First443,Last443,1953-01-01,73,F,white,married,Los Angeles,CA,90026,26.6,0,153,79,hypertension,1
+P0000444,First444,Last444,1983-01-01,43,M,white,widowed,Los Angeles,CA,90021,23.2,0,137,60,none,0
+P0000445,First445,Last445,2004-01-01,22,M,white,married,Worcester,MA,01611,22.7,0,88,68,none,0
+P0000446,First446,Last446,1958-01-01,68,F,asian,single,Houston,TX,77008,18.0,0,117,96,none,0
+P0000447,First447,Last447,1983-01-01,43,F,other,divorced,Albany,NY,12221,24.2,0,104,78,none,1
+P0000448,First448,Last448,1957-01-01,69,M,white,married,Dallas,TX,75207,22.4,0,149,86,hypertension,0
+P0000449,First449,Last449,1970-01-01,56,M,white,divorced,San Diego,CA,92114,28.1,0,134,102,none,1
+P0000450,First450,Last450,1979-01-01,47,M,white,married,Rochester,NY,14617,23.4,0,123,72,none,0
+P0000451,First451,Last451,1971-01-01,55,M,white,married,Boston,MA,02113,25.0,0,130,86,none,1
+P0000452,First452,Last452,1942-01-01,84,F,white,married,Austin,TX,78711,25.1,0,145,74,hypertension,1
+P0000453,First453,Last453,1940-01-01,86,M,asian,married,Rochester,NY,14613,27.2,0,135,101,none,0
+P0000454,First454,Last454,1976-01-01,50,F,asian,single,Cambridge,MA,02149,24.8,0,130,89,none,1
+P0000455,First455,Last455,1974-01-01,52,F,white,divorced,Boston,MA,02113,22.0,0,122,95,none,0
+P0000456,First456,Last456,1958-01-01,68,M,white,married,San Diego,CA,92101,27.9,1,131,76,none,1
+P0000457,First457,Last457,1992-01-01,34,M,black,single,Worcester,MA,01610,33.1,0,124,84,none,0
+P0000458,First458,Last458,1971-01-01,55,M,white,divorced,Rochester,NY,14613,28.2,0,124,71,none,0
+P0000459,First459,Last459,1977-01-01,49,F,white,single,San Diego,CA,92112,24.3,0,126,81,none,1
+P0000460,First460,Last460,1971-01-01,55,F,white,married,Cambridge,MA,02149,26.9,1,134,109,none,0
+P0000461,First461,Last461,1992-01-01,34,M,white,widowed,Buffalo,NY,14209,16.8,1,128,71,none,0
+P0000462,First462,Last462,2006-01-01,20,M,white,married,Worcester,MA,01609,26.8,0,109,60,none,0
+P0000463,First463,Last463,2008-01-01,18,M,black,single,Dallas,TX,75201,25.4,0,95,68,asthma,0
+P0000464,First464,Last464,1997-01-01,29,M,white,single,Dallas,TX,75212,22.6,0,114,60,none,0
+P0000465,First465,Last465,1985-01-01,41,F,black,single,Boston,MA,02116,23.6,0,122,64,none,0
+P0000466,First466,Last466,1982-01-01,44,F,white,married,Buffalo,NY,14212,25.4,0,126,93,none,0
+P0000467,First467,Last467,1942-01-01,84,F,asian,married,Albany,NY,12209,32.7,0,160,79,hypertension,1
+P0000468,First468,Last468,1957-01-01,69,F,white,single,Austin,TX,78707,33.2,1,140,100,hypertension,1
+P0000469,First469,Last469,1994-01-01,32,F,white,married,Buffalo,NY,14214,22.7,1,127,79,none,0
+P0000470,First470,Last470,1971-01-01,55,M,white,married,Buffalo,NY,14203,24.8,0,108,79,none,0
+P0000471,First471,Last471,1984-01-01,42,F,white,single,Houston,TX,77002,24.9,0,118,86,asthma,1
+P0000472,First472,Last472,1982-01-01,44,F,white,single,Cambridge,MA,02147,31.7,0,121,75,none,1
+P0000473,First473,Last473,1974-01-01,52,M,asian,married,Albany,NY,12215,28.3,0,143,100,hypertension,1
+P0000474,First474,Last474,1966-01-01,60,F,white,married,Cambridge,MA,02152,28.0,0,130,80,none,1
+P0000475,First475,Last475,1983-01-01,43,F,white,widowed,Los Angeles,CA,90025,30.3,0,129,82,none,0
+P0000476,First476,Last476,1958-01-01,68,M,white,married,Buffalo,NY,14212,24.4,0,116,83,none,0
+P0000477,First477,Last477,1998-01-01,28,F,asian,married,Austin,TX,78701,34.6,0,111,95,none,0
+P0000478,First478,Last478,1977-01-01,49,M,asian,married,Rochester,NY,14611,27.5,0,116,94,none,0
+P0000479,First479,Last479,1936-01-01,90,M,black,married,Boston,MA,02121,23.0,0,175,60,hypertension,0
+P0000480,First480,Last480,1973-01-01,53,F,white,widowed,Los Angeles,CA,90018,26.3,0,119,91,none,0
+P0000481,First481,Last481,1951-01-01,75,M,black,married,San Diego,CA,92115,33.9,0,145,74,hypertension,1
+P0000482,First482,Last482,1975-01-01,51,M,black,married,San Diego,CA,92110,25.3,0,126,81,none,0
+P0000483,First483,Last483,1967-01-01,59,M,white,single,Los Angeles,CA,90013,32.4,0,116,91,none,1
+P0000484,First484,Last484,1978-01-01,48,M,white,married,Worcester,MA,01615,24.2,0,117,79,none,0
+P0000485,First485,Last485,1980-01-01,46,M,asian,married,Los Angeles,CA,90022,23.5,0,126,90,none,0
+P0000486,First486,Last486,1991-01-01,35,M,white,widowed,Worcester,MA,01608,30.9,0,119,95,none,0
+P0000487,First487,Last487,1969-01-01,57,M,black,single,Worcester,MA,01613,23.0,0,102,75,none,0
+P0000488,First488,Last488,1992-01-01,34,F,white,married,Dallas,TX,75211,31.8,0,111,74,none,0
+P0000489,First489,Last489,1965-01-01,61,M,white,married,Los Angeles,CA,90014,29.3,1,151,91,hypertension,1
+P0000490,First490,Last490,1957-01-01,69,M,white,married,Worcester,MA,01613,23.0,1,149,68,hypertension,0
+P0000491,First491,Last491,1970-01-01,56,M,black,married,Boston,MA,02118,27.1,0,142,82,hypertension,0
+P0000492,First492,Last492,1982-01-01,44,F,asian,single,Austin,TX,78712,24.6,1,117,102,none,0
+P0000493,First493,Last493,1969-01-01,57,F,white,single,Boston,MA,02115,29.3,0,145,69,hypertension,1
+P0000494,First494,Last494,1983-01-01,43,F,white,single,Cambridge,MA,02152,37.3,0,125,87,none,0
+P0000495,First495,Last495,1960-01-01,66,F,white,divorced,Cambridge,MA,02151,25.6,0,152,82,hypertension,0
+P0000496,First496,Last496,2008-01-01,18,F,white,married,Boston,MA,02115,30.3,0,107,108,none,0
+P0000497,First497,Last497,1983-01-01,43,F,other,divorced,Worcester,MA,01610,27.6,0,99,78,none,1
+P0000498,First498,Last498,2008-01-01,18,F,white,single,Houston,TX,77013,27.6,0,115,72,none,0
+P0000499,First499,Last499,2004-01-01,22,M,white,married,Worcester,MA,01611,26.6,0,103,64,none,0
+P0000500,First500,Last500,1952-01-01,74,F,white,divorced,Rochester,NY,14616,23.0,1,141,91,hypertension,0
+P0000501,First501,Last501,1961-01-01,65,M,other,married,Los Angeles,CA,90020,29.2,0,120,96,none,0
+P0000502,First502,Last502,1990-01-01,36,F,white,single,Albany,NY,12212,26.0,1,141,70,hypertension,0
+P0000503,First503,Last503,2004-01-01,22,F,black,single,Los Angeles,CA,90020,22.8,1,107,90,none,0
+P0000504,First504,Last504,2008-01-01,18,F,white,married,Oakland,CA,94614,32.8,1,132,86,asthma,0
+P0000505,First505,Last505,1987-01-01,39,M,white,divorced,San Diego,CA,92114,28.0,0,114,96,none,1
+P0000506,First506,Last506,1936-01-01,90,F,black,married,Los Angeles,CA,90015,26.3,0,140,93,hypertension,1
+P0000507,First507,Last507,1969-01-01,57,M,white,divorced,Los Angeles,CA,90025,34.5,0,147,97,hypertension,0
+P0000508,First508,Last508,1987-01-01,39,M,black,married,Los Angeles,CA,90012,18.0,1,121,75,none,1
+P0000509,First509,Last509,1969-01-01,57,F,white,married,Los Angeles,CA,90023,34.1,0,132,114,none,0
+P0000510,First510,Last510,2005-01-01,21,M,black,married,Cambridge,MA,02151,22.9,0,91,78,none,0
+P0000511,First511,Last511,1982-01-01,44,F,asian,divorced,Los Angeles,CA,90017,28.6,0,117,86,none,0
+P0000512,First512,Last512,1975-01-01,51,F,black,married,Oakland,CA,94608,24.4,0,129,79,none,1
+P0000513,First513,Last513,1979-01-01,47,F,white,divorced,Worcester,MA,01620,22.7,0,107,76,none,0
+P0000514,First514,Last514,1963-01-01,63,F,black,married,Austin,TX,78713,34.3,0,131,98,none,1
+P0000515,First515,Last515,1971-01-01,55,M,other,married,Cambridge,MA,02143,37.2,0,128,106,asthma,0
+P0000516,First516,Last516,1965-01-01,61,M,white,married,Worcester,MA,01615,26.3,0,132,80,none,1
+P0000517,First517,Last517,1989-01-01,37,M,white,married,Austin,TX,78713,29.2,0,134,86,none,1
+P0000518,First518,Last518,1961-01-01,65,F,asian,widowed,Worcester,MA,01610,27.8,0,132,94,none,1
+P0000519,First519,Last519,1948-01-01,78,M,white,married,Rochester,NY,14613,36.5,0,139,106,asthma,1
+P0000520,First520,Last520,1994-01-01,32,F,black,single,Albany,NY,12213,16.5,0,140,60,hypertension,0
+P0000521,First521,Last521,1993-01-01,33,F,black,single,Houston,TX,77004,29.5,1,118,71,none,1
+P0000522,First522,Last522,1953-01-01,73,F,white,single,Rochester,NY,14616,23.7,0,136,72,none,1
+P0000523,First523,Last523,1980-01-01,46,M,white,single,San Diego,CA,92105,16.0,1,121,79,none,0
+P0000524,First524,Last524,1952-01-01,74,M,black,divorced,Los Angeles,CA,90026,25.6,0,136,80,none,0
+P0000525,First525,Last525,1985-01-01,41,F,white,single,Oakland,CA,94615,37.1,0,125,84,none,1
+P0000526,First526,Last526,1951-01-01,75,M,asian,single,Dallas,TX,75208,24.1,0,150,75,hypertension,1
+P0000527,First527,Last527,1975-01-01,51,M,white,single,Oakland,CA,94613,31.6,0,132,84,none,0
+P0000528,First528,Last528,1972-01-01,54,M,white,single,Buffalo,NY,14207,33.7,0,143,76,hypertension,1
+P0000529,First529,Last529,1949-01-01,77,M,asian,married,Dallas,TX,75213,27.4,0,154,105,hypertension,1
+P0000530,First530,Last530,1984-01-01,42,M,white,single,Buffalo,NY,14211,28.1,0,123,92,none,0
+P0000531,First531,Last531,1994-01-01,32,M,asian,married,Cambridge,MA,02149,18.6,1,121,79,none,0
+P0000532,First532,Last532,1985-01-01,41,M,white,single,Cambridge,MA,02144,23.8,0,130,78,none,0
+P0000533,First533,Last533,1969-01-01,57,F,white,widowed,Los Angeles,CA,90015,32.2,0,120,63,none,0
+P0000534,First534,Last534,2005-01-01,21,M,white,widowed,Worcester,MA,01609,27.8,0,135,73,none,0
+P0000535,First535,Last535,1966-01-01,60,F,black,divorced,Albany,NY,12218,29.4,0,127,80,none,1
+P0000536,First536,Last536,1987-01-01,39,M,asian,single,Rochester,NY,14610,28.2,0,115,88,none,0
+P0000537,First537,Last537,1956-01-01,70,F,asian,single,Buffalo,NY,14208,38.9,0,130,109,none,0
+P0000538,First538,Last538,2008-01-01,18,F,other,married,Worcester,MA,01615,25.3,1,99,82,none,0
+P0000539,First539,Last539,1991-01-01,35,F,black,married,Los Angeles,CA,90018,35.8,0,131,106,none,1
+P0000540,First540,Last540,2007-01-01,19,F,asian,married,Albany,NY,12217,28.2,0,132,71,none,0
+P0000541,First541,Last541,1992-01-01,34,F,white,married,Boston,MA,02117,36.3,0,113,80,none,0
+P0000542,First542,Last542,1973-01-01,53,F,other,widowed,Albany,NY,12221,21.1,0,128,98,none,0
+P0000543,First543,Last543,1980-01-01,46,F,black,divorced,Buffalo,NY,14203,28.5,0,126,89,none,0
+P0000544,First544,Last544,1982-01-01,44,F,asian,single,San Diego,CA,92109,25.5,1,139,81,asthma,0
+P0000545,First545,Last545,1980-01-01,46,M,white,married,Buffalo,NY,14201,28.2,0,148,112,hypertension,1
+P0000546,First546,Last546,1973-01-01,53,M,white,single,Boston,MA,02120,33.9,1,154,100,hypertension,1
+P0000547,First547,Last547,1995-01-01,31,M,black,married,Dallas,TX,75210,29.5,1,119,81,none,0
+P0000548,First548,Last548,1964-01-01,62,F,white,divorced,Rochester,NY,14610,33.8,0,142,85,hypertension,0
+P0000549,First549,Last549,1965-01-01,61,F,white,widowed,Cambridge,MA,02150,24.0,0,138,106,none,0
+P0000550,First550,Last550,1970-01-01,56,M,other,married,Los Angeles,CA,90018,23.2,0,127,89,none,0
+P0000551,First551,Last551,1967-01-01,59,F,white,married,San Diego,CA,92104,27.6,0,119,90,none,0
+P0000552,First552,Last552,1972-01-01,54,F,white,married,Los Angeles,CA,90019,27.3,0,119,97,none,1
+P0000553,First553,Last553,1940-01-01,86,M,white,married,Albany,NY,12208,26.5,0,160,108,hypertension,1
+P0000554,First554,Last554,1979-01-01,47,M,white,married,Albany,NY,12220,22.5,0,135,91,none,0
+P0000555,First555,Last555,1983-01-01,43,F,black,married,Albany,NY,12217,33.7,1,129,102,none,0
+P0000556,First556,Last556,1991-01-01,35,M,other,married,Cambridge,MA,02149,25.6,0,118,88,none,0
+P0000557,First557,Last557,1996-01-01,30,F,other,married,Boston,MA,02121,34.9,0,130,94,none,0
+P0000558,First558,Last558,1999-01-01,27,M,black,married,Dallas,TX,75212,27.6,0,93,71,none,1
+P0000559,First559,Last559,1993-01-01,33,F,black,single,San Diego,CA,92107,30.9,0,112,110,none,0
+P0000560,First560,Last560,1978-01-01,48,F,white,married,Rochester,NY,14605,30.4,0,148,71,hypertension,1
+P0000561,First561,Last561,1971-01-01,55,M,asian,divorced,Cambridge,MA,02143,23.2,0,130,90,none,0
+P0000562,First562,Last562,1976-01-01,50,F,white,married,San Diego,CA,92115,29.4,0,114,70,none,0
+P0000563,First563,Last563,1991-01-01,35,M,white,married,Worcester,MA,01622,37.5,0,122,88,none,1
+P0000564,First564,Last564,1961-01-01,65,F,other,married,Worcester,MA,01619,28.8,0,147,84,hypertension,1
+P0000565,First565,Last565,1964-01-01,62,M,asian,single,Cambridge,MA,02141,32.2,0,107,95,none,1
+P0000566,First566,Last566,1980-01-01,46,M,white,married,San Diego,CA,92103,31.1,1,134,93,none,1
+P0000567,First567,Last567,1989-01-01,37,F,black,single,Los Angeles,CA,90025,29.1,0,114,71,none,0
+P0000568,First568,Last568,1967-01-01,59,M,white,married,Boston,MA,02110,28.5,0,113,90,none,1
+P0000569,First569,Last569,1974-01-01,52,F,white,widowed,Cambridge,MA,02146,30.3,0,129,109,none,0
+P0000570,First570,Last570,2003-01-01,23,F,white,married,Los Angeles,CA,90017,31.5,0,109,64,none,1
+P0000571,First571,Last571,1978-01-01,48,F,white,married,Albany,NY,12211,20.5,0,121,70,none,0
+P0000572,First572,Last572,1972-01-01,54,M,white,divorced,Los Angeles,CA,90022,28.8,0,125,101,none,1
+P0000573,First573,Last573,1993-01-01,33,M,white,married,Cambridge,MA,02152,26.5,1,110,83,none,1
+P0000574,First574,Last574,1974-01-01,52,M,white,married,Los Angeles,CA,90023,25.5,0,110,88,none,0
+P0000575,First575,Last575,2003-01-01,23,M,white,divorced,Houston,TX,77009,34.2,0,104,98,none,0
+P0000576,First576,Last576,1953-01-01,73,M,other,married,San Diego,CA,92107,23.7,0,147,80,hypertension,0
+P0000577,First577,Last577,1955-01-01,71,F,black,married,Cambridge,MA,02151,20.2,0,138,81,none,0
+P0000578,First578,Last578,1982-01-01,44,M,asian,married,Oakland,CA,94615,31.6,0,123,79,asthma,0
+P0000579,First579,Last579,1970-01-01,56,M,white,married,Worcester,MA,01615,20.1,1,121,79,none,1
+P0000580,First580,Last580,2008-01-01,18,F,black,divorced,Boston,MA,02118,17.5,0,97,91,asthma,0
+P0000581,First581,Last581,1998-01-01,28,M,asian,single,Worcester,MA,01611,32.2,1,129,60,none,1
+P0000582,First582,Last582,1982-01-01,44,F,white,single,Houston,TX,77002,28.3,0,128,69,none,1
+P0000583,First583,Last583,1996-01-01,30,F,white,married,Albany,NY,12219,30.0,0,109,64,none,0
+P0000584,First584,Last584,1964-01-01,62,F,white,single,Dallas,TX,75210,25.2,1,110,108,none,0
+P0000585,First585,Last585,1941-01-01,85,F,white,single,Buffalo,NY,14203,20.3,0,137,83,none,1
+P0000586,First586,Last586,1998-01-01,28,F,white,married,Rochester,NY,14608,21.3,0,104,73,none,0
+P0000587,First587,Last587,1992-01-01,34,M,white,divorced,Worcester,MA,01622,26.1,0,105,60,none,0
+P0000588,First588,Last588,1973-01-01,53,M,white,single,Los Angeles,CA,90021,20.9,1,127,80,asthma,1
+P0000589,First589,Last589,1948-01-01,78,M,black,single,Boston,MA,02117,29.1,1,160,108,hypertension,0
+P0000590,First590,Last590,1999-01-01,27,F,white,married,Buffalo,NY,14202,25.1,0,110,83,asthma,0
+P0000591,First591,Last591,1973-01-01,53,F,white,married,Worcester,MA,01622,28.5,0,139,87,none,1
+P0000592,First592,Last592,1944-01-01,82,F,black,single,Albany,NY,12220,28.3,0,129,74,none,1
+P0000593,First593,Last593,2007-01-01,19,M,white,single,Rochester,NY,14612,29.5,0,104,75,none,0
+P0000594,First594,Last594,2000-01-01,26,F,white,married,Worcester,MA,01612,30.1,0,90,84,none,0
+P0000595,First595,Last595,1985-01-01,41,M,white,married,Worcester,MA,01618,25.7,0,114,70,none,1
+P0000596,First596,Last596,1986-01-01,40,M,white,divorced,Dallas,TX,75213,28.5,1,115,94,none,0
+P0000597,First597,Last597,1962-01-01,64,M,white,married,Worcester,MA,01619,28.7,0,149,104,hypertension,0
+P0000598,First598,Last598,1973-01-01,53,M,white,married,Cambridge,MA,02152,16.0,0,127,73,none,0
+P0000599,First599,Last599,2008-01-01,18,F,white,single,Cambridge,MA,02147,30.9,1,125,91,none,1
+P0000600,First600,Last600,1968-01-01,58,M,other,married,Albany,NY,12211,28.3,0,126,88,none,1
+P0000601,First601,Last601,1987-01-01,39,M,other,married,San Diego,CA,92108,30.4,0,109,102,none,0
+P0000602,First602,Last602,1954-01-01,72,M,white,married,Cambridge,MA,02150,20.8,0,125,117,asthma,0
+P0000603,First603,Last603,1988-01-01,38,M,white,divorced,Albany,NY,12210,25.9,0,120,67,none,0
+P0000604,First604,Last604,1988-01-01,38,M,white,married,Los Angeles,CA,90015,21.8,0,135,91,none,0
+P0000605,First605,Last605,1967-01-01,59,M,asian,single,Cambridge,MA,02148,31.4,0,137,110,none,1
+P0000606,First606,Last606,1963-01-01,63,F,asian,widowed,Austin,TX,78707,20.2,0,126,72,none,0
+P0000607,First607,Last607,1969-01-01,57,M,white,single,Austin,TX,78713,22.7,0,126,78,none,0
+P0000608,First608,Last608,2007-01-01,19,M,white,single,Cambridge,MA,02140,30.3,0,107,72,none,1
+P0000609,First609,Last609,1967-01-01,59,F,white,single,Cambridge,MA,02143,24.2,0,152,86,hypertension,1
+P0000610,First610,Last610,1996-01-01,30,M,asian,married,Worcester,MA,01612,22.7,0,124,74,none,0
+P0000611,First611,Last611,1973-01-01,53,F,asian,single,Worcester,MA,01618,32.2,1,139,88,none,1
+P0000612,First612,Last612,2003-01-01,23,M,white,widowed,Albany,NY,12218,32.4,0,112,95,none,1
+P0000613,First613,Last613,1969-01-01,57,F,black,single,Rochester,NY,14610,31.3,0,135,65,none,1
+P0000614,First614,Last614,1992-01-01,34,F,white,married,Albany,NY,12214,31.9,0,123,72,none,1
+P0000615,First615,Last615,2000-01-01,26,M,black,married,Cambridge,MA,02139,26.3,0,106,89,none,0
+P0000616,First616,Last616,1964-01-01,62,F,other,divorced,Cambridge,MA,02148,26.4,0,123,97,none,0
+P0000617,First617,Last617,1973-01-01,53,F,white,married,Dallas,TX,75215,24.1,0,137,71,none,0
+P0000618,First618,Last618,1988-01-01,38,F,white,divorced,Austin,TX,78712,28.4,0,119,92,none,1
+P0000619,First619,Last619,1951-01-01,75,F,black,married,Cambridge,MA,02141,24.8,1,157,111,hypertension,1
+P0000620,First620,Last620,1985-01-01,41,M,white,single,San Diego,CA,92110,25.2,0,137,82,none,0
+P0000621,First621,Last621,1976-01-01,50,M,asian,divorced,Buffalo,NY,14205,30.6,0,133,75,none,0
+P0000622,First622,Last622,1972-01-01,54,F,white,married,San Diego,CA,92101,33.7,0,135,104,none,1
+P0000623,First623,Last623,1988-01-01,38,M,asian,married,Albany,NY,12209,29.6,0,154,109,hypertension,1
+P0000624,First624,Last624,1969-01-01,57,F,white,divorced,Dallas,TX,75202,36.8,0,136,83,none,0
+P0000625,First625,Last625,1987-01-01,39,M,white,married,Worcester,MA,01610,23.8,0,105,82,none,0
+P0000626,First626,Last626,1984-01-01,42,F,white,married,Worcester,MA,01619,17.9,0,113,94,none,0
+P0000627,First627,Last627,1952-01-01,74,F,white,single,Houston,TX,77006,31.2,1,166,98,hypertension,1
+P0000628,First628,Last628,1996-01-01,30,F,white,married,Boston,MA,02119,23.5,0,97,60,none,0
+P0000629,First629,Last629,2008-01-01,18,M,black,single,Cambridge,MA,02152,26.1,0,97,84,none,0
+P0000630,First630,Last630,1948-01-01,78,F,white,married,Los Angeles,CA,90020,18.3,0,151,75,hypertension,0
+P0000631,First631,Last631,1936-01-01,90,F,white,married,Los Angeles,CA,90019,22.8,0,145,77,hypertension,1
+P0000632,First632,Last632,1984-01-01,42,M,white,divorced,Los Angeles,CA,90023,19.7,0,116,60,none,0
+P0000633,First633,Last633,2008-01-01,18,M,white,married,Oakland,CA,94608,25.2,0,116,94,none,0
+P0000634,First634,Last634,1983-01-01,43,F,asian,married,Oakland,CA,94613,25.4,0,112,72,asthma,1
+P0000635,First635,Last635,1982-01-01,44,M,other,single,Worcester,MA,01615,28.0,0,106,90,none,0
+P0000636,First636,Last636,1980-01-01,46,M,white,divorced,Oakland,CA,94619,33.9,0,111,98,asthma,1
+P0000637,First637,Last637,1997-01-01,29,F,asian,single,Oakland,CA,94619,31.0,0,120,86,none,0
+P0000638,First638,Last638,1967-01-01,59,M,black,divorced,Houston,TX,77014,19.1,0,130,88,none,0
+P0000639,First639,Last639,1968-01-01,58,F,other,married,Worcester,MA,01618,30.7,0,124,97,asthma,0
+P0000640,First640,Last640,2004-01-01,22,M,white,married,Cambridge,MA,02145,28.1,0,96,82,none,0
+P0000641,First641,Last641,1964-01-01,62,F,white,widowed,Los Angeles,CA,90024,27.0,0,130,79,none,0
+P0000642,First642,Last642,1940-01-01,86,M,white,divorced,Worcester,MA,01621,27.4,0,160,85,hypertension,1
+P0000643,First643,Last643,1974-01-01,52,F,asian,single,Worcester,MA,01615,28.6,1,125,87,none,0
+P0000644,First644,Last644,1983-01-01,43,F,black,married,Los Angeles,CA,90026,23.9,0,112,81,none,0
+P0000645,First645,Last645,1980-01-01,46,M,white,married,Rochester,NY,14617,26.6,0,109,91,asthma,1
+P0000646,First646,Last646,1966-01-01,60,F,white,married,Cambridge,MA,02145,33.7,0,130,109,none,0
+P0000647,First647,Last647,2008-01-01,18,M,black,divorced,Boston,MA,02109,23.8,1,115,81,none,0
+P0000648,First648,Last648,1974-01-01,52,M,asian,divorced,Worcester,MA,01611,22.1,1,155,73,hypertension,1
+P0000649,First649,Last649,1984-01-01,42,M,white,married,Los Angeles,CA,90023,27.2,0,123,60,none,0
+P0000650,First650,Last650,1944-01-01,82,F,black,married,Buffalo,NY,14202,21.6,0,142,81,hypertension,1
+P0000651,First651,Last651,1980-01-01,46,M,white,married,Cambridge,MA,02145,18.5,0,128,61,none,0
+P0000652,First652,Last652,1947-01-01,79,F,white,married,Albany,NY,12216,25.7,1,157,84,hypertension,1
+P0000653,First653,Last653,1997-01-01,29,F,white,single,Cambridge,MA,02151,35.0,1,116,90,none,1
+P0000654,First654,Last654,1966-01-01,60,M,asian,single,Boston,MA,02120,27.3,0,157,91,hypertension,0
+P0000655,First655,Last655,1971-01-01,55,M,other,married,Boston,MA,02119,28.4,0,129,115,none,0
+P0000656,First656,Last656,1993-01-01,33,M,white,single,Rochester,NY,14610,16.4,1,120,82,none,0
+P0000657,First657,Last657,1974-01-01,52,F,white,widowed,Boston,MA,02110,29.8,0,134,116,none,0
+P0000658,First658,Last658,1955-01-01,71,M,white,married,Cambridge,MA,02148,28.0,0,143,103,hypertension,0
+P0000659,First659,Last659,1983-01-01,43,M,white,married,Rochester,NY,14606,24.0,0,136,98,none,0
+P0000660,First660,Last660,2007-01-01,19,F,white,married,Albany,NY,12215,28.4,0,100,74,none,0
+P0000661,First661,Last661,1977-01-01,49,M,white,married,Cambridge,MA,02152,28.4,0,134,72,none,1
+P0000662,First662,Last662,1993-01-01,33,F,white,single,Worcester,MA,01616,22.0,0,114,73,none,0
+P0000663,First663,Last663,1983-01-01,43,F,white,single,Cambridge,MA,02147,29.2,0,133,86,none,0
+P0000664,First664,Last664,1978-01-01,48,M,white,married,Buffalo,NY,14211,33.7,0,125,82,none,0
+P0000665,First665,Last665,2008-01-01,18,M,asian,married,Los Angeles,CA,90024,26.3,0,101,64,none,0
+P0000666,First666,Last666,2006-01-01,20,F,white,divorced,Worcester,MA,01614,23.0,0,113,82,none,0
+P0000667,First667,Last667,1968-01-01,58,F,black,married,Oakland,CA,94614,26.6,0,134,75,none,0
+P0000668,First668,Last668,1986-01-01,40,F,other,single,San Diego,CA,92103,31.9,0,112,66,none,1
+P0000669,First669,Last669,2008-01-01,18,M,black,single,Cambridge,MA,02147,21.1,0,118,60,none,0
+P0000670,First670,Last670,1963-01-01,63,F,white,divorced,Worcester,MA,01612,30.5,0,143,89,hypertension,1
+P0000671,First671,Last671,1972-01-01,54,F,white,single,Boston,MA,02115,24.0,0,126,72,none,0
+P0000672,First672,Last672,1990-01-01,36,M,black,divorced,Cambridge,MA,02149,28.8,0,112,81,none,0
+P0000673,First673,Last673,2001-01-01,25,F,white,single,Albany,NY,12207,24.6,1,120,87,none,0
+P0000674,First674,Last674,1962-01-01,64,M,white,married,Cambridge,MA,02146,24.6,0,140,97,hypertension,0
+P0000675,First675,Last675,1971-01-01,55,F,white,married,Los Angeles,CA,90014,35.4,0,115,84,none,0
+P0000676,First676,Last676,1936-01-01,90,M,white,married,Buffalo,NY,14205,20.2,0,151,75,hypertension,0
+P0000677,First677,Last677,1969-01-01,57,F,white,married,San Diego,CA,92101,30.0,1,145,83,hypertension,1
+P0000678,First678,Last678,1970-01-01,56,F,black,married,San Diego,CA,92103,36.5,0,107,104,none,0
+P0000679,First679,Last679,1980-01-01,46,F,white,married,Buffalo,NY,14215,31.1,0,127,101,none,0
+P0000680,First680,Last680,1962-01-01,64,M,white,married,Dallas,TX,75215,20.6,0,139,91,none,0
+P0000681,First681,Last681,1966-01-01,60,M,asian,married,Austin,TX,78711,20.8,0,135,102,none,0
+P0000682,First682,Last682,1954-01-01,72,F,white,married,Albany,NY,12216,23.6,0,146,115,hypertension,1
+P0000683,First683,Last683,1986-01-01,40,F,black,single,Boston,MA,02119,28.3,0,116,78,none,1
+P0000684,First684,Last684,1985-01-01,41,M,white,single,Albany,NY,12220,28.7,0,109,106,none,1
+P0000685,First685,Last685,1986-01-01,40,F,white,divorced,Cambridge,MA,02145,20.9,1,104,76,none,0
+P0000686,First686,Last686,1963-01-01,63,F,other,single,Buffalo,NY,14201,23.0,1,151,102,hypertension,1
+P0000687,First687,Last687,1950-01-01,76,M,white,divorced,Albany,NY,12217,23.3,0,147,101,hypertension,1
+P0000688,First688,Last688,1985-01-01,41,F,white,single,Rochester,NY,14618,26.6,0,132,60,none,0
+P0000689,First689,Last689,1985-01-01,41,F,other,married,Oakland,CA,94610,37.8,0,117,78,none,1
+P0000690,First690,Last690,1971-01-01,55,F,black,widowed,Cambridge,MA,02144,22.6,0,135,68,none,0
+P0000691,First691,Last691,1981-01-01,45,F,black,married,Buffalo,NY,14206,22.4,1,111,60,asthma,1
+P0000692,First692,Last692,1960-01-01,66,M,white,single,Worcester,MA,01613,21.6,1,130,100,none,1
+P0000693,First693,Last693,2008-01-01,18,M,white,single,Los Angeles,CA,90022,30.8,0,109,110,none,0
+P0000694,First694,Last694,1992-01-01,34,M,black,married,Oakland,CA,94612,27.3,0,123,79,asthma,0
+P0000695,First695,Last695,1991-01-01,35,F,white,single,Cambridge,MA,02152,22.8,0,133,92,none,0
+P0000696,First696,Last696,2008-01-01,18,M,white,married,San Diego,CA,92112,25.6,0,102,98,none,0
+P0000697,First697,Last697,1994-01-01,32,F,asian,married,Cambridge,MA,02138,23.4,1,110,82,none,0
+P0000698,First698,Last698,1993-01-01,33,M,white,married,Oakland,CA,94619,29.0,0,106,83,none,0
+P0000699,First699,Last699,1981-01-01,45,F,white,married,Rochester,NY,14615,41.5,0,121,91,none,0
+P0000700,First700,Last700,1957-01-01,69,M,white,married,Rochester,NY,14611,30.4,0,163,102,hypertension,0
+P0000701,First701,Last701,1981-01-01,45,F,white,single,Los Angeles,CA,90019,27.0,0,130,98,none,0
+P0000702,First702,Last702,1996-01-01,30,F,black,single,Austin,TX,78713,24.0,0,124,86,none,0
+P0000703,First703,Last703,1978-01-01,48,F,asian,married,San Diego,CA,92107,20.5,0,118,88,none,0
+P0000704,First704,Last704,1958-01-01,68,F,white,single,Buffalo,NY,14203,31.3,0,138,94,none,1
+P0000705,First705,Last705,1995-01-01,31,F,white,married,Los Angeles,CA,90016,31.0,0,123,62,none,0
+P0000706,First706,Last706,1993-01-01,33,M,white,married,Albany,NY,12210,25.1,0,108,93,none,0
+P0000707,First707,Last707,1967-01-01,59,M,white,single,San Diego,CA,92111,33.8,0,131,76,none,1
+P0000708,First708,Last708,1981-01-01,45,F,white,divorced,Oakland,CA,94609,27.6,0,115,94,none,0
+P0000709,First709,Last709,1965-01-01,61,M,other,married,Worcester,MA,01617,31.5,1,136,103,none,1
+P0000710,First710,Last710,1977-01-01,49,M,white,married,Cambridge,MA,02144,29.0,0,126,72,none,1
+P0000711,First711,Last711,1964-01-01,62,M,white,single,Cambridge,MA,02150,26.6,1,130,81,none,1
+P0000712,First712,Last712,1996-01-01,30,M,other,divorced,Worcester,MA,01615,22.5,0,114,108,none,0
+P0000713,First713,Last713,1977-01-01,49,M,white,married,Rochester,NY,14617,26.7,0,128,85,none,1
+P0000714,First714,Last714,1981-01-01,45,M,other,married,Boston,MA,02121,31.9,0,122,72,none,1
+P0000715,First715,Last715,1999-01-01,27,M,white,married,Buffalo,NY,14203,24.9,0,101,90,none,0
+P0000716,First716,Last716,2005-01-01,21,M,white,single,Worcester,MA,01618,29.8,1,117,70,none,0
+P0000717,First717,Last717,1965-01-01,61,F,other,divorced,Cambridge,MA,02141,21.9,0,124,60,none,0
+P0000718,First718,Last718,1983-01-01,43,F,white,single,San Diego,CA,92113,31.6,0,123,95,none,1
+P0000719,First719,Last719,1995-01-01,31,F,white,married,Albany,NY,12216,29.1,0,126,70,none,0
+P0000720,First720,Last720,1979-01-01,47,M,white,single,Albany,NY,12211,21.2,0,107,87,none,0
+P0000721,First721,Last721,1957-01-01,69,F,black,divorced,Oakland,CA,94610,26.3,0,161,80,hypertension,1
+P0000722,First722,Last722,2008-01-01,18,M,black,married,Dallas,TX,75207,32.3,1,114,91,asthma,0
+P0000723,First723,Last723,2004-01-01,22,M,white,divorced,Buffalo,NY,14213,21.0,0,110,78,none,0
+P0000724,First724,Last724,1994-01-01,32,M,black,married,Boston,MA,02119,21.9,0,104,60,none,0
+P0000725,First725,Last725,1951-01-01,75,F,black,married,Boston,MA,02108,27.1,1,160,99,hypertension,1
+P0000726,First726,Last726,1972-01-01,54,M,white,single,Dallas,TX,75205,38.6,0,132,91,none,1
+P0000727,First727,Last727,1963-01-01,63,M,white,married,Los Angeles,CA,90018,24.0,0,128,108,none,1
+P0000728,First728,Last728,1998-01-01,28,F,white,widowed,San Diego,CA,92109,30.1,1,114,88,none,0
+P0000729,First729,Last729,1997-01-01,29,M,white,single,San Diego,CA,92103,28.9,0,110,93,none,0
+P0000730,First730,Last730,1969-01-01,57,F,white,married,Boston,MA,02113,24.4,0,133,77,none,0
+P0000731,First731,Last731,1976-01-01,50,M,white,married,Rochester,NY,14617,28.3,1,135,77,none,0
+P0000732,First732,Last732,1967-01-01,59,F,white,single,Los Angeles,CA,90019,25.2,0,130,88,none,1
+P0000733,First733,Last733,1980-01-01,46,F,white,married,Dallas,TX,75212,25.6,1,121,80,none,0
+P0000734,First734,Last734,1972-01-01,54,F,black,single,Boston,MA,02115,18.9,0,116,101,none,0
+P0000735,First735,Last735,1974-01-01,52,F,white,married,Rochester,NY,14610,27.4,0,122,85,none,0
+P0000736,First736,Last736,1963-01-01,63,F,other,married,Worcester,MA,01617,32.2,0,141,76,hypertension,1
+P0000737,First737,Last737,1962-01-01,64,M,other,single,Dallas,TX,75204,27.8,0,142,79,hypertension,0
+P0000738,First738,Last738,2006-01-01,20,F,black,married,Worcester,MA,01611,33.2,0,118,96,none,0
+P0000739,First739,Last739,2008-01-01,18,F,other,single,San Diego,CA,92115,30.5,0,107,78,none,0
+P0000740,First740,Last740,1959-01-01,67,M,asian,single,Cambridge,MA,02151,27.2,0,140,88,hypertension,0
+P0000741,First741,Last741,1956-01-01,70,M,white,married,San Diego,CA,92112,24.2,0,135,105,none,1
+P0000742,First742,Last742,1995-01-01,31,M,black,single,Los Angeles,CA,90014,25.0,0,93,68,none,0
+P0000743,First743,Last743,2008-01-01,18,M,white,single,Boston,MA,02108,19.9,0,100,60,none,0
+P0000744,First744,Last744,1975-01-01,51,F,black,divorced,San Diego,CA,92103,26.1,0,121,74,asthma,1
+P0000745,First745,Last745,1960-01-01,66,M,white,married,Austin,TX,78715,28.3,0,124,95,none,0
+P0000746,First746,Last746,1945-01-01,81,F,white,married,Austin,TX,78713,36.4,0,142,98,hypertension,1
+P0000747,First747,Last747,1968-01-01,58,M,white,single,Worcester,MA,01615,30.2,0,133,69,asthma,1
+P0000748,First748,Last748,1984-01-01,42,M,other,single,San Diego,CA,92115,23.0,0,106,96,asthma,0
+P0000749,First749,Last749,1993-01-01,33,M,white,single,Albany,NY,12209,20.0,0,104,80,none,1
+P0000750,First750,Last750,1977-01-01,49,M,white,single,Buffalo,NY,14209,26.4,0,141,92,hypertension,1
+P0000751,First751,Last751,1982-01-01,44,M,white,single,Rochester,NY,14606,31.7,0,106,94,none,1
+P0000752,First752,Last752,1995-01-01,31,F,white,married,Los Angeles,CA,90016,26.4,0,111,63,none,0
+P0000753,First753,Last753,1940-01-01,86,M,asian,single,Boston,MA,02122,30.3,1,143,103,hypertension,1
+P0000754,First754,Last754,1945-01-01,81,M,black,married,Buffalo,NY,14214,26.6,0,136,108,none,0
+P0000755,First755,Last755,1957-01-01,69,M,white,married,Boston,MA,02109,31.2,0,137,111,none,1
+P0000756,First756,Last756,1994-01-01,32,F,white,single,Worcester,MA,01611,19.2,0,100,87,none,0
+P0000757,First757,Last757,1962-01-01,64,F,white,married,Boston,MA,02116,35.8,0,144,103,hypertension,0
+P0000758,First758,Last758,1965-01-01,61,M,white,married,Boston,MA,02108,21.7,0,145,62,hypertension,1
+P0000759,First759,Last759,1969-01-01,57,F,asian,divorced,Oakland,CA,94615,31.6,0,141,91,hypertension,0
+P0000760,First760,Last760,1955-01-01,71,F,black,single,Buffalo,NY,14209,26.1,0,149,78,hypertension,1
+P0000761,First761,Last761,1966-01-01,60,F,white,single,Boston,MA,02112,26.9,0,116,107,none,0
+P0000762,First762,Last762,1964-01-01,62,M,black,widowed,Oakland,CA,94611,26.2,0,130,105,none,1
+P0000763,First763,Last763,1966-01-01,60,F,white,married,Dallas,TX,75204,28.8,0,137,77,none,0
+P0000764,First764,Last764,1971-01-01,55,F,black,single,Dallas,TX,75215,29.9,0,139,89,none,0
+P0000765,First765,Last765,2008-01-01,18,F,white,married,Oakland,CA,94612,33.0,0,127,85,none,0
+P0000766,First766,Last766,1975-01-01,51,M,black,married,Dallas,TX,75209,34.8,0,141,105,hypertension,1
+P0000767,First767,Last767,1987-01-01,39,M,white,married,Rochester,NY,14608,29.2,0,129,62,none,0
+P0000768,First768,Last768,2000-01-01,26,F,other,married,Austin,TX,78711,36.4,0,144,60,hypertension,0
+P0000769,First769,Last769,1947-01-01,79,F,white,single,Dallas,TX,75202,28.0,0,145,96,hypertension,1
+P0000770,First770,Last770,1946-01-01,80,M,white,married,Cambridge,MA,02139,33.1,1,150,63,hypertension,1
+P0000771,First771,Last771,1953-01-01,73,F,white,single,Dallas,TX,75212,29.7,1,150,97,hypertension,1
+P0000772,First772,Last772,1972-01-01,54,M,white,married,Los Angeles,CA,90022,24.6,0,117,95,none,0
+P0000773,First773,Last773,1953-01-01,73,F,white,married,Los Angeles,CA,90015,28.4,0,141,111,hypertension,1
+P0000774,First774,Last774,1977-01-01,49,M,white,widowed,Houston,TX,77007,30.1,0,107,80,none,0
+P0000775,First775,Last775,1973-01-01,53,F,black,single,Rochester,NY,14618,27.3,1,128,90,asthma,1
+P0000776,First776,Last776,1997-01-01,29,M,white,widowed,Rochester,NY,14605,29.6,0,112,92,none,0
+P0000777,First777,Last777,1970-01-01,56,F,black,married,Los Angeles,CA,90014,32.0,0,142,75,hypertension,0
+P0000778,First778,Last778,1976-01-01,50,M,black,married,Oakland,CA,94613,27.4,0,138,100,none,0
+P0000779,First779,Last779,2000-01-01,26,M,white,single,Houston,TX,77006,16.0,0,95,77,none,0
+P0000780,First780,Last780,1978-01-01,48,M,white,single,Austin,TX,78710,36.2,0,151,84,hypertension,1
+P0000781,First781,Last781,1978-01-01,48,F,white,married,Oakland,CA,94617,26.0,0,125,88,none,1
+P0000782,First782,Last782,1945-01-01,81,F,white,divorced,Austin,TX,78708,23.2,0,145,91,hypertension,0
+P0000783,First783,Last783,1961-01-01,65,M,asian,single,Worcester,MA,01617,21.7,0,114,98,none,0
+P0000784,First784,Last784,1977-01-01,49,M,other,single,Houston,TX,77008,25.8,0,117,81,none,0
+P0000785,First785,Last785,1973-01-01,53,F,black,married,Boston,MA,02119,24.6,0,138,89,none,0
+P0000786,First786,Last786,1976-01-01,50,F,white,single,Buffalo,NY,14201,23.7,1,133,76,asthma,1
+P0000787,First787,Last787,1981-01-01,45,F,black,married,Boston,MA,02112,24.0,1,129,70,none,1
+P0000788,First788,Last788,1996-01-01,30,M,black,widowed,Albany,NY,12217,30.3,0,117,86,none,0
+P0000789,First789,Last789,1980-01-01,46,M,white,married,Buffalo,NY,14205,38.1,1,119,80,none,0
+P0000790,First790,Last790,1990-01-01,36,M,asian,married,Boston,MA,02109,31.8,0,118,97,none,0
+P0000791,First791,Last791,2000-01-01,26,M,white,married,San Diego,CA,92106,33.3,0,129,93,none,0
+P0000792,First792,Last792,1968-01-01,58,F,white,single,Los Angeles,CA,90022,25.5,1,148,77,hypertension,1
+P0000793,First793,Last793,1970-01-01,56,F,white,widowed,Worcester,MA,01609,28.0,0,128,92,asthma,1
+P0000794,First794,Last794,2008-01-01,18,F,white,divorced,San Diego,CA,92111,29.7,1,131,69,none,0
+P0000795,First795,Last795,1979-01-01,47,M,asian,single,Boston,MA,02119,24.1,0,108,62,none,0
+P0000796,First796,Last796,1959-01-01,67,F,white,widowed,Cambridge,MA,02147,25.3,0,124,82,none,0
+P0000797,First797,Last797,1958-01-01,68,F,white,single,Boston,MA,02111,31.9,0,159,94,hypertension,1
+P0000798,First798,Last798,1959-01-01,67,F,white,married,Rochester,NY,14616,33.2,0,145,103,hypertension,0
+P0000799,First799,Last799,1976-01-01,50,F,white,single,Los Angeles,CA,90015,27.9,1,129,89,none,1
+P0000800,First800,Last800,1992-01-01,34,M,white,married,Buffalo,NY,14214,21.3,0,112,91,asthma,0
+P0000801,First801,Last801,1997-01-01,29,F,white,married,San Diego,CA,92111,26.0,0,103,67,none,0
+P0000802,First802,Last802,1971-01-01,55,F,black,married,Buffalo,NY,14201,20.0,0,128,78,none,0
+P0000803,First803,Last803,1970-01-01,56,M,white,married,San Diego,CA,92112,27.9,0,132,112,asthma,1
+P0000804,First804,Last804,1954-01-01,72,F,asian,widowed,Dallas,TX,75208,28.8,0,140,67,hypertension,0
+P0000805,First805,Last805,1957-01-01,69,F,white,widowed,Albany,NY,12213,26.1,0,124,85,none,0
+P0000806,First806,Last806,1979-01-01,47,F,black,married,Boston,MA,02114,28.8,0,127,72,none,0
+P0000807,First807,Last807,1999-01-01,27,M,asian,single,Boston,MA,02117,29.7,0,106,80,none,0
+P0000808,First808,Last808,1983-01-01,43,F,white,married,Albany,NY,12217,28.8,0,111,80,asthma,0
+P0000809,First809,Last809,1973-01-01,53,M,white,married,Buffalo,NY,14214,21.3,0,138,92,none,1
+P0000810,First810,Last810,1981-01-01,45,M,other,married,Boston,MA,02112,26.2,0,146,88,hypertension,1
+P0000811,First811,Last811,1987-01-01,39,M,white,married,Austin,TX,78710,29.6,0,141,67,hypertension,0
+P0000812,First812,Last812,1972-01-01,54,F,black,married,Austin,TX,78711,35.7,0,139,85,none,1
+P0000813,First813,Last813,1986-01-01,40,M,white,married,Worcester,MA,01618,26.1,0,116,83,none,0
+P0000814,First814,Last814,1988-01-01,38,F,white,married,Boston,MA,02115,30.4,0,119,96,none,1
+P0000815,First815,Last815,1971-01-01,55,F,white,married,Cambridge,MA,02143,32.1,0,135,125,none,1
+P0000816,First816,Last816,1984-01-01,42,M,asian,divorced,Buffalo,NY,14212,26.5,0,115,94,none,0
+P0000817,First817,Last817,1973-01-01,53,F,white,married,Houston,TX,77006,33.5,0,145,78,hypertension,0
+P0000818,First818,Last818,1972-01-01,54,F,asian,married,Albany,NY,12210,33.8,0,108,91,asthma,1
+P0000819,First819,Last819,1998-01-01,28,F,black,single,Cambridge,MA,02146,34.7,0,112,88,none,1
+P0000820,First820,Last820,1986-01-01,40,F,white,married,Rochester,NY,14608,29.9,0,129,79,none,0
+P0000821,First821,Last821,1951-01-01,75,F,white,single,Boston,MA,02108,39.8,0,137,108,none,0
+P0000822,First822,Last822,1998-01-01,28,M,white,married,Albany,NY,12207,24.3,0,108,60,none,0
+P0000823,First823,Last823,2008-01-01,18,M,white,single,Albany,NY,12217,38.5,0,117,93,none,0
+P0000824,First824,Last824,2008-01-01,18,F,black,single,San Diego,CA,92115,31.5,0,124,74,none,0
+P0000825,First825,Last825,1976-01-01,50,M,white,single,Buffalo,NY,14207,34.5,0,114,90,none,0
+P0000826,First826,Last826,1976-01-01,50,F,white,single,Houston,TX,77004,25.8,0,110,106,none,0
+P0000827,First827,Last827,1979-01-01,47,F,black,married,Cambridge,MA,02150,31.9,0,115,71,none,0
+P0000828,First828,Last828,1955-01-01,71,F,black,married,Oakland,CA,94610,34.9,0,125,101,none,0
+P0000829,First829,Last829,2008-01-01,18,F,white,married,Cambridge,MA,02152,21.8,0,87,86,none,0
+P0000830,First830,Last830,1970-01-01,56,F,white,single,Boston,MA,02116,26.7,0,118,91,none,1
+P0000831,First831,Last831,1949-01-01,77,F,white,married,Austin,TX,78704,16.4,1,158,65,hypertension,1
+P0000832,First832,Last832,1997-01-01,29,F,black,married,San Diego,CA,92108,26.6,0,109,100,none,0
+P0000833,First833,Last833,1984-01-01,42,M,white,single,Boston,MA,02113,23.3,1,126,79,none,1
+P0000834,First834,Last834,1991-01-01,35,F,white,married,Albany,NY,12218,26.4,0,105,75,none,0
+P0000835,First835,Last835,1993-01-01,33,F,white,married,San Diego,CA,92102,42.7,0,129,88,none,1
+P0000836,First836,Last836,1983-01-01,43,F,black,single,Austin,TX,78713,36.4,0,146,86,hypertension,1
+P0000837,First837,Last837,1951-01-01,75,M,black,married,San Diego,CA,92112,20.0,0,128,72,none,0
+P0000838,First838,Last838,1944-01-01,82,F,white,divorced,Worcester,MA,01620,30.4,0,166,100,hypertension,1
+P0000839,First839,Last839,1983-01-01,43,M,asian,widowed,Buffalo,NY,14214,31.7,0,127,80,none,0
+P0000840,First840,Last840,1943-01-01,83,F,asian,widowed,Worcester,MA,01611,25.7,1,152,104,hypertension,1
+P0000841,First841,Last841,1976-01-01,50,F,white,married,Boston,MA,02115,28.4,0,130,95,none,0
+P0000842,First842,Last842,1945-01-01,81,M,black,married,Rochester,NY,14616,28.9,0,150,119,hypertension,1
+P0000843,First843,Last843,1979-01-01,47,F,white,single,Los Angeles,CA,90017,20.5,0,141,79,hypertension,0
+P0000844,First844,Last844,1975-01-01,51,F,other,single,Worcester,MA,01608,22.1,0,129,73,none,0
+P0000845,First845,Last845,1970-01-01,56,F,white,single,San Diego,CA,92105,28.4,0,136,69,asthma,0
+P0000846,First846,Last846,1936-01-01,90,M,white,married,Los Angeles,CA,90015,28.0,0,146,129,hypertension,1
+P0000847,First847,Last847,1962-01-01,64,M,white,married,San Diego,CA,92114,23.8,0,142,98,hypertension,1
+P0000848,First848,Last848,1990-01-01,36,M,white,married,Boston,MA,02114,23.4,0,104,71,none,0
+P0000849,First849,Last849,1960-01-01,66,M,black,married,Albany,NY,12217,27.0,0,136,115,none,0
+P0000850,First850,Last850,1984-01-01,42,F,white,married,Worcester,MA,01622,32.1,0,154,107,hypertension,0
+P0000851,First851,Last851,1986-01-01,40,M,white,divorced,Cambridge,MA,02142,27.1,0,92,65,none,0
+P0000852,First852,Last852,1961-01-01,65,F,white,married,Boston,MA,02119,35.9,0,141,86,hypertension,0
+P0000853,First853,Last853,1976-01-01,50,M,asian,single,Cambridge,MA,02138,23.9,0,127,83,none,0
+P0000854,First854,Last854,1972-01-01,54,F,asian,widowed,Worcester,MA,01609,28.5,0,126,74,none,0
+P0000855,First855,Last855,1977-01-01,49,F,white,married,Worcester,MA,01610,25.7,0,122,84,none,0
+P0000856,First856,Last856,1971-01-01,55,M,white,single,Dallas,TX,75205,30.6,0,131,100,none,0
+P0000857,First857,Last857,1969-01-01,57,F,white,single,San Diego,CA,92107,23.4,1,132,67,none,1
+P0000858,First858,Last858,2008-01-01,18,M,asian,married,Cambridge,MA,02145,37.5,0,113,89,none,0
+P0000859,First859,Last859,1965-01-01,61,F,black,married,Houston,TX,77005,18.7,0,123,101,none,1
+P0000860,First860,Last860,1995-01-01,31,M,black,divorced,Boston,MA,02108,36.4,0,140,93,hypertension,0
+P0000861,First861,Last861,2003-01-01,23,M,asian,single,Rochester,NY,14614,28.0,0,106,79,none,0
+P0000862,First862,Last862,1978-01-01,48,F,white,divorced,Oakland,CA,94607,30.4,1,139,79,none,1
+P0000863,First863,Last863,1975-01-01,51,M,black,widowed,Rochester,NY,14616,34.4,0,122,103,none,1
+P0000864,First864,Last864,1989-01-01,37,M,white,married,Worcester,MA,01621,32.0,0,130,70,none,0
+P0000865,First865,Last865,1962-01-01,64,M,white,single,Albany,NY,12217,23.7,0,141,92,hypertension,1
+P0000866,First866,Last866,2001-01-01,25,F,white,single,Buffalo,NY,14209,30.6,0,116,83,none,0
+P0000867,First867,Last867,1984-01-01,42,M,white,single,Los Angeles,CA,90021,37.2,0,114,107,none,1
+P0000868,First868,Last868,1988-01-01,38,M,other,single,Rochester,NY,14613,22.9,1,115,73,none,0
+P0000869,First869,Last869,1978-01-01,48,F,white,single,Rochester,NY,14617,38.5,0,148,87,hypertension,1
+P0000870,First870,Last870,1972-01-01,54,F,asian,divorced,Boston,MA,02122,29.5,0,120,72,none,0
+P0000871,First871,Last871,1995-01-01,31,F,black,married,Rochester,NY,14610,25.2,0,120,87,none,0
+P0000872,First872,Last872,1964-01-01,62,M,black,single,Cambridge,MA,02147,22.9,1,127,81,none,0
+P0000873,First873,Last873,1976-01-01,50,F,other,married,Houston,TX,77014,26.3,0,136,74,none,0
+P0000874,First874,Last874,2008-01-01,18,M,white,single,Los Angeles,CA,90012,17.3,0,93,61,none,0
+P0000875,First875,Last875,2008-01-01,18,M,white,single,Albany,NY,12214,25.3,0,94,85,asthma,0
+P0000876,First876,Last876,1977-01-01,49,F,white,single,San Diego,CA,92110,26.1,0,116,70,none,0
+P0000877,First877,Last877,1981-01-01,45,F,white,married,Boston,MA,02118,21.9,1,121,68,none,1
+P0000878,First878,Last878,1979-01-01,47,M,asian,single,Cambridge,MA,02143,31.4,0,130,101,none,0
+P0000879,First879,Last879,1978-01-01,48,F,white,married,Rochester,NY,14608,26.4,0,125,83,none,1
+P0000880,First880,Last880,1973-01-01,53,M,white,married,Buffalo,NY,14203,24.2,0,114,99,none,1
+P0000881,First881,Last881,1960-01-01,66,M,white,married,Oakland,CA,94615,25.8,1,141,85,hypertension,1
+P0000882,First882,Last882,1997-01-01,29,M,white,divorced,Dallas,TX,75214,29.3,0,101,83,none,0
+P0000883,First883,Last883,1998-01-01,28,F,black,married,Albany,NY,12220,27.9,1,126,84,none,0
+P0000884,First884,Last884,1997-01-01,29,M,white,widowed,Rochester,NY,14609,23.9,1,127,98,none,0
+P0000885,First885,Last885,1972-01-01,54,M,black,married,Los Angeles,CA,90015,28.2,1,135,107,none,0
+P0000886,First886,Last886,1955-01-01,71,F,black,single,Cambridge,MA,02149,27.2,0,141,109,hypertension,1
+P0000887,First887,Last887,1985-01-01,41,M,asian,single,Cambridge,MA,02148,21.6,0,137,72,none,0
+P0000888,First888,Last888,2008-01-01,18,M,white,single,Austin,TX,78708,26.0,1,110,64,none,0
+P0000889,First889,Last889,2008-01-01,18,M,black,single,San Diego,CA,92106,30.5,1,104,91,none,0
+P0000890,First890,Last890,1992-01-01,34,F,white,single,Houston,TX,77003,30.5,0,123,104,asthma,1
+P0000891,First891,Last891,1987-01-01,39,F,white,divorced,Worcester,MA,01619,26.3,0,106,100,asthma,0
+P0000892,First892,Last892,1984-01-01,42,F,black,single,Cambridge,MA,02147,31.0,0,120,87,none,0
+P0000893,First893,Last893,1976-01-01,50,F,black,married,Rochester,NY,14609,22.4,0,117,94,none,0
+P0000894,First894,Last894,1983-01-01,43,F,white,married,Austin,TX,78714,22.6,1,118,92,none,0
+P0000895,First895,Last895,1958-01-01,68,M,asian,single,Boston,MA,02117,26.2,0,133,93,none,0
+P0000896,First896,Last896,1989-01-01,37,F,white,married,Boston,MA,02121,35.3,0,131,91,none,0
+P0000897,First897,Last897,1993-01-01,33,M,black,single,Worcester,MA,01615,28.3,0,127,84,none,1
+P0000898,First898,Last898,1968-01-01,58,F,other,single,Oakland,CA,94613,26.1,1,147,77,hypertension,0
+P0000899,First899,Last899,2005-01-01,21,F,white,married,Oakland,CA,94621,35.5,0,115,75,asthma,0
+P0000900,First900,Last900,1970-01-01,56,F,asian,single,Los Angeles,CA,90026,26.0,0,126,78,none,1
+P0000901,First901,Last901,1975-01-01,51,F,black,single,Cambridge,MA,02152,39.1,0,105,72,none,1
+P0000902,First902,Last902,1980-01-01,46,M,asian,single,Oakland,CA,94619,24.8,0,126,86,none,0
+P0000903,First903,Last903,1948-01-01,78,M,black,single,Buffalo,NY,14207,22.2,0,115,91,none,0
+P0000904,First904,Last904,1988-01-01,38,M,black,divorced,Boston,MA,02111,26.6,0,96,94,none,0
+P0000905,First905,Last905,1940-01-01,86,F,white,single,Boston,MA,02113,26.2,0,145,114,hypertension,0
+P0000906,First906,Last906,1981-01-01,45,M,black,widowed,Rochester,NY,14618,23.3,1,130,102,none,1
+P0000907,First907,Last907,2000-01-01,26,F,white,married,Worcester,MA,01613,41.0,0,112,109,none,0
+P0000908,First908,Last908,1976-01-01,50,M,other,single,Dallas,TX,75212,29.2,0,143,78,hypertension,0
+P0000909,First909,Last909,1996-01-01,30,F,white,single,Albany,NY,12220,29.9,0,119,63,none,0
+P0000910,First910,Last910,1991-01-01,35,F,white,married,Rochester,NY,14618,25.1,0,112,94,none,0
+P0000911,First911,Last911,1970-01-01,56,F,asian,married,Los Angeles,CA,90026,24.5,0,143,106,hypertension,1
+P0000912,First912,Last912,1967-01-01,59,F,white,single,Oakland,CA,94615,32.8,0,151,115,hypertension,1
+P0000913,First913,Last913,1988-01-01,38,F,white,married,Boston,MA,02115,18.8,0,120,85,asthma,1
+P0000914,First914,Last914,1959-01-01,67,M,black,divorced,Oakland,CA,94621,21.6,1,132,60,none,1
+P0000915,First915,Last915,1956-01-01,70,M,white,married,Cambridge,MA,02141,26.2,0,131,97,asthma,1
+P0000916,First916,Last916,1951-01-01,75,M,white,married,Rochester,NY,14606,34.5,1,135,106,asthma,1
+P0000917,First917,Last917,1967-01-01,59,F,white,single,San Diego,CA,92115,25.6,0,130,106,none,0
+P0000918,First918,Last918,1952-01-01,74,M,white,married,Albany,NY,12217,29.7,0,130,115,none,1
+P0000919,First919,Last919,2008-01-01,18,F,white,married,Rochester,NY,14612,27.6,1,109,91,none,0
+P0000920,First920,Last920,1983-01-01,43,M,white,single,Worcester,MA,01609,34.2,1,134,81,none,0
+P0000921,First921,Last921,1993-01-01,33,F,white,single,Buffalo,NY,14208,19.3,0,89,63,none,0
+P0000922,First922,Last922,1975-01-01,51,F,white,married,Cambridge,MA,02152,31.3,0,114,97,none,0
+P0000923,First923,Last923,1987-01-01,39,M,white,single,Houston,TX,77011,26.5,0,113,72,none,0
+P0000924,First924,Last924,1980-01-01,46,F,black,single,Buffalo,NY,14207,32.3,0,125,110,none,0
+P0000925,First925,Last925,1943-01-01,83,F,black,single,Austin,TX,78709,23.2,0,139,69,none,1
+P0000926,First926,Last926,1980-01-01,46,M,white,married,Albany,NY,12220,27.6,0,120,94,none,1
+P0000927,First927,Last927,1970-01-01,56,F,white,married,San Diego,CA,92114,27.0,0,121,93,none,0
+P0000928,First928,Last928,1981-01-01,45,M,asian,widowed,Worcester,MA,01614,22.3,0,104,79,none,0
+P0000929,First929,Last929,1976-01-01,50,F,black,single,Cambridge,MA,02147,20.8,1,124,70,none,0
+P0000930,First930,Last930,1977-01-01,49,M,white,married,Cambridge,MA,02142,24.5,0,121,60,none,0
+P0000931,First931,Last931,1969-01-01,57,M,white,divorced,Worcester,MA,01614,28.2,0,127,82,none,1
+P0000932,First932,Last932,1956-01-01,70,M,white,married,Houston,TX,77005,23.6,0,137,83,none,0
+P0000933,First933,Last933,1947-01-01,79,M,asian,single,Oakland,CA,94614,25.8,1,154,109,hypertension,1
+P0000934,First934,Last934,1971-01-01,55,M,other,single,San Diego,CA,92109,17.7,0,132,71,none,0
+P0000935,First935,Last935,1966-01-01,60,M,other,widowed,Albany,NY,12212,25.6,1,131,95,none,1
+P0000936,First936,Last936,1998-01-01,28,F,white,widowed,Rochester,NY,14608,32.8,0,97,66,none,0
+P0000937,First937,Last937,1979-01-01,47,F,white,married,Oakland,CA,94609,31.2,0,139,95,none,1
+P0000938,First938,Last938,1960-01-01,66,M,white,single,San Diego,CA,92103,27.0,0,139,60,none,1
+P0000939,First939,Last939,1961-01-01,65,F,white,married,Buffalo,NY,14211,28.8,0,125,121,none,1
+P0000940,First940,Last940,1973-01-01,53,F,white,single,San Diego,CA,92104,23.2,1,135,83,none,0
+P0000941,First941,Last941,1961-01-01,65,F,black,single,Boston,MA,02109,35.9,0,150,60,hypertension,0
+P0000942,First942,Last942,1968-01-01,58,M,white,married,Dallas,TX,75215,38.3,0,154,86,hypertension,1
+P0000943,First943,Last943,1955-01-01,71,F,other,married,Boston,MA,02111,28.4,0,142,81,hypertension,1
+P0000944,First944,Last944,1972-01-01,54,M,white,married,Buffalo,NY,14214,41.0,1,153,88,hypertension,0
+P0000945,First945,Last945,1983-01-01,43,M,white,married,Dallas,TX,75210,24.0,0,106,78,none,0
+P0000946,First946,Last946,1971-01-01,55,M,asian,married,Worcester,MA,01618,21.0,0,125,75,none,1
+P0000947,First947,Last947,2008-01-01,18,F,black,divorced,Cambridge,MA,02146,23.8,0,100,65,none,0
+P0000948,First948,Last948,1970-01-01,56,M,white,single,Buffalo,NY,14203,26.4,1,139,72,none,0
+P0000949,First949,Last949,2008-01-01,18,M,black,single,Buffalo,NY,14213,39.5,1,136,98,none,1
+P0000950,First950,Last950,2008-01-01,18,F,white,divorced,Austin,TX,78713,26.0,1,115,94,none,0
+P0000951,First951,Last951,1969-01-01,57,M,white,single,Oakland,CA,94612,23.0,0,117,82,none,1
+P0000952,First952,Last952,1968-01-01,58,F,white,married,Albany,NY,12218,22.8,0,114,86,none,0
+P0000953,First953,Last953,1998-01-01,28,M,white,divorced,Austin,TX,78709,33.4,1,140,69,hypertension,0
+P0000954,First954,Last954,1990-01-01,36,F,black,single,Los Angeles,CA,90025,32.7,1,132,88,none,0
+P0000955,First955,Last955,1952-01-01,74,M,white,single,Austin,TX,78713,25.0,0,144,95,hypertension,1
+P0000956,First956,Last956,1986-01-01,40,M,black,divorced,Cambridge,MA,02138,17.7,0,111,75,none,0
+P0000957,First957,Last957,1937-01-01,89,F,asian,single,Rochester,NY,14617,21.6,1,157,99,hypertension,1
+P0000958,First958,Last958,1977-01-01,49,M,white,single,Boston,MA,02122,36.5,0,118,97,none,1
+P0000959,First959,Last959,1970-01-01,56,F,white,divorced,Worcester,MA,01619,31.1,0,135,76,none,1
+P0000960,First960,Last960,1948-01-01,78,M,white,married,Oakland,CA,94608,27.8,1,137,112,none,1
+P0000961,First961,Last961,1975-01-01,51,M,asian,divorced,Cambridge,MA,02150,37.2,0,127,91,none,1
+P0000962,First962,Last962,1995-01-01,31,F,black,married,Buffalo,NY,14210,37.7,0,111,112,none,0
+P0000963,First963,Last963,1979-01-01,47,F,black,married,San Diego,CA,92106,27.3,0,88,92,asthma,0
+P0000964,First964,Last964,1978-01-01,48,M,white,single,Boston,MA,02121,27.4,0,120,114,none,1
+P0000965,First965,Last965,2002-01-01,24,F,white,married,Buffalo,NY,14209,24.5,1,105,95,none,1
+P0000966,First966,Last966,1982-01-01,44,M,white,widowed,Oakland,CA,94619,26.0,0,119,88,none,0
+P0000967,First967,Last967,1990-01-01,36,M,white,married,Houston,TX,77012,19.8,0,113,68,none,0
+P0000968,First968,Last968,1960-01-01,66,M,black,single,Worcester,MA,01612,19.7,0,151,77,hypertension,0
+P0000969,First969,Last969,1976-01-01,50,F,white,married,Houston,TX,77016,18.5,0,125,89,none,0
+P0000970,First970,Last970,1982-01-01,44,M,white,widowed,Los Angeles,CA,90020,33.1,1,135,91,none,1
+P0000971,First971,Last971,1979-01-01,47,M,white,married,San Diego,CA,92108,19.4,0,125,73,none,0
+P0000972,First972,Last972,1973-01-01,53,F,white,married,Rochester,NY,14610,37.6,0,141,106,hypertension,1
+P0000973,First973,Last973,1966-01-01,60,F,black,married,Los Angeles,CA,90014,23.7,0,135,88,none,0
+P0000974,First974,Last974,1995-01-01,31,F,white,single,San Diego,CA,92111,36.5,0,121,100,none,1
+P0000975,First975,Last975,1996-01-01,30,F,other,widowed,Cambridge,MA,02144,25.6,0,120,67,asthma,0
+P0000976,First976,Last976,1957-01-01,69,M,asian,widowed,Dallas,TX,75215,19.4,0,107,101,none,0
+P0000977,First977,Last977,1984-01-01,42,F,asian,married,Houston,TX,77016,34.2,0,147,96,hypertension,0
+P0000978,First978,Last978,2003-01-01,23,M,black,married,Rochester,NY,14615,34.8,0,130,101,none,0
+P0000979,First979,Last979,1969-01-01,57,F,black,married,Oakland,CA,94610,22.8,0,130,100,none,0
+P0000980,First980,Last980,1969-01-01,57,F,black,single,Buffalo,NY,14211,25.8,0,114,87,none,1
+P0000981,First981,Last981,2005-01-01,21,F,white,single,Oakland,CA,94607,22.8,0,119,74,none,0
+P0000982,First982,Last982,1973-01-01,53,M,white,married,San Diego,CA,92113,26.9,0,119,112,none,1
+P0000983,First983,Last983,1964-01-01,62,M,black,single,Cambridge,MA,02145,28.1,0,139,87,asthma,1
+P0000984,First984,Last984,1970-01-01,56,F,white,divorced,Boston,MA,02122,25.7,1,121,98,none,0
+P0000985,First985,Last985,1966-01-01,60,M,white,married,Boston,MA,02113,18.0,0,152,78,hypertension,0
+P0000986,First986,Last986,2002-01-01,24,F,asian,married,Dallas,TX,75204,24.5,0,92,60,none,0
+P0000987,First987,Last987,1971-01-01,55,F,white,married,Buffalo,NY,14215,31.2,0,131,74,none,1
+P0000988,First988,Last988,1982-01-01,44,F,white,married,Houston,TX,77009,26.4,0,98,90,none,0
+P0000989,First989,Last989,1986-01-01,40,M,black,married,Albany,NY,12219,25.8,0,118,93,none,0
+P0000990,First990,Last990,1961-01-01,65,M,white,single,Boston,MA,02121,22.7,0,128,94,none,0
+P0000991,First991,Last991,1950-01-01,76,M,asian,married,Dallas,TX,75208,24.3,0,153,108,hypertension,1
+P0000992,First992,Last992,1945-01-01,81,F,white,single,Buffalo,NY,14207,34.8,0,143,106,hypertension,1
+P0000993,First993,Last993,1953-01-01,73,F,asian,divorced,Albany,NY,12215,21.6,0,150,79,hypertension,0
+P0000994,First994,Last994,1979-01-01,47,M,asian,divorced,Cambridge,MA,02150,31.2,1,121,97,none,0
+P0000995,First995,Last995,1971-01-01,55,F,white,single,Cambridge,MA,02152,27.7,0,126,91,none,0
+P0000996,First996,Last996,1963-01-01,63,M,white,married,Boston,MA,02112,28.8,0,131,83,none,0
+P0000997,First997,Last997,1975-01-01,51,M,white,married,Albany,NY,12218,23.7,1,137,91,none,0
+P0000998,First998,Last998,1975-01-01,51,F,white,married,Los Angeles,CA,90016,25.7,0,129,87,none,0
+P0000999,First999,Last999,1962-01-01,64,M,white,widowed,Worcester,MA,01617,27.5,0,142,82,hypertension,1
+P0001000,First1000,Last1000,1978-01-01,48,M,other,widowed,Cambridge,MA,02150,24.8,0,126,82,none,0
+P0001001,First1001,Last1001,1990-01-01,36,F,white,married,Worcester,MA,01621,29.2,0,125,104,none,0
+P0001002,First1002,Last1002,1984-01-01,42,M,asian,married,Buffalo,NY,14207,29.9,0,112,106,asthma,0
+P0001003,First1003,Last1003,1966-01-01,60,M,white,single,Austin,TX,78706,38.8,0,141,100,hypertension,1
+P0001004,First1004,Last1004,1977-01-01,49,F,other,married,Rochester,NY,14607,28.9,0,143,89,hypertension,1
+P0001005,First1005,Last1005,1971-01-01,55,M,white,widowed,Worcester,MA,01610,17.6,0,106,62,none,0
+P0001006,First1006,Last1006,1965-01-01,61,F,white,married,Albany,NY,12212,33.5,0,140,118,hypertension,0
+P0001007,First1007,Last1007,1984-01-01,42,M,white,married,Austin,TX,78714,26.4,0,127,99,none,0
+P0001008,First1008,Last1008,1963-01-01,63,M,white,married,Oakland,CA,94613,38.0,1,161,108,hypertension,1
+P0001009,First1009,Last1009,1970-01-01,56,M,asian,married,Oakland,CA,94611,35.1,0,141,62,hypertension,0
+P0001010,First1010,Last1010,1999-01-01,27,F,white,married,Houston,TX,77013,24.9,0,111,80,none,0
+P0001011,First1011,Last1011,1951-01-01,75,M,white,divorced,Los Angeles,CA,90015,31.3,1,154,95,hypertension,0
+P0001012,First1012,Last1012,1986-01-01,40,F,white,married,Austin,TX,78704,24.4,1,117,92,none,0
+P0001013,First1013,Last1013,2007-01-01,19,F,black,single,Cambridge,MA,02152,27.5,0,102,72,none,0
+P0001014,First1014,Last1014,1996-01-01,30,F,white,married,Oakland,CA,94608,31.0,0,100,81,none,0
+P0001015,First1015,Last1015,1995-01-01,31,M,white,married,Austin,TX,78707,33.3,0,133,94,none,0
+P0001016,First1016,Last1016,1976-01-01,50,F,white,married,Austin,TX,78709,32.2,1,140,79,hypertension,1
+P0001017,First1017,Last1017,1982-01-01,44,F,white,married,Albany,NY,12210,27.9,0,112,78,none,0
+P0001018,First1018,Last1018,1983-01-01,43,M,white,married,Oakland,CA,94611,40.4,0,130,96,none,0
+P0001019,First1019,Last1019,1966-01-01,60,F,other,married,Cambridge,MA,02141,25.6,0,144,107,hypertension,0
+P0001020,First1020,Last1020,1971-01-01,55,F,white,divorced,Los Angeles,CA,90017,19.1,0,136,94,none,0
+P0001021,First1021,Last1021,1971-01-01,55,F,black,single,Albany,NY,12220,20.1,0,115,99,none,0
+P0001022,First1022,Last1022,1970-01-01,56,F,white,widowed,Rochester,NY,14610,35.2,0,98,95,none,1
+P0001023,First1023,Last1023,1966-01-01,60,M,white,married,Los Angeles,CA,90018,27.1,0,136,110,none,0
+P0001024,First1024,Last1024,2008-01-01,18,F,white,single,Cambridge,MA,02143,28.3,0,96,60,none,0
+P0001025,First1025,Last1025,1984-01-01,42,F,white,single,Worcester,MA,01622,24.7,1,133,111,none,1
+P0001026,First1026,Last1026,2008-01-01,18,M,white,married,Cambridge,MA,02139,25.1,0,115,107,none,0
+P0001027,First1027,Last1027,1976-01-01,50,M,white,married,Los Angeles,CA,90025,23.4,0,136,91,none,0
+P0001028,First1028,Last1028,1977-01-01,49,M,white,single,Oakland,CA,94611,29.9,0,145,100,hypertension,0
+P0001029,First1029,Last1029,1958-01-01,68,M,other,single,Oakland,CA,94621,27.0,0,150,91,hypertension,1
+P0001030,First1030,Last1030,1956-01-01,70,M,white,married,Cambridge,MA,02142,29.8,0,158,91,hypertension,0
+P0001031,First1031,Last1031,1973-01-01,53,F,white,married,San Diego,CA,92102,29.3,0,143,81,hypertension,1
+P0001032,First1032,Last1032,1986-01-01,40,M,white,widowed,San Diego,CA,92108,25.3,0,134,82,none,0
+P0001033,First1033,Last1033,1968-01-01,58,M,white,married,Boston,MA,02111,19.9,0,127,92,none,0
+P0001034,First1034,Last1034,1987-01-01,39,F,black,widowed,Worcester,MA,01619,19.5,0,101,85,none,0
+P0001035,First1035,Last1035,1977-01-01,49,F,white,divorced,Albany,NY,12216,43.2,0,159,125,hypertension,1
+P0001036,First1036,Last1036,1959-01-01,67,F,black,divorced,Rochester,NY,14614,35.2,0,140,98,hypertension,1
+P0001037,First1037,Last1037,1987-01-01,39,M,white,single,Worcester,MA,01610,34.5,0,135,68,none,0
+P0001038,First1038,Last1038,1962-01-01,64,M,white,married,Cambridge,MA,02148,24.0,0,127,112,none,0
+P0001039,First1039,Last1039,1965-01-01,61,M,other,single,Boston,MA,02112,27.5,0,143,73,hypertension,0
+P0001040,First1040,Last1040,1994-01-01,32,F,white,single,Worcester,MA,01622,23.3,1,93,72,none,0
+P0001041,First1041,Last1041,1959-01-01,67,F,asian,single,Boston,MA,02118,20.7,0,128,91,none,0
+P0001042,First1042,Last1042,1964-01-01,62,F,white,married,Oakland,CA,94615,24.4,0,130,94,asthma,0
+P0001043,First1043,Last1043,1975-01-01,51,M,other,married,Buffalo,NY,14214,34.4,0,134,72,none,0
+P0001044,First1044,Last1044,1991-01-01,35,M,white,married,Buffalo,NY,14209,31.9,0,130,75,none,0
+P0001045,First1045,Last1045,1992-01-01,34,M,white,married,San Diego,CA,92109,22.5,1,108,60,none,0
+P0001046,First1046,Last1046,1987-01-01,39,M,black,single,Rochester,NY,14607,25.9,1,132,92,none,1
+P0001047,First1047,Last1047,1967-01-01,59,M,white,divorced,Worcester,MA,01618,31.4,0,146,109,hypertension,1
+P0001048,First1048,Last1048,1994-01-01,32,M,white,single,Worcester,MA,01613,24.5,1,146,63,hypertension,0
+P0001049,First1049,Last1049,1969-01-01,57,F,other,single,Cambridge,MA,02138,27.9,0,138,103,none,0
+P0001050,First1050,Last1050,1999-01-01,27,F,white,married,Rochester,NY,14616,29.6,1,114,95,none,0
+P0001051,First1051,Last1051,1981-01-01,45,F,black,married,Albany,NY,12207,29.5,1,116,78,none,1
+P0001052,First1052,Last1052,1975-01-01,51,F,black,married,Rochester,NY,14614,28.8,0,147,60,hypertension,1
+P0001053,First1053,Last1053,1936-01-01,90,F,asian,married,Buffalo,NY,14203,24.1,0,157,81,hypertension,0
+P0001054,First1054,Last1054,2002-01-01,24,F,asian,married,Houston,TX,77008,24.6,0,108,70,none,0
+P0001055,First1055,Last1055,1951-01-01,75,M,black,married,Worcester,MA,01620,21.6,0,121,112,none,1
+P0001056,First1056,Last1056,1974-01-01,52,F,white,married,Buffalo,NY,14202,19.4,0,113,81,none,0
+P0001057,First1057,Last1057,1970-01-01,56,M,white,single,Rochester,NY,14614,26.9,0,136,74,none,0
+P0001058,First1058,Last1058,1975-01-01,51,M,black,married,San Diego,CA,92110,31.7,0,132,92,none,0
+P0001059,First1059,Last1059,1969-01-01,57,M,asian,married,San Diego,CA,92114,20.3,0,105,66,asthma,1
+P0001060,First1060,Last1060,1980-01-01,46,M,white,married,Los Angeles,CA,90014,28.9,0,131,94,none,0
+P0001061,First1061,Last1061,1951-01-01,75,F,white,single,Boston,MA,02119,31.6,0,126,83,none,1
+P0001062,First1062,Last1062,1985-01-01,41,M,white,single,Albany,NY,12213,17.9,0,130,67,none,0
+P0001063,First1063,Last1063,1957-01-01,69,F,white,married,San Diego,CA,92107,26.1,0,139,97,none,1
+P0001064,First1064,Last1064,1989-01-01,37,M,asian,married,Albany,NY,12212,36.1,0,116,114,none,1
+P0001065,First1065,Last1065,1978-01-01,48,F,white,widowed,Austin,TX,78706,30.4,0,136,119,none,0
+P0001066,First1066,Last1066,1996-01-01,30,F,black,single,Rochester,NY,14611,17.8,0,113,61,none,0
+P0001067,First1067,Last1067,1969-01-01,57,M,black,single,Rochester,NY,14605,30.9,0,146,83,hypertension,1
+P0001068,First1068,Last1068,1951-01-01,75,M,other,single,Rochester,NY,14610,23.6,0,140,99,hypertension,1
+P0001069,First1069,Last1069,1978-01-01,48,F,white,divorced,Albany,NY,12216,31.1,0,127,105,none,0
+P0001070,First1070,Last1070,1981-01-01,45,M,other,divorced,Los Angeles,CA,90019,23.9,0,118,60,none,0
+P0001071,First1071,Last1071,1997-01-01,29,F,black,married,Cambridge,MA,02140,27.2,0,115,82,none,0
+P0001072,First1072,Last1072,1981-01-01,45,M,asian,single,Rochester,NY,14609,24.7,1,147,77,hypertension,0
+P0001073,First1073,Last1073,2006-01-01,20,F,white,married,Los Angeles,CA,90018,27.5,0,101,60,none,0
+P0001074,First1074,Last1074,1993-01-01,33,F,white,single,Houston,TX,77012,24.6,1,128,62,none,0
+P0001075,First1075,Last1075,1973-01-01,53,F,black,married,Oakland,CA,94620,26.3,0,117,79,none,1
+P0001076,First1076,Last1076,1953-01-01,73,F,white,married,Austin,TX,78709,21.4,0,114,90,none,0
+P0001077,First1077,Last1077,1936-01-01,90,F,white,widowed,Austin,TX,78711,30.1,0,154,114,hypertension,1
+P0001078,First1078,Last1078,1988-01-01,38,F,white,divorced,Worcester,MA,01609,28.4,0,123,89,none,1
+P0001079,First1079,Last1079,1951-01-01,75,F,white,married,Austin,TX,78715,19.1,0,136,102,none,0
+P0001080,First1080,Last1080,1973-01-01,53,F,white,widowed,Dallas,TX,75205,32.7,0,113,92,none,0
+P0001081,First1081,Last1081,1980-01-01,46,M,white,married,Boston,MA,02113,26.6,0,126,76,none,0
+P0001082,First1082,Last1082,1969-01-01,57,F,white,married,Los Angeles,CA,90015,28.3,0,133,87,none,1
+P0001083,First1083,Last1083,1976-01-01,50,M,other,divorced,Boston,MA,02109,31.5,1,124,99,none,1
+P0001084,First1084,Last1084,1975-01-01,51,M,other,married,San Diego,CA,92112,29.2,0,112,103,none,0
+P0001085,First1085,Last1085,1984-01-01,42,F,white,married,Worcester,MA,01611,33.6,0,120,87,none,0
+P0001086,First1086,Last1086,2002-01-01,24,M,white,single,Los Angeles,CA,90016,26.0,0,116,66,none,0
+P0001087,First1087,Last1087,2005-01-01,21,F,white,married,Buffalo,NY,14203,32.9,0,115,87,none,0
+P0001088,First1088,Last1088,1965-01-01,61,F,white,married,Albany,NY,12221,28.1,0,123,97,none,0
+P0001089,First1089,Last1089,1982-01-01,44,M,asian,married,Cambridge,MA,02149,30.1,0,124,104,none,1
+P0001090,First1090,Last1090,1988-01-01,38,M,white,single,Los Angeles,CA,90025,29.6,0,129,76,none,0
+P0001091,First1091,Last1091,1977-01-01,49,M,white,married,Rochester,NY,14616,34.0,0,115,82,none,1
+P0001092,First1092,Last1092,1963-01-01,63,F,white,married,Oakland,CA,94620,31.3,0,136,104,none,1
+P0001093,First1093,Last1093,1974-01-01,52,M,white,single,Cambridge,MA,02145,25.2,0,140,80,hypertension,1
+P0001094,First1094,Last1094,1989-01-01,37,F,asian,married,Boston,MA,02110,24.2,0,102,75,none,0
+P0001095,First1095,Last1095,1955-01-01,71,F,black,married,Rochester,NY,14608,27.2,1,158,110,hypertension,1
+P0001096,First1096,Last1096,1949-01-01,77,F,black,single,Austin,TX,78705,23.5,0,158,73,hypertension,1
+P0001097,First1097,Last1097,1968-01-01,58,M,white,single,Cambridge,MA,02148,22.0,0,126,114,none,1
+P0001098,First1098,Last1098,1959-01-01,67,F,other,married,Los Angeles,CA,90012,16.4,0,127,76,none,0
+P0001099,First1099,Last1099,1955-01-01,71,M,white,divorced,Worcester,MA,01610,19.4,0,146,100,hypertension,0
+P0001100,First1100,Last1100,1957-01-01,69,M,asian,single,Oakland,CA,94617,37.8,0,140,97,hypertension,1
+P0001101,First1101,Last1101,1966-01-01,60,M,asian,married,Cambridge,MA,02139,24.1,0,104,91,asthma,0
+P0001102,First1102,Last1102,1966-01-01,60,M,white,single,Rochester,NY,14604,37.4,0,135,93,none,0
+P0001103,First1103,Last1103,1968-01-01,58,M,asian,single,Albany,NY,12208,29.6,0,137,103,none,0
+P0001104,First1104,Last1104,1997-01-01,29,F,white,single,Cambridge,MA,02148,27.2,0,120,76,none,0
+P0001105,First1105,Last1105,1964-01-01,62,F,black,single,Cambridge,MA,02140,19.7,0,120,77,none,1
+P0001106,First1106,Last1106,2001-01-01,25,M,white,single,Buffalo,NY,14203,27.5,1,114,106,none,0
+P0001107,First1107,Last1107,1991-01-01,35,F,white,widowed,Buffalo,NY,14204,37.3,0,131,90,none,0
+P0001108,First1108,Last1108,1954-01-01,72,F,white,single,Houston,TX,77013,35.6,0,142,89,hypertension,1
+P0001109,First1109,Last1109,1962-01-01,64,F,white,divorced,Rochester,NY,14607,28.9,0,118,71,none,1
+P0001110,First1110,Last1110,1950-01-01,76,F,white,single,Austin,TX,78701,21.5,0,153,116,hypertension,0
+P0001111,First1111,Last1111,1982-01-01,44,F,white,divorced,Rochester,NY,14617,22.5,0,117,74,none,0
+P0001112,First1112,Last1112,1998-01-01,28,F,black,widowed,Boston,MA,02121,23.1,0,122,107,none,0
+P0001113,First1113,Last1113,1981-01-01,45,M,white,married,Cambridge,MA,02140,34.1,0,110,96,none,1
+P0001114,First1114,Last1114,1975-01-01,51,F,white,married,Albany,NY,12210,36.0,0,129,95,none,0
+P0001115,First1115,Last1115,1976-01-01,50,M,other,single,Worcester,MA,01610,28.5,0,132,90,none,1
+P0001116,First1116,Last1116,1957-01-01,69,M,other,married,Austin,TX,78711,25.9,0,136,122,none,1
+P0001117,First1117,Last1117,1984-01-01,42,F,white,single,Los Angeles,CA,90015,35.6,0,111,60,none,1
+P0001118,First1118,Last1118,1971-01-01,55,M,white,single,Rochester,NY,14617,22.4,0,100,88,none,1
+P0001119,First1119,Last1119,1995-01-01,31,M,black,widowed,Buffalo,NY,14213,27.8,0,131,78,none,1
+P0001120,First1120,Last1120,1969-01-01,57,M,black,married,Rochester,NY,14612,29.9,0,134,88,none,0
+P0001121,First1121,Last1121,1977-01-01,49,F,white,single,San Diego,CA,92101,23.0,0,136,86,none,1
+P0001122,First1122,Last1122,1990-01-01,36,F,black,married,Boston,MA,02121,24.2,0,126,77,none,0
+P0001123,First1123,Last1123,1981-01-01,45,F,white,single,Boston,MA,02118,23.8,0,127,86,none,0
+P0001124,First1124,Last1124,1980-01-01,46,M,white,married,Cambridge,MA,02149,34.9,0,123,90,none,0
+P0001125,First1125,Last1125,1982-01-01,44,M,black,single,Cambridge,MA,02139,37.5,0,132,74,none,1
+P0001126,First1126,Last1126,1945-01-01,81,M,black,single,Oakland,CA,94617,28.1,0,161,101,hypertension,0
+P0001127,First1127,Last1127,1979-01-01,47,M,asian,single,Worcester,MA,01620,26.1,0,124,95,none,1
+P0001128,First1128,Last1128,1981-01-01,45,M,white,single,Worcester,MA,01622,24.4,0,142,76,hypertension,0
+P0001129,First1129,Last1129,2008-01-01,18,M,white,married,Houston,TX,77010,27.5,0,89,105,asthma,0
+P0001130,First1130,Last1130,1993-01-01,33,F,white,married,Dallas,TX,75208,24.6,1,103,99,none,0
+P0001131,First1131,Last1131,1982-01-01,44,M,white,married,Rochester,NY,14610,27.0,0,132,97,none,0
+P0001132,First1132,Last1132,1989-01-01,37,F,white,widowed,Rochester,NY,14614,29.6,0,109,97,none,0
+P0001133,First1133,Last1133,1952-01-01,74,F,white,divorced,Los Angeles,CA,90025,25.4,0,162,93,hypertension,1
+P0001134,First1134,Last1134,1980-01-01,46,F,white,married,Worcester,MA,01616,26.5,1,144,101,hypertension,0
+P0001135,First1135,Last1135,1954-01-01,72,M,black,married,Albany,NY,12210,26.5,0,156,114,hypertension,1
+P0001136,First1136,Last1136,1976-01-01,50,F,white,married,Worcester,MA,01608,25.8,0,134,97,none,0
+P0001137,First1137,Last1137,1976-01-01,50,F,white,single,Buffalo,NY,14210,25.2,0,114,78,none,0
+P0001138,First1138,Last1138,1979-01-01,47,F,black,married,Austin,TX,78713,31.5,0,107,88,none,0
+P0001139,First1139,Last1139,1977-01-01,49,F,white,married,Oakland,CA,94607,18.3,0,137,89,none,1
+P0001140,First1140,Last1140,1946-01-01,80,F,asian,married,Austin,TX,78706,35.7,0,131,112,none,0
+P0001141,First1141,Last1141,2008-01-01,18,M,white,married,Los Angeles,CA,90026,28.2,0,123,78,none,0
+P0001142,First1142,Last1142,2008-01-01,18,M,white,married,Oakland,CA,94614,30.7,1,121,73,none,1
+P0001143,First1143,Last1143,1987-01-01,39,F,asian,married,Oakland,CA,94610,31.3,1,127,109,none,0
+P0001144,First1144,Last1144,1977-01-01,49,F,black,single,Oakland,CA,94612,23.8,1,135,69,asthma,0
+P0001145,First1145,Last1145,1965-01-01,61,F,black,single,Albany,NY,12213,22.7,0,135,74,none,1
+P0001146,First1146,Last1146,1968-01-01,58,F,black,married,Cambridge,MA,02139,22.1,0,126,67,none,0
+P0001147,First1147,Last1147,1984-01-01,42,M,white,single,Rochester,NY,14613,26.2,0,136,71,none,1
+P0001148,First1148,Last1148,1959-01-01,67,M,black,married,Boston,MA,02116,31.1,0,153,111,hypertension,1
+P0001149,First1149,Last1149,1958-01-01,68,M,asian,single,Albany,NY,12216,24.5,0,137,108,none,0
+P0001150,First1150,Last1150,1974-01-01,52,F,other,widowed,Boston,MA,02117,30.7,0,122,89,none,0
+P0001151,First1151,Last1151,1960-01-01,66,M,white,married,Albany,NY,12207,16.0,1,152,91,hypertension,0
+P0001152,First1152,Last1152,1972-01-01,54,F,white,divorced,Boston,MA,02110,25.5,0,105,87,none,0
+P0001153,First1153,Last1153,1987-01-01,39,F,black,single,Cambridge,MA,02140,33.6,0,126,71,none,0
+P0001154,First1154,Last1154,1964-01-01,62,M,white,single,Albany,NY,12208,26.6,0,141,121,hypertension,1
+P0001155,First1155,Last1155,1975-01-01,51,M,white,married,Worcester,MA,01619,23.2,0,115,104,asthma,0
+P0001156,First1156,Last1156,1977-01-01,49,M,white,married,Austin,TX,78702,24.1,0,134,90,none,0
+P0001157,First1157,Last1157,1950-01-01,76,M,white,married,Rochester,NY,14614,16.0,0,136,75,none,0
+P0001158,First1158,Last1158,2008-01-01,18,M,white,widowed,Rochester,NY,14606,22.2,0,97,72,none,0
+P0001159,First1159,Last1159,2003-01-01,23,M,white,single,Cambridge,MA,02139,33.0,0,122,74,none,0
+P0001160,First1160,Last1160,1998-01-01,28,F,white,married,Oakland,CA,94609,24.5,1,106,81,asthma,0
+P0001161,First1161,Last1161,1984-01-01,42,F,white,single,Los Angeles,CA,90019,25.1,0,129,88,none,0
+P0001162,First1162,Last1162,1982-01-01,44,F,other,married,Rochester,NY,14613,16.0,0,95,73,asthma,0
+P0001163,First1163,Last1163,2004-01-01,22,F,white,married,Worcester,MA,01620,19.0,0,107,60,none,0
+P0001164,First1164,Last1164,1995-01-01,31,F,white,single,San Diego,CA,92102,33.7,0,117,116,none,0
+P0001165,First1165,Last1165,1992-01-01,34,F,white,single,Austin,TX,78710,30.7,0,111,88,none,0
+P0001166,First1166,Last1166,1936-01-01,90,M,white,single,Rochester,NY,14615,20.8,0,152,100,hypertension,1
+P0001167,First1167,Last1167,1945-01-01,81,M,other,single,Worcester,MA,01612,24.2,0,142,87,hypertension,1
+P0001168,First1168,Last1168,1984-01-01,42,M,other,single,Cambridge,MA,02139,27.3,0,132,63,none,1
+P0001169,First1169,Last1169,1984-01-01,42,F,white,divorced,Boston,MA,02110,21.3,0,124,80,none,0
+P0001170,First1170,Last1170,1998-01-01,28,M,white,married,San Diego,CA,92102,17.1,0,112,70,none,0
+P0001171,First1171,Last1171,2008-01-01,18,F,white,single,Dallas,TX,75214,26.7,0,108,88,none,0
+P0001172,First1172,Last1172,1979-01-01,47,F,white,single,Houston,TX,77007,30.5,0,120,101,none,1
+P0001173,First1173,Last1173,1995-01-01,31,F,white,married,Oakland,CA,94614,30.6,0,112,95,none,0
+P0001174,First1174,Last1174,1979-01-01,47,F,white,married,Worcester,MA,01619,32.1,1,135,103,none,1
+P0001175,First1175,Last1175,2006-01-01,20,F,white,married,Dallas,TX,75206,19.4,0,101,99,none,0
+P0001176,First1176,Last1176,1991-01-01,35,M,black,married,Cambridge,MA,02147,27.8,0,129,89,asthma,1
+P0001177,First1177,Last1177,1974-01-01,52,M,white,single,Worcester,MA,01609,26.1,1,134,102,none,1
+P0001178,First1178,Last1178,1970-01-01,56,M,white,married,San Diego,CA,92108,27.0,1,140,95,hypertension,1
+P0001179,First1179,Last1179,1969-01-01,57,F,white,single,Boston,MA,02109,26.4,0,114,62,none,1
+P0001180,First1180,Last1180,2001-01-01,25,M,white,married,Oakland,CA,94610,24.1,0,119,76,none,0
+P0001181,First1181,Last1181,1962-01-01,64,M,white,married,Austin,TX,78705,16.0,1,130,71,none,1
+P0001182,First1182,Last1182,1991-01-01,35,F,white,married,San Diego,CA,92111,33.5,0,107,90,none,0
+P0001183,First1183,Last1183,1966-01-01,60,M,white,married,Los Angeles,CA,90022,29.2,0,151,80,hypertension,0
+P0001184,First1184,Last1184,1977-01-01,49,F,white,widowed,Buffalo,NY,14212,19.8,0,129,90,none,0
+P0001185,First1185,Last1185,2002-01-01,24,F,asian,married,Boston,MA,02108,30.0,1,128,95,none,0
+P0001186,First1186,Last1186,1983-01-01,43,F,other,married,Los Angeles,CA,90026,25.2,0,125,101,none,1
+P0001187,First1187,Last1187,1970-01-01,56,F,white,married,Buffalo,NY,14201,25.3,0,127,110,none,1
+P0001188,First1188,Last1188,1966-01-01,60,F,white,married,Houston,TX,77014,23.5,0,127,64,none,0
+P0001189,First1189,Last1189,1980-01-01,46,F,black,single,Cambridge,MA,02149,30.3,0,133,71,none,0
+P0001190,First1190,Last1190,1949-01-01,77,F,black,single,Boston,MA,02116,23.3,0,153,133,hypertension,1
+P0001191,First1191,Last1191,1959-01-01,67,M,white,married,Rochester,NY,14610,21.8,0,133,102,none,0
+P0001192,First1192,Last1192,1982-01-01,44,F,white,single,Los Angeles,CA,90023,33.4,0,147,92,hypertension,0
+P0001193,First1193,Last1193,1963-01-01,63,F,white,married,San Diego,CA,92112,26.6,1,138,90,none,0
+P0001194,First1194,Last1194,1942-01-01,84,F,black,divorced,Dallas,TX,75203,26.7,0,131,95,none,1
+P0001195,First1195,Last1195,1942-01-01,84,M,white,single,Boston,MA,02119,31.1,0,129,72,none,0
+P0001196,First1196,Last1196,1999-01-01,27,M,white,married,Rochester,NY,14605,24.0,0,91,68,none,0
+P0001197,First1197,Last1197,1994-01-01,32,M,white,single,Cambridge,MA,02145,25.1,0,109,79,none,0
+P0001198,First1198,Last1198,1950-01-01,76,F,white,divorced,Cambridge,MA,02147,29.1,1,147,85,hypertension,1
+P0001199,First1199,Last1199,1996-01-01,30,F,white,married,Rochester,NY,14616,19.5,0,117,68,none,0
+P0001200,First1200,Last1200,2001-01-01,25,M,black,widowed,Albany,NY,12213,28.6,0,110,117,asthma,0
+P0001201,First1201,Last1201,1986-01-01,40,F,white,divorced,Rochester,NY,14607,23.6,0,127,78,none,0
+P0001202,First1202,Last1202,1969-01-01,57,M,white,married,Rochester,NY,14611,31.9,0,132,96,none,0
+P0001203,First1203,Last1203,1979-01-01,47,M,white,single,Oakland,CA,94610,30.3,0,125,91,none,0
+P0001204,First1204,Last1204,1989-01-01,37,F,asian,single,San Diego,CA,92108,29.7,0,112,93,none,0
+P0001205,First1205,Last1205,1989-01-01,37,M,white,single,Cambridge,MA,02144,19.1,0,129,71,none,0
+P0001206,First1206,Last1206,1990-01-01,36,M,white,single,Boston,MA,02119,27.0,1,107,100,none,0
+P0001207,First1207,Last1207,1993-01-01,33,F,white,divorced,Los Angeles,CA,90015,21.4,0,116,85,none,0
+P0001208,First1208,Last1208,1936-01-01,90,F,asian,single,San Diego,CA,92103,27.3,0,148,80,hypertension,1
+P0001209,First1209,Last1209,1972-01-01,54,F,black,single,San Diego,CA,92108,16.0,0,131,79,asthma,0
+P0001210,First1210,Last1210,1961-01-01,65,M,asian,married,Worcester,MA,01608,19.5,1,138,84,none,1
+P0001211,First1211,Last1211,1986-01-01,40,F,black,married,Rochester,NY,14607,33.7,0,122,85,none,0
+P0001212,First1212,Last1212,1980-01-01,46,F,white,divorced,Houston,TX,77007,29.4,0,121,94,none,0
+P0001213,First1213,Last1213,1990-01-01,36,M,white,single,Albany,NY,12214,25.7,0,131,91,none,0
+P0001214,First1214,Last1214,2008-01-01,18,F,white,married,Albany,NY,12211,22.8,0,104,83,none,1
+P0001215,First1215,Last1215,2002-01-01,24,F,black,divorced,Houston,TX,77010,21.9,0,129,81,none,0
+P0001216,First1216,Last1216,2008-01-01,18,M,black,divorced,Worcester,MA,01621,28.5,0,109,80,none,0
+P0001217,First1217,Last1217,2008-01-01,18,F,white,single,Oakland,CA,94615,25.7,0,105,60,none,1
+P0001218,First1218,Last1218,1999-01-01,27,F,asian,married,Austin,TX,78705,35.5,0,113,97,none,0
+P0001219,First1219,Last1219,1953-01-01,73,F,white,single,Worcester,MA,01608,26.5,0,145,99,hypertension,0
+P0001220,First1220,Last1220,1978-01-01,48,F,white,married,Oakland,CA,94609,27.8,0,118,73,none,0
+P0001221,First1221,Last1221,1954-01-01,72,F,white,married,Rochester,NY,14612,20.3,0,137,92,none,1
+P0001222,First1222,Last1222,1970-01-01,56,M,asian,single,Dallas,TX,75211,25.6,0,128,97,none,0
+P0001223,First1223,Last1223,1963-01-01,63,M,other,divorced,Austin,TX,78701,28.4,1,145,108,hypertension,1
+P0001224,First1224,Last1224,1993-01-01,33,F,white,married,Dallas,TX,75203,25.6,0,118,88,none,0
+P0001225,First1225,Last1225,1968-01-01,58,M,other,divorced,Boston,MA,02112,25.0,0,134,92,none,0
+P0001226,First1226,Last1226,1964-01-01,62,M,asian,divorced,San Diego,CA,92105,29.2,0,135,105,none,0
+P0001227,First1227,Last1227,1987-01-01,39,M,asian,married,Austin,TX,78715,35.4,0,139,85,none,1
+P0001228,First1228,Last1228,1967-01-01,59,M,asian,married,Los Angeles,CA,90015,28.3,0,136,96,asthma,1
+P0001229,First1229,Last1229,1967-01-01,59,M,white,single,Oakland,CA,94607,33.4,1,169,85,hypertension,1
+P0001230,First1230,Last1230,1987-01-01,39,M,black,single,Worcester,MA,01613,30.7,0,121,102,none,1
+P0001231,First1231,Last1231,1997-01-01,29,F,black,married,Houston,TX,77004,33.1,0,126,63,none,0
+P0001232,First1232,Last1232,1998-01-01,28,M,black,single,Cambridge,MA,02139,24.3,0,102,90,none,0
+P0001233,First1233,Last1233,1975-01-01,51,F,white,single,Boston,MA,02114,26.4,0,141,87,hypertension,0
+P0001234,First1234,Last1234,1971-01-01,55,F,black,single,Houston,TX,77006,26.4,0,120,101,asthma,1
+P0001235,First1235,Last1235,1991-01-01,35,M,other,single,Houston,TX,77003,30.3,0,122,74,none,1
+P0001236,First1236,Last1236,1977-01-01,49,F,white,married,Austin,TX,78710,31.6,0,124,91,none,0
+P0001237,First1237,Last1237,1967-01-01,59,F,other,married,Buffalo,NY,14208,28.2,1,143,91,hypertension,0
+P0001238,First1238,Last1238,1966-01-01,60,F,white,married,Worcester,MA,01609,32.1,0,131,99,asthma,0
+P0001239,First1239,Last1239,1949-01-01,77,F,white,widowed,Rochester,NY,14616,24.6,0,132,78,none,1
+P0001240,First1240,Last1240,1954-01-01,72,M,white,divorced,Worcester,MA,01612,32.1,1,145,105,hypertension,1
+P0001241,First1241,Last1241,1995-01-01,31,M,asian,single,Dallas,TX,75215,32.8,0,133,60,none,0
+P0001242,First1242,Last1242,1947-01-01,79,F,white,married,Rochester,NY,14617,31.0,0,150,88,hypertension,0
+P0001243,First1243,Last1243,1987-01-01,39,F,white,single,Rochester,NY,14610,28.2,0,105,63,asthma,0
+P0001244,First1244,Last1244,1958-01-01,68,F,black,married,Boston,MA,02111,31.2,1,157,106,hypertension,1
+P0001245,First1245,Last1245,1976-01-01,50,F,white,married,Albany,NY,12219,22.9,0,114,90,none,0
+P0001246,First1246,Last1246,1984-01-01,42,M,white,married,Austin,TX,78706,28.5,0,129,92,none,0
+P0001247,First1247,Last1247,2008-01-01,18,M,asian,divorced,San Diego,CA,92103,29.1,0,112,100,none,0
+P0001248,First1248,Last1248,1980-01-01,46,F,black,married,Cambridge,MA,02146,20.6,0,127,77,none,0
+P0001249,First1249,Last1249,2005-01-01,21,F,asian,single,Worcester,MA,01615,30.0,0,129,89,none,0
+P0001250,First1250,Last1250,1960-01-01,66,M,black,widowed,Buffalo,NY,14213,21.0,0,123,88,none,1
+P0001251,First1251,Last1251,1950-01-01,76,M,other,single,Worcester,MA,01618,25.3,1,154,91,hypertension,1
+P0001252,First1252,Last1252,1991-01-01,35,F,white,married,Houston,TX,77015,27.7,0,130,101,none,1
+P0001253,First1253,Last1253,1972-01-01,54,F,white,divorced,San Diego,CA,92112,23.7,0,119,115,none,0
+P0001254,First1254,Last1254,1990-01-01,36,F,white,single,Boston,MA,02117,27.9,0,109,78,none,0
+P0001255,First1255,Last1255,1988-01-01,38,M,white,married,Los Angeles,CA,90019,27.8,0,115,96,none,0
+P0001256,First1256,Last1256,1963-01-01,63,F,black,single,Buffalo,NY,14215,23.2,0,135,92,none,0
+P0001257,First1257,Last1257,1978-01-01,48,F,black,divorced,Cambridge,MA,02152,30.5,0,110,93,none,0
+P0001258,First1258,Last1258,1946-01-01,80,M,white,married,Rochester,NY,14616,23.5,0,148,96,hypertension,1
+P0001259,First1259,Last1259,1986-01-01,40,M,white,single,Boston,MA,02119,39.4,1,116,87,asthma,0
+P0001260,First1260,Last1260,1959-01-01,67,F,black,married,Albany,NY,12215,26.9,0,150,60,hypertension,1
+P0001261,First1261,Last1261,1975-01-01,51,F,other,married,Oakland,CA,94610,21.4,0,129,105,none,1
+P0001262,First1262,Last1262,1963-01-01,63,F,white,single,Houston,TX,77015,22.4,1,159,78,hypertension,0
+P0001263,First1263,Last1263,1985-01-01,41,M,white,married,Cambridge,MA,02138,33.5,0,130,85,none,1
+P0001264,First1264,Last1264,1978-01-01,48,F,white,married,Los Angeles,CA,90015,25.4,1,127,82,none,1
+P0001265,First1265,Last1265,1979-01-01,47,M,white,married,Worcester,MA,01614,20.4,0,112,71,none,0
+P0001266,First1266,Last1266,1992-01-01,34,M,white,married,Albany,NY,12215,31.9,0,120,89,none,0
+P0001267,First1267,Last1267,1965-01-01,61,M,white,married,Worcester,MA,01616,25.3,0,131,88,none,0
+P0001268,First1268,Last1268,1965-01-01,61,M,black,single,Buffalo,NY,14203,30.9,0,147,82,hypertension,0
+P0001269,First1269,Last1269,1966-01-01,60,F,white,married,Worcester,MA,01609,32.4,1,131,95,none,1
+P0001270,First1270,Last1270,1949-01-01,77,F,white,married,Houston,TX,77005,28.9,0,165,95,hypertension,0
+P0001271,First1271,Last1271,1951-01-01,75,M,white,divorced,Austin,TX,78706,40.0,1,168,115,hypertension,1
+P0001272,First1272,Last1272,1984-01-01,42,F,other,widowed,Boston,MA,02108,18.5,0,114,60,none,0
+P0001273,First1273,Last1273,1970-01-01,56,F,white,married,Los Angeles,CA,90022,23.2,0,147,75,hypertension,1
+P0001274,First1274,Last1274,1988-01-01,38,F,white,married,Worcester,MA,01611,26.2,0,109,93,none,0
+P0001275,First1275,Last1275,1977-01-01,49,F,white,married,Oakland,CA,94612,39.3,1,139,86,none,0
+P0001276,First1276,Last1276,1988-01-01,38,F,black,married,Cambridge,MA,02143,36.8,0,108,77,none,0
+P0001277,First1277,Last1277,1948-01-01,78,M,asian,married,Worcester,MA,01615,34.2,0,166,91,hypertension,1
+P0001278,First1278,Last1278,1970-01-01,56,M,white,widowed,Oakland,CA,94619,23.4,1,116,85,none,0
+P0001279,First1279,Last1279,1981-01-01,45,M,white,single,Buffalo,NY,14203,24.0,0,105,82,none,1
+P0001280,First1280,Last1280,1956-01-01,70,M,white,married,Albany,NY,12212,23.2,0,129,87,none,1
+P0001281,First1281,Last1281,2008-01-01,18,F,black,widowed,Albany,NY,12217,23.4,1,125,61,none,0
+P0001282,First1282,Last1282,2008-01-01,18,M,other,married,Cambridge,MA,02138,35.3,1,127,94,none,0
+P0001283,First1283,Last1283,1963-01-01,63,F,white,married,Cambridge,MA,02150,26.2,0,134,108,none,1
+P0001284,First1284,Last1284,1976-01-01,50,F,white,married,San Diego,CA,92115,26.9,0,136,60,none,0
+P0001285,First1285,Last1285,1972-01-01,54,M,asian,married,San Diego,CA,92110,31.5,0,128,69,none,1
+P0001286,First1286,Last1286,2001-01-01,25,F,black,divorced,Worcester,MA,01622,18.8,0,111,89,none,0
+P0001287,First1287,Last1287,1977-01-01,49,F,white,married,Buffalo,NY,14207,27.8,0,143,109,hypertension,1
+P0001288,First1288,Last1288,1941-01-01,85,F,white,single,San Diego,CA,92107,21.8,0,142,63,hypertension,0
+P0001289,First1289,Last1289,1962-01-01,64,F,white,married,Los Angeles,CA,90013,26.0,0,125,101,none,0
+P0001290,First1290,Last1290,1974-01-01,52,F,asian,divorced,Oakland,CA,94607,24.5,0,131,109,none,0
+P0001291,First1291,Last1291,1985-01-01,41,M,black,single,Albany,NY,12210,24.2,1,134,70,none,0
+P0001292,First1292,Last1292,1984-01-01,42,M,black,married,Buffalo,NY,14208,28.7,0,122,108,none,0
+P0001293,First1293,Last1293,2008-01-01,18,F,asian,married,Buffalo,NY,14208,28.7,0,117,77,none,0
+P0001294,First1294,Last1294,1972-01-01,54,M,white,divorced,Worcester,MA,01611,26.4,1,132,92,none,1
+P0001295,First1295,Last1295,1962-01-01,64,F,white,single,Cambridge,MA,02147,29.4,1,143,82,hypertension,1
+P0001296,First1296,Last1296,2005-01-01,21,M,white,married,Boston,MA,02110,23.0,0,110,90,none,0
+P0001297,First1297,Last1297,1989-01-01,37,F,asian,divorced,Los Angeles,CA,90016,31.0,1,129,98,none,0
+P0001298,First1298,Last1298,1998-01-01,28,F,black,married,Boston,MA,02110,26.4,0,129,105,none,0
+P0001299,First1299,Last1299,1994-01-01,32,F,white,married,Los Angeles,CA,90022,25.0,0,117,101,none,1
+P0001300,First1300,Last1300,1976-01-01,50,M,white,single,Rochester,NY,14611,23.4,0,120,84,none,1
+P0001301,First1301,Last1301,2008-01-01,18,M,black,married,Albany,NY,12218,26.2,0,111,121,none,0
+P0001302,First1302,Last1302,1966-01-01,60,M,black,married,Los Angeles,CA,90012,37.2,0,147,115,hypertension,1
+P0001303,First1303,Last1303,1963-01-01,63,M,black,married,Oakland,CA,94613,27.2,0,142,98,hypertension,0
+P0001304,First1304,Last1304,1982-01-01,44,F,white,married,Boston,MA,02122,21.5,1,134,68,none,0
+P0001305,First1305,Last1305,2008-01-01,18,F,other,married,Los Angeles,CA,90012,32.3,0,91,60,none,0
+P0001306,First1306,Last1306,1995-01-01,31,F,black,married,Buffalo,NY,14207,25.0,0,85,60,none,0
+P0001307,First1307,Last1307,1955-01-01,71,F,black,widowed,Worcester,MA,01608,29.0,0,153,81,hypertension,1
+P0001308,First1308,Last1308,2008-01-01,18,F,black,single,Oakland,CA,94609,24.4,0,109,96,none,0
+P0001309,First1309,Last1309,1983-01-01,43,F,other,married,Los Angeles,CA,90018,34.2,1,131,96,asthma,0
+P0001310,First1310,Last1310,1998-01-01,28,F,other,married,Worcester,MA,01610,24.4,0,118,71,none,0
+P0001311,First1311,Last1311,1963-01-01,63,M,black,single,Houston,TX,77009,34.8,0,158,93,hypertension,1
+P0001312,First1312,Last1312,1989-01-01,37,F,white,married,Oakland,CA,94620,22.0,0,130,76,none,0
+P0001313,First1313,Last1313,1970-01-01,56,M,white,married,Los Angeles,CA,90015,26.0,0,139,99,none,0
+P0001314,First1314,Last1314,1967-01-01,59,M,asian,single,Worcester,MA,01609,34.8,0,125,82,none,0
+P0001315,First1315,Last1315,1944-01-01,82,F,black,married,Worcester,MA,01620,28.4,0,137,101,none,0
+P0001316,First1316,Last1316,1981-01-01,45,F,white,single,Rochester,NY,14610,39.3,1,108,98,none,0
+P0001317,First1317,Last1317,1970-01-01,56,M,white,divorced,Oakland,CA,94620,26.1,0,136,76,none,1
+P0001318,First1318,Last1318,2004-01-01,22,M,other,divorced,Albany,NY,12211,28.8,0,121,103,none,0
+P0001319,First1319,Last1319,1956-01-01,70,F,asian,married,Oakland,CA,94616,37.4,0,155,95,hypertension,0
+P0001320,First1320,Last1320,1991-01-01,35,F,other,married,Worcester,MA,01621,19.6,0,120,64,asthma,0
+P0001321,First1321,Last1321,1987-01-01,39,M,white,married,Oakland,CA,94609,19.0,0,113,91,none,0
+P0001322,First1322,Last1322,1977-01-01,49,M,asian,single,Los Angeles,CA,90024,23.4,0,117,85,asthma,0
+P0001323,First1323,Last1323,2005-01-01,21,F,asian,divorced,Oakland,CA,94616,31.7,0,100,88,none,0
+P0001324,First1324,Last1324,1973-01-01,53,F,white,divorced,Oakland,CA,94619,19.1,0,122,66,asthma,0
+P0001325,First1325,Last1325,1960-01-01,66,M,white,married,Austin,TX,78703,30.6,1,133,105,none,1
+P0001326,First1326,Last1326,1972-01-01,54,F,other,divorced,Worcester,MA,01614,30.2,0,148,120,hypertension,1
+P0001327,First1327,Last1327,2006-01-01,20,M,white,single,San Diego,CA,92102,38.0,0,97,68,none,1
+P0001328,First1328,Last1328,1979-01-01,47,F,black,divorced,Austin,TX,78715,32.9,0,124,95,none,1
+P0001329,First1329,Last1329,1964-01-01,62,F,black,single,Rochester,NY,14604,29.4,0,112,81,none,0
+P0001330,First1330,Last1330,2008-01-01,18,F,black,married,Worcester,MA,01608,34.6,0,112,121,none,1
+P0001331,First1331,Last1331,1996-01-01,30,F,white,married,Austin,TX,78714,30.3,1,121,101,none,1
+P0001332,First1332,Last1332,1961-01-01,65,M,black,widowed,Boston,MA,02112,25.1,0,130,94,none,1
+P0001333,First1333,Last1333,1972-01-01,54,F,white,married,Boston,MA,02116,21.5,0,115,67,none,0
+P0001334,First1334,Last1334,1970-01-01,56,M,asian,married,Boston,MA,02112,24.5,0,128,73,none,1
+P0001335,First1335,Last1335,1944-01-01,82,F,white,married,Albany,NY,12216,27.3,0,139,106,none,0
+P0001336,First1336,Last1336,1969-01-01,57,M,black,married,Buffalo,NY,14203,28.4,0,129,70,none,1
+P0001337,First1337,Last1337,1965-01-01,61,M,asian,widowed,Buffalo,NY,14207,16.4,1,156,64,hypertension,0
+P0001338,First1338,Last1338,1936-01-01,90,M,white,married,Dallas,TX,75209,26.4,0,152,97,hypertension,1
+P0001339,First1339,Last1339,1981-01-01,45,F,white,married,Albany,NY,12212,27.6,0,128,88,none,0
+P0001340,First1340,Last1340,1991-01-01,35,M,asian,single,Rochester,NY,14607,30.3,1,119,90,none,0
+P0001341,First1341,Last1341,1969-01-01,57,M,white,single,Austin,TX,78703,36.0,0,125,88,none,1
+P0001342,First1342,Last1342,1969-01-01,57,M,white,married,San Diego,CA,92111,28.5,0,130,102,none,0
+P0001343,First1343,Last1343,1986-01-01,40,F,white,married,Worcester,MA,01610,22.8,1,152,69,hypertension,0
+P0001344,First1344,Last1344,1996-01-01,30,F,other,married,Cambridge,MA,02142,18.0,0,106,84,asthma,0
+P0001345,First1345,Last1345,1936-01-01,90,F,black,married,San Diego,CA,92106,31.1,0,156,103,hypertension,1
+P0001346,First1346,Last1346,1971-01-01,55,M,white,married,Oakland,CA,94613,23.0,0,117,94,none,0
+P0001347,First1347,Last1347,1990-01-01,36,M,other,married,Rochester,NY,14614,32.0,1,96,103,none,1
+P0001348,First1348,Last1348,1961-01-01,65,F,white,single,Worcester,MA,01614,34.8,0,129,89,none,1
+P0001349,First1349,Last1349,1979-01-01,47,M,white,divorced,San Diego,CA,92114,19.5,0,146,72,hypertension,0
+P0001350,First1350,Last1350,1982-01-01,44,M,white,divorced,Oakland,CA,94617,30.4,0,130,64,none,0
+P0001351,First1351,Last1351,1967-01-01,59,F,white,married,Rochester,NY,14616,34.2,1,159,66,hypertension,1
+P0001352,First1352,Last1352,2000-01-01,26,F,white,married,Austin,TX,78711,32.8,0,109,82,none,0
+P0001353,First1353,Last1353,1971-01-01,55,M,black,widowed,Oakland,CA,94609,16.6,0,98,80,none,1
+P0001354,First1354,Last1354,1943-01-01,83,M,white,single,Oakland,CA,94621,23.1,1,139,78,none,1
+P0001355,First1355,Last1355,1969-01-01,57,F,black,single,San Diego,CA,92112,20.8,0,131,72,none,0
+P0001356,First1356,Last1356,1984-01-01,42,M,white,married,San Diego,CA,92109,30.2,0,124,108,none,0
+P0001357,First1357,Last1357,1986-01-01,40,M,white,married,Rochester,NY,14606,29.6,0,120,98,none,0
+P0001358,First1358,Last1358,1984-01-01,42,M,white,single,Albany,NY,12209,16.0,0,110,60,none,0
+P0001359,First1359,Last1359,1982-01-01,44,M,white,single,San Diego,CA,92110,25.9,0,131,78,none,1
+P0001360,First1360,Last1360,1984-01-01,42,M,black,married,San Diego,CA,92107,31.7,0,117,93,none,0
+P0001361,First1361,Last1361,1961-01-01,65,F,white,widowed,Buffalo,NY,14211,28.3,0,139,83,none,1
+P0001362,First1362,Last1362,2008-01-01,18,F,white,single,Cambridge,MA,02143,28.3,0,108,68,none,0
+P0001363,First1363,Last1363,1961-01-01,65,F,white,single,Los Angeles,CA,90019,25.6,0,130,85,none,0
+P0001364,First1364,Last1364,1984-01-01,42,F,asian,married,Los Angeles,CA,90014,22.0,0,108,97,none,0
+P0001365,First1365,Last1365,1970-01-01,56,M,white,single,Boston,MA,02110,27.4,1,131,105,asthma,0
+P0001366,First1366,Last1366,1997-01-01,29,F,asian,single,Albany,NY,12208,27.8,0,133,71,none,0
+P0001367,First1367,Last1367,1953-01-01,73,F,white,married,Boston,MA,02120,30.7,0,153,102,hypertension,1
+P0001368,First1368,Last1368,1955-01-01,71,F,white,single,Austin,TX,78709,31.1,0,151,95,hypertension,0
+P0001369,First1369,Last1369,1960-01-01,66,F,black,single,Austin,TX,78715,27.9,0,127,78,none,1
+P0001370,First1370,Last1370,2004-01-01,22,F,white,divorced,Albany,NY,12218,33.2,0,95,79,none,0
+P0001371,First1371,Last1371,1962-01-01,64,M,white,married,Buffalo,NY,14212,25.6,0,145,72,hypertension,0
+P0001372,First1372,Last1372,1970-01-01,56,M,other,divorced,Oakland,CA,94614,20.0,1,143,100,hypertension,0
+P0001373,First1373,Last1373,2006-01-01,20,F,white,married,Rochester,NY,14616,30.0,0,110,102,asthma,0
+P0001374,First1374,Last1374,1977-01-01,49,M,white,married,Dallas,TX,75215,28.2,0,121,82,none,0
+P0001375,First1375,Last1375,1970-01-01,56,M,white,married,Worcester,MA,01618,30.1,0,114,81,asthma,1
+P0001376,First1376,Last1376,1967-01-01,59,F,white,married,Worcester,MA,01609,20.9,0,138,100,none,1
+P0001377,First1377,Last1377,1974-01-01,52,M,asian,married,Buffalo,NY,14210,36.8,0,144,111,hypertension,0
+P0001378,First1378,Last1378,1972-01-01,54,F,white,married,Worcester,MA,01609,31.2,0,122,75,none,0
+P0001379,First1379,Last1379,1950-01-01,76,F,other,single,San Diego,CA,92102,26.0,0,133,91,none,0
+P0001380,First1380,Last1380,1955-01-01,71,M,black,married,Oakland,CA,94617,22.6,0,150,89,hypertension,1
+P0001381,First1381,Last1381,2008-01-01,18,F,other,widowed,Boston,MA,02120,33.1,0,101,71,asthma,0
+P0001382,First1382,Last1382,1983-01-01,43,M,asian,married,Rochester,NY,14606,21.8,0,138,87,none,0
+P0001383,First1383,Last1383,1980-01-01,46,M,other,single,Los Angeles,CA,90013,39.3,0,127,84,none,0
+P0001384,First1384,Last1384,2008-01-01,18,M,black,divorced,San Diego,CA,92114,24.3,1,107,69,none,0
+P0001385,First1385,Last1385,1975-01-01,51,M,white,divorced,Buffalo,NY,14202,36.4,0,131,92,none,1
+P0001386,First1386,Last1386,1955-01-01,71,M,white,single,Boston,MA,02108,26.5,0,134,71,none,1
+P0001387,First1387,Last1387,1997-01-01,29,M,black,single,Buffalo,NY,14211,35.7,0,129,60,asthma,0
+P0001388,First1388,Last1388,1971-01-01,55,F,white,married,Albany,NY,12219,23.7,1,144,99,hypertension,0
+P0001389,First1389,Last1389,1993-01-01,33,F,black,married,Los Angeles,CA,90019,27.6,0,127,72,none,1
+P0001390,First1390,Last1390,1989-01-01,37,M,white,married,Rochester,NY,14612,31.7,0,121,116,none,0
+P0001391,First1391,Last1391,1950-01-01,76,F,asian,married,Cambridge,MA,02143,30.9,1,145,124,hypertension,1
+P0001392,First1392,Last1392,1987-01-01,39,F,white,married,Oakland,CA,94610,33.2,0,121,81,none,0
+P0001393,First1393,Last1393,1969-01-01,57,F,other,married,Albany,NY,12218,25.0,0,124,120,none,0
+P0001394,First1394,Last1394,2008-01-01,18,M,white,divorced,Worcester,MA,01620,27.9,0,122,92,none,0
+P0001395,First1395,Last1395,1943-01-01,83,F,white,divorced,Albany,NY,12211,34.0,0,160,91,hypertension,1
+P0001396,First1396,Last1396,1966-01-01,60,F,asian,divorced,Austin,TX,78705,23.8,0,129,60,none,0
+P0001397,First1397,Last1397,1980-01-01,46,F,asian,single,Oakland,CA,94611,30.5,0,114,98,none,0
+P0001398,First1398,Last1398,1967-01-01,59,F,black,married,Worcester,MA,01608,26.4,0,148,89,hypertension,0
+P0001399,First1399,Last1399,2002-01-01,24,M,other,married,Oakland,CA,94611,28.6,0,111,87,asthma,0
+P0001400,First1400,Last1400,1956-01-01,70,F,white,single,Cambridge,MA,02138,27.9,1,144,90,hypertension,1
+P0001401,First1401,Last1401,1983-01-01,43,M,asian,single,Buffalo,NY,14212,23.4,0,136,67,none,0
+P0001402,First1402,Last1402,1981-01-01,45,M,white,married,Rochester,NY,14607,26.1,1,123,79,none,0
+P0001403,First1403,Last1403,1986-01-01,40,F,white,married,Cambridge,MA,02148,28.3,0,116,95,none,0
+P0001404,First1404,Last1404,1987-01-01,39,M,white,married,Cambridge,MA,02146,27.0,0,116,79,none,0
+P0001405,First1405,Last1405,1964-01-01,62,M,white,married,Dallas,TX,75213,35.7,1,129,91,none,1
+P0001406,First1406,Last1406,1972-01-01,54,M,black,married,Cambridge,MA,02152,32.8,0,134,70,none,1
+P0001407,First1407,Last1407,1965-01-01,61,F,black,married,San Diego,CA,92106,29.0,0,125,92,none,0
+P0001408,First1408,Last1408,1977-01-01,49,F,white,single,Los Angeles,CA,90013,23.5,0,117,69,none,0
+P0001409,First1409,Last1409,1968-01-01,58,M,other,widowed,Buffalo,NY,14212,23.2,0,121,99,none,1
+P0001410,First1410,Last1410,1985-01-01,41,M,white,single,Cambridge,MA,02138,37.8,0,118,81,none,0
+P0001411,First1411,Last1411,1937-01-01,89,M,white,single,Worcester,MA,01611,22.2,1,145,90,hypertension,1
+P0001412,First1412,Last1412,2005-01-01,21,M,black,divorced,Cambridge,MA,02138,28.1,0,110,110,none,0
+P0001413,First1413,Last1413,1954-01-01,72,F,white,married,Albany,NY,12220,29.4,0,138,90,none,1
+P0001414,First1414,Last1414,1952-01-01,74,M,white,single,Houston,TX,77002,25.9,0,140,86,hypertension,0
+P0001415,First1415,Last1415,1992-01-01,34,F,black,married,Austin,TX,78708,22.3,0,139,88,none,0
+P0001416,First1416,Last1416,1937-01-01,89,M,white,single,Worcester,MA,01614,23.4,0,146,70,hypertension,1
+P0001417,First1417,Last1417,1959-01-01,67,F,white,married,Worcester,MA,01617,24.7,0,141,107,hypertension,1
+P0001418,First1418,Last1418,1960-01-01,66,F,black,divorced,Cambridge,MA,02142,23.8,0,142,103,hypertension,0
+P0001419,First1419,Last1419,1976-01-01,50,M,white,widowed,Houston,TX,77015,34.4,0,128,99,none,0
+P0001420,First1420,Last1420,1981-01-01,45,M,asian,married,Boston,MA,02119,27.5,0,125,60,none,0
+P0001421,First1421,Last1421,1981-01-01,45,M,asian,married,Worcester,MA,01614,24.8,0,121,80,none,0
+P0001422,First1422,Last1422,1970-01-01,56,F,white,married,San Diego,CA,92106,28.1,0,132,71,none,0
+P0001423,First1423,Last1423,1952-01-01,74,F,white,single,Albany,NY,12219,31.0,0,135,112,none,1
+P0001424,First1424,Last1424,1974-01-01,52,M,white,single,Boston,MA,02119,25.7,0,120,101,none,0
+P0001425,First1425,Last1425,1993-01-01,33,F,black,married,Los Angeles,CA,90017,32.2,0,117,91,none,0
+P0001426,First1426,Last1426,1962-01-01,64,F,white,divorced,Worcester,MA,01613,20.9,0,109,70,none,0
+P0001427,First1427,Last1427,1960-01-01,66,M,other,married,Worcester,MA,01608,33.6,0,155,116,hypertension,0
+P0001428,First1428,Last1428,1965-01-01,61,F,white,married,Boston,MA,02109,27.5,0,156,86,hypertension,1
+P0001429,First1429,Last1429,1964-01-01,62,M,black,married,Albany,NY,12207,27.3,1,142,115,hypertension,1
+P0001430,First1430,Last1430,1982-01-01,44,F,white,single,Dallas,TX,75201,23.9,1,134,87,none,1
+P0001431,First1431,Last1431,1994-01-01,32,M,white,married,Rochester,NY,14606,21.1,0,123,85,none,1
+P0001432,First1432,Last1432,1993-01-01,33,M,white,married,San Diego,CA,92113,18.8,1,103,70,none,0
+P0001433,First1433,Last1433,2006-01-01,20,M,black,married,Worcester,MA,01619,23.5,0,115,96,asthma,0
+P0001434,First1434,Last1434,1973-01-01,53,M,other,divorced,San Diego,CA,92113,30.6,0,124,98,asthma,1
+P0001435,First1435,Last1435,1979-01-01,47,F,white,single,Dallas,TX,75210,22.5,0,147,103,hypertension,0
+P0001436,First1436,Last1436,1985-01-01,41,M,white,divorced,Buffalo,NY,14210,19.4,0,114,82,none,0
+P0001437,First1437,Last1437,2008-01-01,18,M,white,single,Dallas,TX,75202,22.8,0,114,75,none,0
+P0001438,First1438,Last1438,1999-01-01,27,M,white,single,San Diego,CA,92111,25.5,1,115,88,none,0
+P0001439,First1439,Last1439,1957-01-01,69,M,asian,married,San Diego,CA,92105,25.7,0,161,111,hypertension,0
+P0001440,First1440,Last1440,1989-01-01,37,M,other,single,Worcester,MA,01615,26.8,0,111,97,none,0
+P0001441,First1441,Last1441,1971-01-01,55,M,asian,married,Los Angeles,CA,90026,32.9,0,144,94,hypertension,1
+P0001442,First1442,Last1442,2002-01-01,24,M,white,married,Rochester,NY,14617,34.0,0,119,60,none,0
+P0001443,First1443,Last1443,1951-01-01,75,F,white,married,Dallas,TX,75204,37.9,0,150,112,hypertension,1
+P0001444,First1444,Last1444,1980-01-01,46,F,black,married,Austin,TX,78712,19.1,0,122,60,none,0
+P0001445,First1445,Last1445,1972-01-01,54,M,white,widowed,Rochester,NY,14605,23.0,0,119,86,none,1
+P0001446,First1446,Last1446,1936-01-01,90,F,black,widowed,Houston,TX,77002,31.1,0,123,99,none,1
+P0001447,First1447,Last1447,1950-01-01,76,M,white,single,Houston,TX,77002,25.1,0,152,73,hypertension,0
+P0001448,First1448,Last1448,1983-01-01,43,M,white,married,Rochester,NY,14606,32.0,0,118,93,none,0
+P0001449,First1449,Last1449,1988-01-01,38,F,asian,divorced,Cambridge,MA,02148,28.6,0,131,115,none,0
+P0001450,First1450,Last1450,1983-01-01,43,M,white,single,Worcester,MA,01613,35.7,0,129,86,asthma,0
+P0001451,First1451,Last1451,1968-01-01,58,M,other,married,Worcester,MA,01608,32.9,0,146,103,hypertension,1
+P0001452,First1452,Last1452,1979-01-01,47,M,white,single,Cambridge,MA,02152,33.0,0,135,123,none,0
+P0001453,First1453,Last1453,1984-01-01,42,F,white,single,Austin,TX,78709,25.4,0,92,96,none,0
+P0001454,First1454,Last1454,1951-01-01,75,M,white,married,Cambridge,MA,02143,27.0,0,148,84,hypertension,1
+P0001455,First1455,Last1455,1979-01-01,47,F,white,single,San Diego,CA,92108,25.9,1,126,89,none,0
+P0001456,First1456,Last1456,1936-01-01,90,M,white,single,San Diego,CA,92108,19.7,0,160,100,hypertension,0
+P0001457,First1457,Last1457,1975-01-01,51,F,white,married,San Diego,CA,92108,35.2,0,136,112,asthma,1
+P0001458,First1458,Last1458,1945-01-01,81,M,black,married,Worcester,MA,01617,31.4,1,160,115,hypertension,1
+P0001459,First1459,Last1459,1971-01-01,55,M,asian,single,Rochester,NY,14617,25.7,0,125,60,none,0
+P0001460,First1460,Last1460,1960-01-01,66,M,white,single,Los Angeles,CA,90016,34.3,1,135,84,none,0
+P0001461,First1461,Last1461,1990-01-01,36,F,white,widowed,Albany,NY,12214,24.2,0,111,80,none,0
+P0001462,First1462,Last1462,1992-01-01,34,M,white,divorced,Cambridge,MA,02138,17.9,1,98,62,asthma,0
+P0001463,First1463,Last1463,1969-01-01,57,M,asian,single,San Diego,CA,92113,32.7,0,126,60,none,0
+P0001464,First1464,Last1464,1959-01-01,67,F,black,single,Cambridge,MA,02142,20.9,1,124,77,none,1
+P0001465,First1465,Last1465,1976-01-01,50,M,white,single,Rochester,NY,14608,26.5,0,109,86,none,0
+P0001466,First1466,Last1466,2000-01-01,26,M,white,single,Albany,NY,12221,28.6,0,112,74,none,0
+P0001467,First1467,Last1467,2001-01-01,25,M,white,married,Worcester,MA,01616,29.5,0,117,68,none,0
+P0001468,First1468,Last1468,2003-01-01,23,M,white,single,Los Angeles,CA,90013,31.9,0,110,83,none,1
+P0001469,First1469,Last1469,2008-01-01,18,M,white,single,Worcester,MA,01611,30.5,0,101,85,none,0
+P0001470,First1470,Last1470,1975-01-01,51,M,other,single,Houston,TX,77007,30.4,1,124,83,none,0
+P0001471,First1471,Last1471,1957-01-01,69,M,white,divorced,Dallas,TX,75215,23.4,0,132,109,asthma,1
+P0001472,First1472,Last1472,1977-01-01,49,F,white,single,Buffalo,NY,14207,29.0,0,116,89,none,0
+P0001473,First1473,Last1473,2008-01-01,18,M,white,married,Cambridge,MA,02141,19.7,0,101,61,none,0
+P0001474,First1474,Last1474,1980-01-01,46,M,black,married,Cambridge,MA,02146,35.6,0,110,76,none,1
+P0001475,First1475,Last1475,1980-01-01,46,M,white,married,Austin,TX,78707,20.2,1,134,78,none,0
+P0001476,First1476,Last1476,1939-01-01,87,M,white,married,Oakland,CA,94607,25.7,0,141,111,hypertension,1
+P0001477,First1477,Last1477,2003-01-01,23,F,white,married,Worcester,MA,01620,20.6,0,110,64,none,0
+P0001478,First1478,Last1478,1984-01-01,42,F,black,married,Buffalo,NY,14201,23.7,0,129,91,none,0
+P0001479,First1479,Last1479,1946-01-01,80,F,white,married,Cambridge,MA,02151,27.6,0,148,97,hypertension,1
+P0001480,First1480,Last1480,1969-01-01,57,F,other,married,Albany,NY,12218,24.8,0,137,115,none,0
+P0001481,First1481,Last1481,1967-01-01,59,F,white,single,Rochester,NY,14605,33.5,0,111,99,none,0
+P0001482,First1482,Last1482,1975-01-01,51,F,white,single,Boston,MA,02118,28.7,0,121,78,none,1
+P0001483,First1483,Last1483,1971-01-01,55,M,other,married,San Diego,CA,92112,25.1,0,140,97,hypertension,1
+P0001484,First1484,Last1484,1963-01-01,63,F,asian,married,Cambridge,MA,02147,26.8,0,139,101,none,1
+P0001485,First1485,Last1485,1992-01-01,34,F,white,married,Buffalo,NY,14209,33.8,0,139,81,none,0
+P0001486,First1486,Last1486,1961-01-01,65,F,asian,married,San Diego,CA,92101,32.2,0,156,78,hypertension,1
+P0001487,First1487,Last1487,2002-01-01,24,F,white,married,Austin,TX,78701,21.6,0,110,84,none,0
+P0001488,First1488,Last1488,1971-01-01,55,F,white,married,Rochester,NY,14614,24.0,0,124,87,asthma,1
+P0001489,First1489,Last1489,1974-01-01,52,M,asian,married,Austin,TX,78702,30.0,0,117,68,none,0
+P0001490,First1490,Last1490,1988-01-01,38,M,black,widowed,Albany,NY,12210,29.3,0,114,89,none,1
+P0001491,First1491,Last1491,1977-01-01,49,F,white,single,Dallas,TX,75208,22.0,0,118,74,none,0
+P0001492,First1492,Last1492,1988-01-01,38,M,black,divorced,Cambridge,MA,02140,31.4,0,113,65,none,1
+P0001493,First1493,Last1493,1996-01-01,30,F,white,married,Oakland,CA,94618,22.9,0,101,74,none,0
+P0001494,First1494,Last1494,1983-01-01,43,F,white,married,Cambridge,MA,02150,34.3,0,129,108,none,1
+P0001495,First1495,Last1495,1997-01-01,29,M,other,widowed,Houston,TX,77014,30.3,0,132,100,none,1
+P0001496,First1496,Last1496,1971-01-01,55,M,white,married,Dallas,TX,75201,21.6,0,136,98,none,0
+P0001497,First1497,Last1497,1998-01-01,28,M,black,single,Buffalo,NY,14207,24.7,0,107,83,none,0
+P0001498,First1498,Last1498,1964-01-01,62,F,black,widowed,Rochester,NY,14616,24.7,0,143,97,hypertension,0
+P0001499,First1499,Last1499,1998-01-01,28,F,white,single,Buffalo,NY,14206,28.3,0,116,83,none,0
+P0001500,First1500,Last1500,1987-01-01,39,F,white,married,Worcester,MA,01618,26.4,0,118,68,none,1
+P0001501,First1501,Last1501,1988-01-01,38,F,other,single,San Diego,CA,92109,21.5,0,114,67,none,0
+P0001502,First1502,Last1502,1953-01-01,73,M,black,married,Oakland,CA,94612,20.2,0,134,80,none,0
+P0001503,First1503,Last1503,1971-01-01,55,F,black,married,Buffalo,NY,14205,30.4,0,137,110,none,0
+P0001504,First1504,Last1504,1981-01-01,45,M,white,married,Boston,MA,02117,29.0,0,125,102,none,0
+P0001505,First1505,Last1505,1968-01-01,58,M,white,divorced,Dallas,TX,75203,28.0,0,123,74,none,0
+P0001506,First1506,Last1506,2008-01-01,18,M,white,single,Boston,MA,02120,28.9,0,98,80,none,0
+P0001507,First1507,Last1507,1978-01-01,48,F,white,married,Oakland,CA,94615,24.3,0,126,79,none,0
+P0001508,First1508,Last1508,1941-01-01,85,F,white,married,Worcester,MA,01609,28.5,0,152,95,hypertension,1
+P0001509,First1509,Last1509,1975-01-01,51,F,black,single,Worcester,MA,01618,40.7,0,129,88,none,1
+P0001510,First1510,Last1510,1976-01-01,50,M,asian,divorced,Cambridge,MA,02144,33.6,0,116,111,none,0
+P0001511,First1511,Last1511,1967-01-01,59,F,white,married,Rochester,NY,14607,26.0,0,144,88,hypertension,0
+P0001512,First1512,Last1512,1961-01-01,65,M,white,married,Los Angeles,CA,90026,24.8,0,145,92,hypertension,1
+P0001513,First1513,Last1513,2008-01-01,18,M,black,divorced,Albany,NY,12217,16.0,0,85,74,none,0
+P0001514,First1514,Last1514,2007-01-01,19,F,white,divorced,San Diego,CA,92109,33.1,0,124,68,none,0
+P0001515,First1515,Last1515,1973-01-01,53,M,other,divorced,Los Angeles,CA,90024,31.6,1,134,92,none,1
+P0001516,First1516,Last1516,1990-01-01,36,F,white,married,Worcester,MA,01616,24.7,0,118,96,none,0
+P0001517,First1517,Last1517,1953-01-01,73,M,white,married,Boston,MA,02114,20.1,0,149,109,hypertension,0
+P0001518,First1518,Last1518,1983-01-01,43,F,white,married,Oakland,CA,94609,21.5,0,137,65,none,0
+P0001519,First1519,Last1519,2008-01-01,18,M,other,married,Oakland,CA,94609,29.8,1,125,60,none,0
+P0001520,First1520,Last1520,2000-01-01,26,M,white,divorced,Rochester,NY,14610,27.0,0,113,81,none,0
+P0001521,First1521,Last1521,2008-01-01,18,M,black,married,Worcester,MA,01614,31.1,0,92,96,none,0
+P0001522,First1522,Last1522,1981-01-01,45,F,white,single,San Diego,CA,92111,27.9,0,100,91,asthma,0
+P0001523,First1523,Last1523,1980-01-01,46,M,white,divorced,Boston,MA,02114,32.5,0,135,99,none,0
+P0001524,First1524,Last1524,1985-01-01,41,F,asian,widowed,San Diego,CA,92109,29.4,0,136,67,none,0
+P0001525,First1525,Last1525,1958-01-01,68,M,white,single,Boston,MA,02120,31.8,0,130,87,none,1
+P0001526,First1526,Last1526,1955-01-01,71,F,white,widowed,Los Angeles,CA,90026,16.6,0,131,60,none,0
+P0001527,First1527,Last1527,1980-01-01,46,F,white,married,Rochester,NY,14608,21.1,0,114,80,none,1
+P0001528,First1528,Last1528,2008-01-01,18,F,asian,married,Los Angeles,CA,90025,25.6,0,98,60,none,0
+P0001529,First1529,Last1529,1966-01-01,60,F,white,married,Cambridge,MA,02150,33.1,0,146,112,hypertension,1
+P0001530,First1530,Last1530,1967-01-01,59,F,white,widowed,Rochester,NY,14605,37.3,0,138,118,none,0
+P0001531,First1531,Last1531,1971-01-01,55,M,other,divorced,Worcester,MA,01613,26.6,0,126,90,none,0
+P0001532,First1532,Last1532,1959-01-01,67,F,black,married,San Diego,CA,92104,24.3,1,171,68,hypertension,1
+P0001533,First1533,Last1533,1998-01-01,28,M,asian,married,Boston,MA,02117,17.3,0,91,80,none,0
+P0001534,First1534,Last1534,1941-01-01,85,F,black,married,Cambridge,MA,02146,32.0,1,162,125,hypertension,0
+P0001535,First1535,Last1535,1994-01-01,32,M,black,married,Los Angeles,CA,90019,24.6,0,101,87,none,0
+P0001536,First1536,Last1536,1964-01-01,62,M,white,divorced,Worcester,MA,01619,42.9,0,138,117,asthma,1
+P0001537,First1537,Last1537,2007-01-01,19,F,white,married,Worcester,MA,01612,23.7,0,106,69,none,0
+P0001538,First1538,Last1538,1994-01-01,32,M,black,single,San Diego,CA,92106,38.4,0,129,77,none,1
+P0001539,First1539,Last1539,1950-01-01,76,M,black,single,San Diego,CA,92113,31.4,0,140,96,hypertension,0
+P0001540,First1540,Last1540,1982-01-01,44,M,other,married,Austin,TX,78715,22.2,0,115,60,none,0
+P0001541,First1541,Last1541,1962-01-01,64,F,black,married,Cambridge,MA,02149,28.7,0,132,123,none,0
+P0001542,First1542,Last1542,1973-01-01,53,F,white,widowed,Buffalo,NY,14204,31.5,0,117,92,none,1
+P0001543,First1543,Last1543,1979-01-01,47,M,white,single,San Diego,CA,92102,26.3,1,137,98,none,1
+P0001544,First1544,Last1544,1952-01-01,74,F,black,married,Worcester,MA,01611,31.9,0,145,90,hypertension,1
+P0001545,First1545,Last1545,1981-01-01,45,M,white,married,San Diego,CA,92107,31.7,0,129,67,asthma,0
+P0001546,First1546,Last1546,2008-01-01,18,F,asian,divorced,Boston,MA,02111,30.6,0,106,100,none,1
+P0001547,First1547,Last1547,1991-01-01,35,M,black,divorced,Austin,TX,78714,27.4,0,114,67,none,0
+P0001548,First1548,Last1548,1967-01-01,59,F,white,divorced,San Diego,CA,92111,21.4,0,141,90,hypertension,1
+P0001549,First1549,Last1549,1970-01-01,56,F,black,single,Buffalo,NY,14207,27.1,0,140,95,hypertension,0
+P0001550,First1550,Last1550,2005-01-01,21,M,black,divorced,Rochester,NY,14608,28.4,0,123,81,none,0
+P0001551,First1551,Last1551,1990-01-01,36,M,other,married,Worcester,MA,01613,17.7,1,123,66,none,0
+P0001552,First1552,Last1552,1987-01-01,39,M,white,single,Cambridge,MA,02145,28.4,0,134,83,none,1
+P0001553,First1553,Last1553,1984-01-01,42,M,black,married,San Diego,CA,92111,27.0,0,116,71,none,0
+P0001554,First1554,Last1554,2002-01-01,24,F,white,single,Rochester,NY,14605,20.8,0,104,87,asthma,0
+P0001555,First1555,Last1555,1988-01-01,38,F,white,widowed,Albany,NY,12219,25.8,0,130,91,none,0
+P0001556,First1556,Last1556,1990-01-01,36,F,white,widowed,Worcester,MA,01609,25.9,0,125,82,none,0
+P0001557,First1557,Last1557,1963-01-01,63,F,asian,single,San Diego,CA,92104,37.5,0,135,89,none,0
+P0001558,First1558,Last1558,1962-01-01,64,F,other,single,Rochester,NY,14618,28.6,0,123,121,none,1
+P0001559,First1559,Last1559,1980-01-01,46,M,white,divorced,Cambridge,MA,02140,32.9,1,130,71,none,0
+P0001560,First1560,Last1560,1984-01-01,42,F,white,widowed,Houston,TX,77003,26.9,0,113,63,none,0
+P0001561,First1561,Last1561,1974-01-01,52,F,white,single,Buffalo,NY,14210,17.8,1,148,80,hypertension,1
+P0001562,First1562,Last1562,1992-01-01,34,F,black,married,Albany,NY,12212,31.0,0,125,81,none,1
+P0001563,First1563,Last1563,1998-01-01,28,F,white,married,Houston,TX,77003,24.1,0,102,94,none,0
+P0001564,First1564,Last1564,1994-01-01,32,F,black,divorced,Buffalo,NY,14201,25.8,0,102,90,asthma,0
+P0001565,First1565,Last1565,1988-01-01,38,M,white,single,Dallas,TX,75202,22.0,0,107,81,none,0
+P0001566,First1566,Last1566,1998-01-01,28,F,black,single,Los Angeles,CA,90019,27.9,1,113,88,none,1
+P0001567,First1567,Last1567,1974-01-01,52,M,white,single,Los Angeles,CA,90015,33.0,0,127,98,none,0
+P0001568,First1568,Last1568,1964-01-01,62,M,black,married,Worcester,MA,01619,32.4,0,147,123,hypertension,0
+P0001569,First1569,Last1569,2006-01-01,20,M,black,married,Boston,MA,02120,35.7,1,107,88,none,0
+P0001570,First1570,Last1570,1977-01-01,49,M,white,divorced,Buffalo,NY,14203,36.5,0,154,83,hypertension,1
+P0001571,First1571,Last1571,1981-01-01,45,F,white,married,Worcester,MA,01613,16.9,0,107,82,none,0
+P0001572,First1572,Last1572,1971-01-01,55,F,asian,single,Boston,MA,02110,21.3,0,110,60,none,0
+P0001573,First1573,Last1573,1977-01-01,49,F,black,single,Rochester,NY,14608,18.1,0,139,80,none,0
+P0001574,First1574,Last1574,2003-01-01,23,M,white,divorced,Oakland,CA,94610,30.8,0,125,97,none,0
+P0001575,First1575,Last1575,2000-01-01,26,M,white,married,Worcester,MA,01619,23.9,0,107,87,none,1
+P0001576,First1576,Last1576,1976-01-01,50,F,white,single,Oakland,CA,94612,25.0,0,129,90,none,0
+P0001577,First1577,Last1577,1958-01-01,68,F,black,married,Dallas,TX,75208,26.4,0,141,100,hypertension,0
+P0001578,First1578,Last1578,2008-01-01,18,M,black,married,San Diego,CA,92111,29.5,0,108,95,none,0
+P0001579,First1579,Last1579,1971-01-01,55,M,white,married,Los Angeles,CA,90024,19.8,0,111,103,none,0
+P0001580,First1580,Last1580,1956-01-01,70,M,black,married,Los Angeles,CA,90016,21.0,0,108,95,asthma,0
+P0001581,First1581,Last1581,1980-01-01,46,M,black,widowed,Cambridge,MA,02141,27.5,0,114,82,asthma,0
+P0001582,First1582,Last1582,1967-01-01,59,M,asian,divorced,Rochester,NY,14618,33.7,0,154,61,hypertension,1
+P0001583,First1583,Last1583,1990-01-01,36,M,white,married,Austin,TX,78705,27.4,0,137,97,none,0
+P0001584,First1584,Last1584,1979-01-01,47,F,white,divorced,Oakland,CA,94617,23.4,0,119,91,none,0
+P0001585,First1585,Last1585,2006-01-01,20,F,white,single,Oakland,CA,94617,16.3,1,98,74,none,0
+P0001586,First1586,Last1586,2008-01-01,18,M,white,single,Austin,TX,78708,32.5,0,111,72,none,0
+P0001587,First1587,Last1587,1960-01-01,66,M,white,divorced,Boston,MA,02111,23.7,0,139,102,none,1
+P0001588,First1588,Last1588,1995-01-01,31,F,white,single,Worcester,MA,01610,21.5,1,125,74,asthma,0
+P0001589,First1589,Last1589,1985-01-01,41,M,white,married,Los Angeles,CA,90019,18.6,0,88,78,none,0
+P0001590,First1590,Last1590,2002-01-01,24,F,black,married,Worcester,MA,01615,20.0,0,141,74,hypertension,0
+P0001591,First1591,Last1591,2002-01-01,24,M,white,married,Albany,NY,12218,22.5,0,120,83,none,0
+P0001592,First1592,Last1592,1980-01-01,46,F,black,widowed,Oakland,CA,94617,26.3,0,120,69,none,1
+P0001593,First1593,Last1593,1990-01-01,36,M,white,single,Los Angeles,CA,90025,21.2,1,113,87,none,0
+P0001594,First1594,Last1594,1970-01-01,56,M,black,married,Boston,MA,02122,28.5,0,141,79,hypertension,0
+P0001595,First1595,Last1595,1969-01-01,57,F,white,married,Oakland,CA,94617,26.2,1,142,79,hypertension,0
+P0001596,First1596,Last1596,1971-01-01,55,F,asian,divorced,Cambridge,MA,02139,39.1,0,135,108,asthma,0
+P0001597,First1597,Last1597,1973-01-01,53,M,asian,married,Austin,TX,78707,18.6,0,128,68,none,0
+P0001598,First1598,Last1598,1949-01-01,77,F,white,single,Boston,MA,02117,28.3,0,141,107,hypertension,1
+P0001599,First1599,Last1599,1996-01-01,30,F,black,single,Austin,TX,78709,28.4,1,125,84,none,1
+P0001600,First1600,Last1600,1978-01-01,48,M,white,married,Albany,NY,12209,22.1,1,137,60,asthma,1
+P0001601,First1601,Last1601,1957-01-01,69,F,black,married,Buffalo,NY,14209,28.0,0,141,112,hypertension,1
+P0001602,First1602,Last1602,1954-01-01,72,F,white,married,Buffalo,NY,14206,31.5,1,151,100,hypertension,1
+P0001603,First1603,Last1603,2003-01-01,23,F,white,married,Cambridge,MA,02143,28.0,0,124,86,none,0
+P0001604,First1604,Last1604,1983-01-01,43,M,white,single,Buffalo,NY,14213,34.7,0,107,104,none,1
+P0001605,First1605,Last1605,1953-01-01,73,F,asian,divorced,Oakland,CA,94613,16.2,0,126,107,none,0
+P0001606,First1606,Last1606,1968-01-01,58,F,white,married,San Diego,CA,92108,23.1,1,136,89,none,1
+P0001607,First1607,Last1607,1973-01-01,53,F,black,single,Worcester,MA,01616,35.2,0,123,102,none,1
+P0001608,First1608,Last1608,1981-01-01,45,F,white,married,Los Angeles,CA,90020,32.2,0,120,94,asthma,1
+P0001609,First1609,Last1609,1984-01-01,42,F,white,married,Houston,TX,77005,30.3,1,143,82,hypertension,0
+P0001610,First1610,Last1610,1972-01-01,54,F,white,single,Los Angeles,CA,90020,33.9,0,129,70,none,0
+P0001611,First1611,Last1611,1982-01-01,44,F,other,single,Rochester,NY,14609,17.5,0,97,82,none,0
+P0001612,First1612,Last1612,1978-01-01,48,F,asian,single,Cambridge,MA,02147,31.6,0,121,109,none,1
+P0001613,First1613,Last1613,1976-01-01,50,M,white,married,Dallas,TX,75203,33.0,0,129,99,none,0
+P0001614,First1614,Last1614,1989-01-01,37,F,black,single,Buffalo,NY,14215,24.1,0,116,66,none,0
+P0001615,First1615,Last1615,1967-01-01,59,F,white,married,Rochester,NY,14615,41.2,0,143,114,hypertension,1
+P0001616,First1616,Last1616,1936-01-01,90,M,white,widowed,Los Angeles,CA,90018,28.5,1,163,94,hypertension,1
+P0001617,First1617,Last1617,2008-01-01,18,M,white,single,Boston,MA,02112,16.1,0,99,60,none,0
+P0001618,First1618,Last1618,1971-01-01,55,M,white,widowed,San Diego,CA,92106,29.5,0,116,104,none,0
+P0001619,First1619,Last1619,1991-01-01,35,F,white,married,Boston,MA,02118,23.8,1,117,67,asthma,1
+P0001620,First1620,Last1620,1967-01-01,59,F,black,married,San Diego,CA,92110,33.6,0,127,118,none,0
+P0001621,First1621,Last1621,1976-01-01,50,F,white,single,Houston,TX,77012,30.3,1,131,105,none,1
+P0001622,First1622,Last1622,1963-01-01,63,F,asian,married,Dallas,TX,75214,24.4,0,140,85,hypertension,1
+P0001623,First1623,Last1623,1956-01-01,70,F,black,single,Austin,TX,78707,35.3,1,153,104,hypertension,1
+P0001624,First1624,Last1624,1974-01-01,52,M,asian,single,Dallas,TX,75211,32.4,0,138,125,none,1
+P0001625,First1625,Last1625,1957-01-01,69,F,black,widowed,Cambridge,MA,02144,23.2,0,131,103,none,0
+P0001626,First1626,Last1626,2008-01-01,18,M,asian,married,Austin,TX,78710,26.7,0,122,81,none,1
+P0001627,First1627,Last1627,1948-01-01,78,F,white,widowed,Austin,TX,78708,30.2,1,158,137,hypertension,1
+P0001628,First1628,Last1628,1970-01-01,56,F,white,married,Buffalo,NY,14212,25.6,1,137,89,none,1
+P0001629,First1629,Last1629,1958-01-01,68,M,white,married,Buffalo,NY,14201,25.8,0,143,99,hypertension,1
+P0001630,First1630,Last1630,1999-01-01,27,M,other,single,Cambridge,MA,02141,27.7,0,104,68,asthma,0
+P0001631,First1631,Last1631,1992-01-01,34,F,white,married,Buffalo,NY,14205,22.0,0,90,60,none,0
+P0001632,First1632,Last1632,1974-01-01,52,M,black,widowed,Los Angeles,CA,90026,16.0,0,115,76,none,0
+P0001633,First1633,Last1633,1977-01-01,49,F,black,divorced,Albany,NY,12214,28.7,1,141,88,hypertension,1
+P0001634,First1634,Last1634,1972-01-01,54,F,white,widowed,Rochester,NY,14609,17.2,0,124,86,none,0
+P0001635,First1635,Last1635,1957-01-01,69,M,asian,widowed,Rochester,NY,14610,22.3,0,133,69,none,1
+P0001636,First1636,Last1636,2008-01-01,18,F,white,single,Worcester,MA,01614,18.3,1,99,82,asthma,0
+P0001637,First1637,Last1637,1959-01-01,67,F,white,married,Austin,TX,78714,18.9,0,111,74,none,0
+P0001638,First1638,Last1638,1977-01-01,49,F,black,divorced,Worcester,MA,01622,29.7,0,142,97,hypertension,1
+P0001639,First1639,Last1639,1981-01-01,45,F,white,married,Boston,MA,02120,26.3,0,120,98,none,0
+P0001640,First1640,Last1640,2003-01-01,23,F,white,divorced,Cambridge,MA,02150,26.2,0,103,73,asthma,0
+P0001641,First1641,Last1641,1968-01-01,58,F,white,married,Houston,TX,77004,20.7,0,120,71,none,0
+P0001642,First1642,Last1642,2008-01-01,18,M,white,single,Dallas,TX,75205,24.1,0,118,98,none,0
+P0001643,First1643,Last1643,1965-01-01,61,M,asian,married,Boston,MA,02116,29.5,0,143,104,hypertension,0
+P0001644,First1644,Last1644,2004-01-01,22,F,asian,married,Cambridge,MA,02147,27.2,0,97,81,none,0
+P0001645,First1645,Last1645,1976-01-01,50,F,white,married,Rochester,NY,14607,31.8,0,140,110,hypertension,1
+P0001646,First1646,Last1646,1979-01-01,47,M,white,married,Boston,MA,02119,32.5,0,124,91,asthma,1
+P0001647,First1647,Last1647,1956-01-01,70,F,white,married,Los Angeles,CA,90014,26.2,0,131,83,none,0
+P0001648,First1648,Last1648,1980-01-01,46,M,asian,married,Cambridge,MA,02141,17.9,0,115,66,none,1
+P0001649,First1649,Last1649,1989-01-01,37,M,black,married,Albany,NY,12211,23.6,0,107,80,none,0
+P0001650,First1650,Last1650,1986-01-01,40,F,white,single,Buffalo,NY,14213,27.0,0,105,95,none,0
+P0001651,First1651,Last1651,1954-01-01,72,F,white,married,Rochester,NY,14614,23.5,0,146,110,hypertension,0
+P0001652,First1652,Last1652,1967-01-01,59,F,other,divorced,Rochester,NY,14611,22.0,0,126,86,none,1
+P0001653,First1653,Last1653,1984-01-01,42,F,asian,married,Cambridge,MA,02150,27.9,0,127,102,none,0
+P0001654,First1654,Last1654,1981-01-01,45,F,white,single,Boston,MA,02120,40.1,0,131,91,asthma,0
+P0001655,First1655,Last1655,2005-01-01,21,M,asian,married,Worcester,MA,01613,25.0,0,112,67,none,0
+P0001656,First1656,Last1656,1970-01-01,56,F,white,single,Cambridge,MA,02149,27.5,0,107,70,none,0
+P0001657,First1657,Last1657,2008-01-01,18,M,white,single,Houston,TX,77005,20.7,0,93,67,asthma,0
+P0001658,First1658,Last1658,1963-01-01,63,M,black,single,Worcester,MA,01615,34.0,0,143,77,hypertension,0
+P0001659,First1659,Last1659,1975-01-01,51,F,white,married,Boston,MA,02109,32.0,0,114,118,none,0
+P0001660,First1660,Last1660,1936-01-01,90,F,white,single,Worcester,MA,01614,31.7,1,163,107,hypertension,1
+P0001661,First1661,Last1661,1997-01-01,29,F,other,married,Los Angeles,CA,90019,34.6,0,100,85,asthma,0
+P0001662,First1662,Last1662,1979-01-01,47,M,asian,married,Dallas,TX,75202,25.3,0,123,109,none,1
+P0001663,First1663,Last1663,1945-01-01,81,F,white,married,Oakland,CA,94613,25.9,0,162,76,hypertension,0
+P0001664,First1664,Last1664,1956-01-01,70,M,black,single,San Diego,CA,92110,36.4,0,150,96,hypertension,1
+P0001665,First1665,Last1665,1990-01-01,36,M,asian,married,Los Angeles,CA,90021,30.8,0,98,113,none,0
+P0001666,First1666,Last1666,1973-01-01,53,M,white,single,Rochester,NY,14604,16.0,1,138,78,none,1
+P0001667,First1667,Last1667,1977-01-01,49,M,other,married,Houston,TX,77003,29.9,0,146,123,hypertension,1
+P0001668,First1668,Last1668,1972-01-01,54,M,black,married,Oakland,CA,94612,24.5,0,157,97,hypertension,1
+P0001669,First1669,Last1669,1990-01-01,36,M,white,married,Worcester,MA,01620,32.2,1,131,105,none,0
+P0001670,First1670,Last1670,1979-01-01,47,M,white,married,Rochester,NY,14617,29.6,0,110,106,none,0
+P0001671,First1671,Last1671,2006-01-01,20,M,asian,single,Worcester,MA,01612,18.4,0,108,73,none,0
+P0001672,First1672,Last1672,1975-01-01,51,M,other,divorced,Cambridge,MA,02148,28.9,0,144,81,hypertension,0
+P0001673,First1673,Last1673,1969-01-01,57,M,white,single,Los Angeles,CA,90020,28.6,0,128,88,none,1
+P0001674,First1674,Last1674,1981-01-01,45,F,white,married,Cambridge,MA,02152,29.4,1,142,73,hypertension,0
+P0001675,First1675,Last1675,2006-01-01,20,M,asian,married,Los Angeles,CA,90013,30.5,0,99,80,none,0
+P0001676,First1676,Last1676,1959-01-01,67,F,white,divorced,Austin,TX,78709,35.3,1,151,97,hypertension,1
+P0001677,First1677,Last1677,1970-01-01,56,M,white,married,Buffalo,NY,14209,29.7,0,103,114,none,1
+P0001678,First1678,Last1678,1990-01-01,36,F,asian,married,Albany,NY,12211,27.6,0,106,92,none,1
+P0001679,First1679,Last1679,1982-01-01,44,M,asian,divorced,Oakland,CA,94607,33.5,0,124,122,none,0
+P0001680,First1680,Last1680,2004-01-01,22,M,asian,married,San Diego,CA,92101,39.2,0,109,60,none,0
+P0001681,First1681,Last1681,1995-01-01,31,M,black,married,Worcester,MA,01614,32.3,0,102,68,none,0
+P0001682,First1682,Last1682,1987-01-01,39,F,white,married,Worcester,MA,01618,28.6,0,114,80,none,1
+P0001683,First1683,Last1683,1955-01-01,71,M,other,single,Oakland,CA,94617,29.7,0,143,115,hypertension,0
+P0001684,First1684,Last1684,1989-01-01,37,M,white,married,Austin,TX,78703,28.8,0,117,83,none,0
+P0001685,First1685,Last1685,1965-01-01,61,M,white,single,Cambridge,MA,02150,27.6,1,140,70,hypertension,0
+P0001686,First1686,Last1686,1987-01-01,39,M,asian,married,Rochester,NY,14609,38.8,0,132,88,none,1
+P0001687,First1687,Last1687,1973-01-01,53,M,black,married,Austin,TX,78715,23.6,0,122,69,none,1
+P0001688,First1688,Last1688,1980-01-01,46,M,asian,married,Cambridge,MA,02139,33.5,0,141,70,hypertension,0
+P0001689,First1689,Last1689,1961-01-01,65,F,white,divorced,Boston,MA,02120,26.8,0,124,119,none,1
+P0001690,First1690,Last1690,1987-01-01,39,M,other,married,Rochester,NY,14617,19.8,1,143,74,hypertension,1
+P0001691,First1691,Last1691,2005-01-01,21,F,black,single,Boston,MA,02120,26.5,1,126,81,none,0
+P0001692,First1692,Last1692,2002-01-01,24,M,black,married,Boston,MA,02120,24.7,0,104,77,none,0
+P0001693,First1693,Last1693,1987-01-01,39,M,other,married,San Diego,CA,92106,30.5,0,117,83,none,1
+P0001694,First1694,Last1694,1999-01-01,27,F,white,married,Los Angeles,CA,90022,28.0,0,114,69,none,0
+P0001695,First1695,Last1695,1970-01-01,56,F,black,single,Albany,NY,12215,22.2,0,133,81,none,0
+P0001696,First1696,Last1696,1985-01-01,41,F,black,married,Albany,NY,12213,35.1,0,135,94,none,1
+P0001697,First1697,Last1697,1936-01-01,90,M,asian,divorced,Rochester,NY,14618,33.2,0,138,121,none,1
+P0001698,First1698,Last1698,2008-01-01,18,F,asian,divorced,Oakland,CA,94611,35.7,1,121,97,none,1
+P0001699,First1699,Last1699,1973-01-01,53,F,black,single,San Diego,CA,92107,28.7,0,105,72,none,0
+P0001700,First1700,Last1700,1997-01-01,29,M,white,single,Los Angeles,CA,90025,27.3,0,110,95,none,0
+P0001701,First1701,Last1701,1986-01-01,40,F,white,single,San Diego,CA,92105,31.2,0,137,93,none,1
+P0001702,First1702,Last1702,1974-01-01,52,M,other,single,Austin,TX,78703,24.5,1,117,77,none,1
+P0001703,First1703,Last1703,2008-01-01,18,F,other,married,Oakland,CA,94611,28.2,0,88,81,none,0
+P0001704,First1704,Last1704,1973-01-01,53,F,other,divorced,Cambridge,MA,02149,26.6,0,129,95,none,1
+P0001705,First1705,Last1705,1943-01-01,83,F,white,divorced,Austin,TX,78713,19.9,1,165,92,hypertension,0
+P0001706,First1706,Last1706,1985-01-01,41,F,white,married,Austin,TX,78702,28.2,0,124,92,none,1
+P0001707,First1707,Last1707,1972-01-01,54,F,black,divorced,Worcester,MA,01617,25.2,0,106,75,asthma,0
+P0001708,First1708,Last1708,1959-01-01,67,M,black,divorced,Worcester,MA,01616,26.2,0,117,119,none,0
+P0001709,First1709,Last1709,1980-01-01,46,F,white,married,Oakland,CA,94617,29.4,0,125,60,none,1
+P0001710,First1710,Last1710,1987-01-01,39,F,black,divorced,Rochester,NY,14614,34.1,0,109,96,none,1
+P0001711,First1711,Last1711,2008-01-01,18,F,white,married,Oakland,CA,94621,23.1,0,105,81,none,0
+P0001712,First1712,Last1712,1965-01-01,61,F,white,married,Albany,NY,12212,25.7,1,141,98,hypertension,1
+P0001713,First1713,Last1713,1979-01-01,47,M,white,married,Boston,MA,02112,23.5,0,116,74,none,0
+P0001714,First1714,Last1714,1995-01-01,31,F,white,single,Boston,MA,02116,23.2,0,132,96,none,0
+P0001715,First1715,Last1715,1975-01-01,51,M,white,married,Houston,TX,77008,24.4,0,131,84,none,0
+P0001716,First1716,Last1716,1988-01-01,38,F,other,widowed,Worcester,MA,01615,26.5,0,131,67,none,0
+P0001717,First1717,Last1717,1987-01-01,39,F,black,married,Oakland,CA,94608,30.5,0,130,71,none,0
+P0001718,First1718,Last1718,1966-01-01,60,F,other,married,Worcester,MA,01610,29.2,0,131,93,none,1
+P0001719,First1719,Last1719,2001-01-01,25,F,white,single,Albany,NY,12221,22.0,0,105,60,none,0
+P0001720,First1720,Last1720,1958-01-01,68,M,white,married,Buffalo,NY,14202,34.2,0,136,121,none,0
+P0001721,First1721,Last1721,2002-01-01,24,F,white,single,Cambridge,MA,02146,32.4,0,119,98,none,0
+P0001722,First1722,Last1722,1989-01-01,37,F,black,married,Los Angeles,CA,90023,22.8,0,108,106,none,0
+P0001723,First1723,Last1723,1942-01-01,84,M,white,widowed,San Diego,CA,92101,33.9,0,168,125,hypertension,1
+P0001724,First1724,Last1724,1957-01-01,69,M,black,single,Cambridge,MA,02141,29.2,0,130,88,none,1
+P0001725,First1725,Last1725,1975-01-01,51,M,asian,married,Rochester,NY,14609,26.7,0,128,75,none,0
+P0001726,First1726,Last1726,1994-01-01,32,M,asian,married,Los Angeles,CA,90019,29.4,1,120,60,none,1
+P0001727,First1727,Last1727,1987-01-01,39,M,white,married,Oakland,CA,94612,27.4,0,114,78,none,0
+P0001728,First1728,Last1728,1976-01-01,50,M,white,widowed,Rochester,NY,14613,30.3,0,151,114,hypertension,0
+P0001729,First1729,Last1729,1976-01-01,50,M,white,single,Oakland,CA,94610,28.5,0,121,76,none,1
+P0001730,First1730,Last1730,1979-01-01,47,F,white,married,Cambridge,MA,02138,25.7,0,119,82,none,1
+P0001731,First1731,Last1731,1978-01-01,48,M,black,married,Worcester,MA,01608,17.0,1,119,72,none,0
+P0001732,First1732,Last1732,1981-01-01,45,F,white,divorced,San Diego,CA,92106,30.2,0,124,93,none,0
+P0001733,First1733,Last1733,2003-01-01,23,M,black,married,San Diego,CA,92106,25.6,0,107,97,none,0
+P0001734,First1734,Last1734,1986-01-01,40,M,white,single,Los Angeles,CA,90026,31.5,0,109,65,none,0
+P0001735,First1735,Last1735,1961-01-01,65,F,other,single,Worcester,MA,01608,30.0,0,131,74,none,1
+P0001736,First1736,Last1736,2002-01-01,24,M,other,married,Albany,NY,12214,25.7,1,122,100,none,0
+P0001737,First1737,Last1737,1980-01-01,46,M,white,single,San Diego,CA,92109,32.8,1,144,100,hypertension,1
+P0001738,First1738,Last1738,1992-01-01,34,F,asian,married,Boston,MA,02118,28.6,0,116,80,none,0
+P0001739,First1739,Last1739,1975-01-01,51,M,white,married,Buffalo,NY,14210,28.4,0,127,112,none,1
+P0001740,First1740,Last1740,1984-01-01,42,M,black,widowed,Oakland,CA,94607,26.8,0,116,65,none,0
+P0001741,First1741,Last1741,1950-01-01,76,M,asian,single,Boston,MA,02117,36.3,0,140,113,hypertension,1
+P0001742,First1742,Last1742,1968-01-01,58,F,asian,divorced,Buffalo,NY,14205,23.8,0,119,86,none,1
+P0001743,First1743,Last1743,2001-01-01,25,F,asian,single,Boston,MA,02119,25.8,1,99,88,none,0
+P0001744,First1744,Last1744,1965-01-01,61,M,white,married,Austin,TX,78703,21.1,0,122,60,none,0
+P0001745,First1745,Last1745,1991-01-01,35,F,asian,single,Cambridge,MA,02148,31.3,0,128,82,none,0
+P0001746,First1746,Last1746,1987-01-01,39,F,black,single,Worcester,MA,01617,24.5,0,113,92,none,0
+P0001747,First1747,Last1747,1971-01-01,55,F,white,married,Worcester,MA,01617,25.1,1,131,86,none,0
+P0001748,First1748,Last1748,1986-01-01,40,F,white,married,Worcester,MA,01610,24.8,1,121,100,none,0
+P0001749,First1749,Last1749,1961-01-01,65,M,asian,single,Boston,MA,02118,27.8,0,149,108,hypertension,1
+P0001750,First1750,Last1750,1991-01-01,35,M,black,single,San Diego,CA,92112,21.0,0,103,65,none,0
+P0001751,First1751,Last1751,1988-01-01,38,M,white,married,Cambridge,MA,02145,16.0,0,116,88,none,0
+P0001752,First1752,Last1752,1989-01-01,37,M,other,divorced,Boston,MA,02113,29.9,0,118,71,none,1
+P0001753,First1753,Last1753,1987-01-01,39,F,black,married,Worcester,MA,01610,16.5,1,121,78,none,1
+P0001754,First1754,Last1754,1957-01-01,69,F,white,married,Buffalo,NY,14205,31.9,1,149,104,hypertension,1
+P0001755,First1755,Last1755,1966-01-01,60,F,white,married,Cambridge,MA,02149,35.6,0,136,83,asthma,1
+P0001756,First1756,Last1756,1946-01-01,80,F,black,divorced,San Diego,CA,92107,26.6,0,152,106,hypertension,0
+P0001757,First1757,Last1757,1936-01-01,90,F,asian,married,San Diego,CA,92111,34.3,0,153,95,hypertension,1
+P0001758,First1758,Last1758,1996-01-01,30,F,black,married,San Diego,CA,92112,27.4,1,139,73,none,0
+P0001759,First1759,Last1759,1976-01-01,50,F,white,married,Cambridge,MA,02148,35.8,0,130,102,none,1
+P0001760,First1760,Last1760,1998-01-01,28,F,black,single,Austin,TX,78711,25.1,1,99,68,none,0
+P0001761,First1761,Last1761,1991-01-01,35,M,black,single,San Diego,CA,92110,16.0,0,118,63,none,0
+P0001762,First1762,Last1762,1988-01-01,38,M,asian,married,Boston,MA,02115,27.1,1,129,98,none,0
+P0001763,First1763,Last1763,1996-01-01,30,M,white,widowed,Rochester,NY,14606,36.4,0,117,89,none,0
+P0001764,First1764,Last1764,1996-01-01,30,M,black,married,San Diego,CA,92113,30.3,0,111,63,none,0
+P0001765,First1765,Last1765,1980-01-01,46,M,white,married,Cambridge,MA,02152,24.8,0,99,96,none,0
+P0001766,First1766,Last1766,1999-01-01,27,F,white,single,Rochester,NY,14610,29.2,0,91,76,none,0
+P0001767,First1767,Last1767,1962-01-01,64,M,black,single,San Diego,CA,92114,32.5,0,155,74,hypertension,1
+P0001768,First1768,Last1768,1994-01-01,32,F,black,married,Boston,MA,02122,27.1,1,115,60,none,1
+P0001769,First1769,Last1769,1936-01-01,90,F,white,single,Austin,TX,78708,41.2,0,167,119,hypertension,1
+P0001770,First1770,Last1770,1985-01-01,41,F,asian,married,Worcester,MA,01618,24.8,1,108,71,none,0
+P0001771,First1771,Last1771,1976-01-01,50,F,white,single,Boston,MA,02117,32.7,0,116,73,none,0
+P0001772,First1772,Last1772,2000-01-01,26,F,white,single,Boston,MA,02111,31.5,0,120,92,none,0
+P0001773,First1773,Last1773,1946-01-01,80,M,white,widowed,Rochester,NY,14604,23.9,1,148,104,hypertension,1
+P0001774,First1774,Last1774,1957-01-01,69,M,white,married,Houston,TX,77008,25.3,0,142,80,hypertension,1
+P0001775,First1775,Last1775,1972-01-01,54,M,black,single,Los Angeles,CA,90023,32.8,1,137,104,none,1
+P0001776,First1776,Last1776,2001-01-01,25,M,asian,single,Austin,TX,78705,28.3,1,115,110,none,0
+P0001777,First1777,Last1777,1973-01-01,53,M,black,married,Albany,NY,12218,29.3,0,121,108,none,0
+P0001778,First1778,Last1778,1997-01-01,29,F,white,married,Buffalo,NY,14210,19.0,0,95,93,none,0
+P0001779,First1779,Last1779,1951-01-01,75,M,white,widowed,Albany,NY,12217,30.9,0,158,100,hypertension,1
+P0001780,First1780,Last1780,1962-01-01,64,M,white,married,Worcester,MA,01612,29.0,0,152,86,hypertension,1
+P0001781,First1781,Last1781,1975-01-01,51,F,black,single,Houston,TX,77009,27.2,0,115,86,none,1
+P0001782,First1782,Last1782,2008-01-01,18,F,white,married,Rochester,NY,14606,29.4,1,101,86,none,0
+P0001783,First1783,Last1783,1995-01-01,31,M,white,divorced,Rochester,NY,14607,25.4,0,109,63,none,0
+P0001784,First1784,Last1784,1965-01-01,61,M,asian,married,Buffalo,NY,14202,24.4,0,135,77,none,0
+P0001785,First1785,Last1785,1955-01-01,71,F,black,widowed,Los Angeles,CA,90013,26.2,1,143,72,hypertension,1
+P0001786,First1786,Last1786,1957-01-01,69,M,white,single,Worcester,MA,01611,25.1,0,142,94,hypertension,1
+P0001787,First1787,Last1787,2006-01-01,20,F,white,married,San Diego,CA,92109,38.8,1,118,87,none,0
+P0001788,First1788,Last1788,1972-01-01,54,F,black,single,Los Angeles,CA,90018,32.2,0,129,82,none,0
+P0001789,First1789,Last1789,1959-01-01,67,F,white,single,Oakland,CA,94611,22.5,0,160,100,hypertension,0
+P0001790,First1790,Last1790,2007-01-01,19,F,white,married,Cambridge,MA,02150,38.1,0,105,71,none,0
+P0001791,First1791,Last1791,1977-01-01,49,M,asian,married,Worcester,MA,01615,25.2,0,142,76,hypertension,0
+P0001792,First1792,Last1792,1972-01-01,54,F,white,single,Rochester,NY,14617,27.7,0,144,99,hypertension,0
+P0001793,First1793,Last1793,1982-01-01,44,M,white,single,Austin,TX,78710,32.2,0,129,102,none,0
+P0001794,First1794,Last1794,2008-01-01,18,F,white,married,Houston,TX,77002,17.3,1,87,61,none,0
+P0001795,First1795,Last1795,1983-01-01,43,M,white,divorced,Buffalo,NY,14214,26.3,0,121,88,none,0
+P0001796,First1796,Last1796,1983-01-01,43,M,white,married,Boston,MA,02120,24.5,0,114,72,none,0
+P0001797,First1797,Last1797,1980-01-01,46,M,white,married,Worcester,MA,01617,28.6,0,124,84,none,0
+P0001798,First1798,Last1798,1987-01-01,39,M,black,single,Oakland,CA,94615,29.4,0,108,87,none,0
+P0001799,First1799,Last1799,1985-01-01,41,M,white,married,Cambridge,MA,02144,27.1,0,128,92,none,0
+P0001800,First1800,Last1800,1978-01-01,48,F,asian,married,Buffalo,NY,14208,26.9,0,135,91,none,0
+P0001801,First1801,Last1801,1969-01-01,57,M,other,single,San Diego,CA,92112,33.0,1,152,96,hypertension,0
+P0001802,First1802,Last1802,1982-01-01,44,M,white,married,Buffalo,NY,14208,29.1,1,125,71,none,0
+P0001803,First1803,Last1803,1984-01-01,42,F,white,married,Albany,NY,12209,27.7,1,116,90,none,0
+P0001804,First1804,Last1804,1975-01-01,51,F,asian,single,Cambridge,MA,02138,28.3,0,130,96,none,0
+P0001805,First1805,Last1805,2008-01-01,18,F,other,single,Worcester,MA,01609,37.0,0,129,94,none,0
+P0001806,First1806,Last1806,1968-01-01,58,F,asian,divorced,Los Angeles,CA,90015,28.4,0,132,80,none,0
+P0001807,First1807,Last1807,1977-01-01,49,F,white,single,Albany,NY,12212,24.8,0,129,98,none,0
+P0001808,First1808,Last1808,1976-01-01,50,F,white,married,Worcester,MA,01621,17.6,0,118,62,none,0
+P0001809,First1809,Last1809,1960-01-01,66,M,white,married,Boston,MA,02111,20.0,1,133,80,none,1
+P0001810,First1810,Last1810,2008-01-01,18,F,asian,single,Cambridge,MA,02142,25.1,0,112,73,none,0
+P0001811,First1811,Last1811,2008-01-01,18,M,black,married,San Diego,CA,92104,26.9,0,104,60,none,0
+P0001812,First1812,Last1812,1972-01-01,54,F,white,married,Oakland,CA,94615,24.6,0,131,82,none,0
+P0001813,First1813,Last1813,1977-01-01,49,M,white,divorced,Buffalo,NY,14210,29.3,1,138,91,none,0
+P0001814,First1814,Last1814,1974-01-01,52,F,white,single,Rochester,NY,14611,24.5,0,129,60,none,1
+P0001815,First1815,Last1815,1985-01-01,41,F,black,single,Cambridge,MA,02152,22.7,0,124,76,none,0
+P0001816,First1816,Last1816,1965-01-01,61,F,white,married,Rochester,NY,14618,30.7,0,124,68,none,0
+P0001817,First1817,Last1817,1960-01-01,66,M,black,married,Boston,MA,02120,34.6,0,129,125,none,1
+P0001818,First1818,Last1818,1968-01-01,58,F,black,married,Houston,TX,77014,21.7,1,134,88,none,1
+P0001819,First1819,Last1819,1982-01-01,44,M,black,single,Worcester,MA,01613,28.8,0,122,88,none,0
+P0001820,First1820,Last1820,2008-01-01,18,F,white,married,Rochester,NY,14612,17.6,0,95,75,none,0
+P0001821,First1821,Last1821,1963-01-01,63,M,asian,married,Worcester,MA,01613,19.8,0,133,94,none,0
+P0001822,First1822,Last1822,1955-01-01,71,F,black,married,San Diego,CA,92112,24.4,0,147,104,hypertension,1
+P0001823,First1823,Last1823,1965-01-01,61,M,white,single,Worcester,MA,01610,33.4,0,148,72,hypertension,1
+P0001824,First1824,Last1824,1993-01-01,33,F,white,single,Houston,TX,77005,23.5,1,136,98,none,0
+P0001825,First1825,Last1825,1965-01-01,61,F,black,married,Worcester,MA,01608,23.3,1,123,105,none,0
+P0001826,First1826,Last1826,1962-01-01,64,F,white,married,Los Angeles,CA,90021,27.7,0,121,90,none,0
+P0001827,First1827,Last1827,1949-01-01,77,F,white,married,Oakland,CA,94617,27.7,0,139,93,none,1
+P0001828,First1828,Last1828,1993-01-01,33,F,white,married,Cambridge,MA,02138,23.4,0,114,60,none,0
+P0001829,First1829,Last1829,1981-01-01,45,M,white,single,Cambridge,MA,02145,37.8,0,124,75,none,1
+P0001830,First1830,Last1830,1964-01-01,62,F,white,married,Buffalo,NY,14206,26.1,0,126,97,none,1
+P0001831,First1831,Last1831,1976-01-01,50,F,black,single,San Diego,CA,92112,28.1,0,122,104,none,0
+P0001832,First1832,Last1832,1997-01-01,29,M,white,single,Austin,TX,78701,25.4,1,124,90,none,0
+P0001833,First1833,Last1833,1970-01-01,56,F,black,widowed,Boston,MA,02108,29.8,0,116,89,none,0
+P0001834,First1834,Last1834,1967-01-01,59,F,white,widowed,Rochester,NY,14613,33.9,0,160,121,hypertension,1
+P0001835,First1835,Last1835,1975-01-01,51,M,white,married,Cambridge,MA,02146,36.2,1,137,107,none,0
+P0001836,First1836,Last1836,1973-01-01,53,M,white,married,Worcester,MA,01620,23.5,0,137,80,none,0
+P0001837,First1837,Last1837,1982-01-01,44,M,asian,married,Oakland,CA,94615,33.2,0,118,120,none,1
+P0001838,First1838,Last1838,1950-01-01,76,F,other,single,Cambridge,MA,02152,30.4,0,149,81,hypertension,1
+P0001839,First1839,Last1839,1993-01-01,33,M,white,married,Worcester,MA,01612,32.6,0,118,65,none,1
+P0001840,First1840,Last1840,1988-01-01,38,F,white,married,Houston,TX,77007,27.0,0,127,78,none,0
+P0001841,First1841,Last1841,1977-01-01,49,M,white,married,San Diego,CA,92115,26.5,0,122,76,none,0
+P0001842,First1842,Last1842,1961-01-01,65,M,white,married,San Diego,CA,92102,32.4,0,154,89,hypertension,1
+P0001843,First1843,Last1843,2004-01-01,22,M,asian,single,Boston,MA,02119,32.5,0,94,94,asthma,0
+P0001844,First1844,Last1844,2001-01-01,25,F,white,single,Austin,TX,78701,35.6,0,124,85,none,1
+P0001845,First1845,Last1845,2008-01-01,18,F,other,single,Albany,NY,12214,28.5,0,107,79,none,0
+P0001846,First1846,Last1846,1976-01-01,50,M,black,divorced,Albany,NY,12209,26.9,0,114,88,none,1
+P0001847,First1847,Last1847,1997-01-01,29,F,white,married,Cambridge,MA,02146,16.0,0,129,60,none,0
+P0001848,First1848,Last1848,1984-01-01,42,M,asian,married,Dallas,TX,75212,19.1,0,137,60,none,0
+P0001849,First1849,Last1849,1965-01-01,61,M,white,married,Rochester,NY,14604,25.4,0,109,83,none,0
+P0001850,First1850,Last1850,1989-01-01,37,M,asian,single,San Diego,CA,92103,21.8,0,117,68,none,0
+P0001851,First1851,Last1851,1973-01-01,53,F,white,single,Oakland,CA,94612,31.7,0,137,87,none,1
+P0001852,First1852,Last1852,1982-01-01,44,F,asian,married,San Diego,CA,92104,20.7,0,124,101,asthma,0
+P0001853,First1853,Last1853,1965-01-01,61,F,white,widowed,San Diego,CA,92106,24.9,0,148,87,hypertension,0
+P0001854,First1854,Last1854,1968-01-01,58,F,white,married,Houston,TX,77016,25.1,1,151,69,hypertension,1
+P0001855,First1855,Last1855,1989-01-01,37,F,asian,married,Cambridge,MA,02139,33.8,0,123,77,none,0
+P0001856,First1856,Last1856,1980-01-01,46,M,white,single,Worcester,MA,01614,24.3,0,147,108,hypertension,1
+P0001857,First1857,Last1857,1958-01-01,68,M,white,widowed,Oakland,CA,94613,29.9,0,148,115,hypertension,0
+P0001858,First1858,Last1858,1970-01-01,56,M,asian,single,Albany,NY,12211,28.5,0,126,98,none,0
+P0001859,First1859,Last1859,2002-01-01,24,F,white,widowed,Rochester,NY,14608,32.2,0,105,61,none,0
+P0001860,First1860,Last1860,1965-01-01,61,M,asian,married,Oakland,CA,94617,31.9,0,148,97,hypertension,1
+P0001861,First1861,Last1861,1997-01-01,29,M,black,single,Albany,NY,12216,27.3,0,104,87,none,1
+P0001862,First1862,Last1862,1952-01-01,74,M,black,divorced,San Diego,CA,92113,18.7,1,139,88,none,1
+P0001863,First1863,Last1863,1959-01-01,67,M,white,single,Boston,MA,02114,26.3,0,133,83,asthma,0
+P0001864,First1864,Last1864,1972-01-01,54,M,white,married,Austin,TX,78710,27.4,0,132,83,asthma,1
+P0001865,First1865,Last1865,1974-01-01,52,F,other,widowed,Boston,MA,02121,29.0,0,125,80,none,1
+P0001866,First1866,Last1866,1981-01-01,45,F,white,married,Los Angeles,CA,90024,23.7,0,106,67,none,0
+P0001867,First1867,Last1867,1965-01-01,61,M,white,married,Dallas,TX,75214,33.4,0,148,113,hypertension,1
+P0001868,First1868,Last1868,1984-01-01,42,F,white,divorced,Boston,MA,02112,27.6,0,116,97,none,0
+P0001869,First1869,Last1869,1973-01-01,53,F,white,divorced,Cambridge,MA,02152,22.7,0,147,81,hypertension,0
+P0001870,First1870,Last1870,1961-01-01,65,F,black,widowed,Worcester,MA,01620,25.1,0,137,94,none,0
+P0001871,First1871,Last1871,1987-01-01,39,F,asian,divorced,Buffalo,NY,14212,37.5,0,137,96,none,1
+P0001872,First1872,Last1872,1988-01-01,38,M,asian,married,Buffalo,NY,14211,31.0,0,127,119,none,0
+P0001873,First1873,Last1873,1998-01-01,28,M,asian,divorced,Worcester,MA,01622,33.0,0,129,97,none,1
+P0001874,First1874,Last1874,1996-01-01,30,F,white,married,Dallas,TX,75207,22.1,0,117,90,none,0
+P0001875,First1875,Last1875,2008-01-01,18,F,white,single,Cambridge,MA,02149,23.9,0,107,77,asthma,0
+P0001876,First1876,Last1876,1964-01-01,62,M,white,married,Rochester,NY,14614,24.0,1,150,82,hypertension,1
+P0001877,First1877,Last1877,1944-01-01,82,F,black,divorced,Rochester,NY,14614,28.5,0,173,116,hypertension,1
+P0001878,First1878,Last1878,1951-01-01,75,M,white,single,Worcester,MA,01619,26.6,1,145,102,hypertension,1
+P0001879,First1879,Last1879,2006-01-01,20,F,black,divorced,Worcester,MA,01610,25.0,0,114,66,none,0
+P0001880,First1880,Last1880,1964-01-01,62,M,white,married,Houston,TX,77007,25.6,0,132,95,none,1
+P0001881,First1881,Last1881,1951-01-01,75,M,asian,married,San Diego,CA,92106,23.4,0,145,103,hypertension,0
+P0001882,First1882,Last1882,1985-01-01,41,M,asian,married,Cambridge,MA,02149,26.6,0,120,60,none,0
+P0001883,First1883,Last1883,1975-01-01,51,F,asian,married,Oakland,CA,94617,33.3,0,105,78,none,1
+P0001884,First1884,Last1884,2008-01-01,18,M,white,single,Albany,NY,12219,19.6,0,100,78,none,0
+P0001885,First1885,Last1885,1972-01-01,54,M,other,married,Cambridge,MA,02149,29.3,0,140,62,hypertension,1
+P0001886,First1886,Last1886,1996-01-01,30,M,white,single,Los Angeles,CA,90020,34.7,0,108,62,none,0
+P0001887,First1887,Last1887,1973-01-01,53,F,white,married,Buffalo,NY,14203,26.5,0,137,83,none,1
+P0001888,First1888,Last1888,2005-01-01,21,F,white,married,Cambridge,MA,02147,24.7,0,108,84,none,0
+P0001889,First1889,Last1889,1967-01-01,59,F,white,single,Houston,TX,77015,32.3,0,131,100,none,0
+P0001890,First1890,Last1890,1959-01-01,67,F,white,married,Cambridge,MA,02147,22.4,1,151,111,hypertension,1
+P0001891,First1891,Last1891,1991-01-01,35,F,white,married,Boston,MA,02121,27.4,0,124,84,none,0
+P0001892,First1892,Last1892,1997-01-01,29,M,white,married,Worcester,MA,01622,22.1,0,115,73,none,0
+P0001893,First1893,Last1893,2008-01-01,18,F,black,married,Oakland,CA,94612,17.8,0,112,60,none,0
+P0001894,First1894,Last1894,1982-01-01,44,F,asian,single,San Diego,CA,92111,26.7,0,124,80,none,0
+P0001895,First1895,Last1895,1987-01-01,39,F,black,married,Austin,TX,78709,20.9,1,105,90,none,0
+P0001896,First1896,Last1896,2005-01-01,21,F,black,married,Cambridge,MA,02144,27.4,0,103,90,none,0
+P0001897,First1897,Last1897,1969-01-01,57,F,white,single,Oakland,CA,94610,33.3,0,113,96,none,1
+P0001898,First1898,Last1898,1985-01-01,41,M,asian,single,Buffalo,NY,14204,37.1,0,131,99,none,1
+P0001899,First1899,Last1899,1996-01-01,30,F,white,single,Boston,MA,02110,28.0,0,123,100,none,0
+P0001900,First1900,Last1900,1987-01-01,39,M,white,married,Cambridge,MA,02147,32.8,0,131,89,none,0
+P0001901,First1901,Last1901,1958-01-01,68,F,white,widowed,Oakland,CA,94609,29.6,0,143,112,hypertension,0
+P0001902,First1902,Last1902,1966-01-01,60,F,black,married,Worcester,MA,01614,25.5,0,141,78,hypertension,1
+P0001903,First1903,Last1903,1979-01-01,47,M,white,married,Oakland,CA,94614,17.5,0,102,79,none,0
+P0001904,First1904,Last1904,1966-01-01,60,F,black,divorced,Buffalo,NY,14207,36.0,1,141,89,hypertension,0
+P0001905,First1905,Last1905,1998-01-01,28,F,white,single,Worcester,MA,01620,22.0,0,94,89,none,0
+P0001906,First1906,Last1906,1976-01-01,50,M,white,single,Houston,TX,77008,34.7,0,125,78,none,0
+P0001907,First1907,Last1907,1974-01-01,52,M,white,divorced,Oakland,CA,94608,30.3,0,146,85,hypertension,1
+P0001908,First1908,Last1908,1985-01-01,41,M,white,married,Buffalo,NY,14215,22.4,0,130,60,none,0
+P0001909,First1909,Last1909,1969-01-01,57,F,white,divorced,Los Angeles,CA,90024,29.1,0,138,98,none,1
+P0001910,First1910,Last1910,1991-01-01,35,M,black,single,Rochester,NY,14613,38.6,0,119,108,none,0
+P0001911,First1911,Last1911,1968-01-01,58,M,white,married,Oakland,CA,94618,35.5,0,123,107,none,1
+P0001912,First1912,Last1912,1967-01-01,59,M,white,married,Boston,MA,02109,24.8,0,132,99,none,1
+P0001913,First1913,Last1913,2008-01-01,18,F,black,married,Albany,NY,12218,23.8,0,116,88,none,0
+P0001914,First1914,Last1914,1956-01-01,70,F,white,widowed,Cambridge,MA,02141,28.0,0,143,103,hypertension,1
+P0001915,First1915,Last1915,2008-01-01,18,F,white,married,Albany,NY,12214,26.6,0,88,86,none,0
+P0001916,First1916,Last1916,1988-01-01,38,F,white,married,Buffalo,NY,14203,33.7,0,122,97,asthma,1
+P0001917,First1917,Last1917,1959-01-01,67,M,white,single,Boston,MA,02119,31.3,0,117,85,none,1
+P0001918,First1918,Last1918,1983-01-01,43,F,white,single,Houston,TX,77005,18.7,1,133,77,asthma,1
+P0001919,First1919,Last1919,2003-01-01,23,F,black,married,Cambridge,MA,02141,29.9,0,102,82,none,0
+P0001920,First1920,Last1920,1997-01-01,29,F,white,divorced,Cambridge,MA,02139,26.6,0,99,76,none,0
+P0001921,First1921,Last1921,1959-01-01,67,F,asian,single,Rochester,NY,14614,27.7,1,152,70,hypertension,1
+P0001922,First1922,Last1922,2008-01-01,18,F,white,divorced,San Diego,CA,92105,28.8,0,112,62,none,0
+P0001923,First1923,Last1923,1957-01-01,69,F,black,married,Worcester,MA,01615,33.7,1,150,99,hypertension,1
+P0001924,First1924,Last1924,1978-01-01,48,F,asian,married,Albany,NY,12211,32.6,1,158,103,hypertension,0
+P0001925,First1925,Last1925,1998-01-01,28,M,white,single,San Diego,CA,92112,23.6,0,117,79,none,0
+P0001926,First1926,Last1926,1987-01-01,39,F,white,married,Worcester,MA,01611,27.2,1,118,123,none,0
+P0001927,First1927,Last1927,1995-01-01,31,M,white,single,Dallas,TX,75215,25.2,0,118,68,none,0
+P0001928,First1928,Last1928,1961-01-01,65,F,other,married,Boston,MA,02112,18.8,0,128,92,asthma,1
+P0001929,First1929,Last1929,1964-01-01,62,F,other,single,Los Angeles,CA,90013,26.9,1,154,108,hypertension,0
+P0001930,First1930,Last1930,2008-01-01,18,F,white,divorced,Worcester,MA,01611,37.1,1,120,100,none,0
+P0001931,First1931,Last1931,1984-01-01,42,F,black,divorced,Los Angeles,CA,90013,18.6,0,121,88,none,0
+P0001932,First1932,Last1932,1993-01-01,33,F,white,widowed,San Diego,CA,92108,27.4,0,99,97,none,0
+P0001933,First1933,Last1933,1954-01-01,72,F,white,divorced,Worcester,MA,01611,27.2,0,140,94,hypertension,1
+P0001934,First1934,Last1934,2001-01-01,25,M,black,married,Cambridge,MA,02151,29.0,1,117,105,none,0
+P0001935,First1935,Last1935,1948-01-01,78,F,white,married,Worcester,MA,01615,22.5,0,129,109,none,0
+P0001936,First1936,Last1936,1978-01-01,48,F,white,divorced,Boston,MA,02111,20.1,0,118,70,none,0
+P0001937,First1937,Last1937,1998-01-01,28,M,asian,divorced,Dallas,TX,75207,20.3,0,113,81,none,0
+P0001938,First1938,Last1938,1989-01-01,37,F,white,widowed,Albany,NY,12209,34.4,0,120,66,asthma,0
+P0001939,First1939,Last1939,1991-01-01,35,F,black,single,Oakland,CA,94609,22.4,1,105,101,none,0
+P0001940,First1940,Last1940,2000-01-01,26,F,white,married,Dallas,TX,75205,24.9,0,106,82,asthma,0
+P0001941,First1941,Last1941,1975-01-01,51,F,white,widowed,Los Angeles,CA,90013,38.4,0,126,113,none,1
+P0001942,First1942,Last1942,1999-01-01,27,F,white,widowed,Oakland,CA,94609,23.7,0,112,77,none,0
+P0001943,First1943,Last1943,2008-01-01,18,M,other,single,Cambridge,MA,02152,29.3,0,107,60,asthma,1
+P0001944,First1944,Last1944,1984-01-01,42,M,white,divorced,Worcester,MA,01618,33.0,0,118,125,none,0
+P0001945,First1945,Last1945,2008-01-01,18,M,white,single,Worcester,MA,01621,32.8,0,103,84,none,0
+P0001946,First1946,Last1946,1991-01-01,35,F,black,widowed,Worcester,MA,01611,20.6,0,114,65,none,0
+P0001947,First1947,Last1947,1993-01-01,33,F,other,married,Buffalo,NY,14213,23.8,1,131,96,none,0
+P0001948,First1948,Last1948,1993-01-01,33,F,other,divorced,Worcester,MA,01613,29.1,0,119,112,none,1
+P0001949,First1949,Last1949,1941-01-01,85,F,black,married,Albany,NY,12209,37.5,0,167,100,hypertension,0
+P0001950,First1950,Last1950,1976-01-01,50,F,white,married,Buffalo,NY,14213,23.5,0,136,83,none,0
+P0001951,First1951,Last1951,1973-01-01,53,F,black,married,Cambridge,MA,02138,24.9,1,150,90,hypertension,0
+P0001952,First1952,Last1952,2008-01-01,18,F,asian,married,Worcester,MA,01614,29.7,0,122,64,none,0
+P0001953,First1953,Last1953,1989-01-01,37,F,asian,married,Buffalo,NY,14213,30.7,0,136,76,none,1
+P0001954,First1954,Last1954,1973-01-01,53,F,asian,widowed,Buffalo,NY,14210,31.0,1,123,115,none,1
+P0001955,First1955,Last1955,1995-01-01,31,M,white,single,San Diego,CA,92108,23.1,1,126,77,none,0
+P0001956,First1956,Last1956,1961-01-01,65,F,white,divorced,Oakland,CA,94612,24.7,0,147,78,hypertension,0
+P0001957,First1957,Last1957,1999-01-01,27,M,black,married,Worcester,MA,01609,28.6,0,127,75,none,0
+P0001958,First1958,Last1958,1982-01-01,44,F,white,married,Boston,MA,02122,34.1,0,116,105,asthma,1
+P0001959,First1959,Last1959,1988-01-01,38,M,white,single,Cambridge,MA,02140,26.3,0,125,60,none,0
+P0001960,First1960,Last1960,1974-01-01,52,F,white,single,Cambridge,MA,02141,27.4,0,127,91,none,1
+P0001961,First1961,Last1961,1989-01-01,37,F,black,single,Buffalo,NY,14204,22.2,0,135,115,none,0
+P0001962,First1962,Last1962,1982-01-01,44,F,asian,divorced,Dallas,TX,75214,37.2,0,111,120,none,0
+P0001963,First1963,Last1963,1981-01-01,45,F,asian,divorced,Boston,MA,02119,28.3,0,114,94,none,0
+P0001964,First1964,Last1964,1990-01-01,36,M,asian,single,Boston,MA,02114,33.1,1,106,105,none,0
+P0001965,First1965,Last1965,1968-01-01,58,F,asian,widowed,San Diego,CA,92115,27.7,0,132,108,none,0
+P0001966,First1966,Last1966,1973-01-01,53,F,black,single,Albany,NY,12207,27.9,1,159,86,hypertension,0
+P0001967,First1967,Last1967,1979-01-01,47,M,white,single,Worcester,MA,01621,19.7,0,120,94,none,0
+P0001968,First1968,Last1968,1985-01-01,41,F,black,married,Cambridge,MA,02138,16.3,0,116,102,none,0
+P0001969,First1969,Last1969,1963-01-01,63,M,white,married,Dallas,TX,75206,34.0,0,143,77,hypertension,1
+P0001970,First1970,Last1970,1981-01-01,45,M,white,married,Cambridge,MA,02138,27.9,0,121,94,none,0
+P0001971,First1971,Last1971,1983-01-01,43,F,white,single,Los Angeles,CA,90026,28.6,0,126,91,none,0
+P0001972,First1972,Last1972,1975-01-01,51,F,asian,single,Los Angeles,CA,90025,21.0,0,127,85,none,0
+P0001973,First1973,Last1973,1946-01-01,80,F,black,married,Cambridge,MA,02146,22.8,0,133,92,none,0
+P0001974,First1974,Last1974,2001-01-01,25,M,other,single,San Diego,CA,92104,33.0,0,111,87,none,1
+P0001975,First1975,Last1975,1963-01-01,63,F,other,married,Worcester,MA,01612,36.5,0,146,101,hypertension,0
+P0001976,First1976,Last1976,2008-01-01,18,F,asian,married,Cambridge,MA,02144,24.3,0,114,92,none,0
+P0001977,First1977,Last1977,1973-01-01,53,F,white,widowed,Cambridge,MA,02142,31.0,0,143,97,hypertension,1
+P0001978,First1978,Last1978,1949-01-01,77,M,asian,married,Houston,TX,77002,28.5,0,146,93,hypertension,1
+P0001979,First1979,Last1979,1968-01-01,58,M,asian,married,Cambridge,MA,02147,26.9,0,134,77,none,1
+P0001980,First1980,Last1980,1974-01-01,52,M,asian,married,Cambridge,MA,02147,37.1,0,139,87,none,1
+P0001981,First1981,Last1981,1987-01-01,39,M,white,married,Houston,TX,77015,25.1,0,111,86,none,0
+P0001982,First1982,Last1982,1976-01-01,50,M,white,single,Boston,MA,02115,34.0,1,128,81,none,1
+P0001983,First1983,Last1983,1982-01-01,44,F,other,widowed,Dallas,TX,75206,29.5,0,121,100,none,1
+P0001984,First1984,Last1984,1991-01-01,35,M,white,single,San Diego,CA,92108,27.4,0,102,89,none,0
+P0001985,First1985,Last1985,1982-01-01,44,F,white,single,Buffalo,NY,14203,34.6,0,129,106,none,0
+P0001986,First1986,Last1986,1973-01-01,53,F,white,married,Oakland,CA,94616,29.0,0,140,80,hypertension,0
+P0001987,First1987,Last1987,1991-01-01,35,M,white,single,Oakland,CA,94618,27.0,0,108,71,none,1
+P0001988,First1988,Last1988,1992-01-01,34,M,white,married,Boston,MA,02110,34.7,0,124,103,none,0
+P0001989,First1989,Last1989,2001-01-01,25,F,other,married,Dallas,TX,75205,34.0,0,106,86,none,0
+P0001990,First1990,Last1990,1970-01-01,56,F,asian,divorced,Houston,TX,77015,33.8,1,128,90,none,1
+P0001991,First1991,Last1991,1967-01-01,59,F,other,married,Dallas,TX,75208,16.0,0,148,92,hypertension,1
+P0001992,First1992,Last1992,1973-01-01,53,M,white,married,Los Angeles,CA,90019,29.8,0,117,99,none,0
+P0001993,First1993,Last1993,1960-01-01,66,F,white,married,Rochester,NY,14614,28.6,1,129,75,none,1
+P0001994,First1994,Last1994,1975-01-01,51,M,white,divorced,Rochester,NY,14612,27.3,0,128,107,none,0
+P0001995,First1995,Last1995,1970-01-01,56,F,white,married,Cambridge,MA,02139,30.7,0,134,85,none,0
+P0001996,First1996,Last1996,1972-01-01,54,M,white,married,Rochester,NY,14616,28.9,0,136,113,none,1
+P0001997,First1997,Last1997,1979-01-01,47,F,asian,divorced,Oakland,CA,94620,31.0,0,147,70,hypertension,1
+P0001998,First1998,Last1998,1987-01-01,39,M,other,married,Los Angeles,CA,90012,26.1,1,116,88,none,0
+P0001999,First1999,Last1999,1937-01-01,89,F,white,widowed,Cambridge,MA,02139,35.3,0,147,100,hypertension,1

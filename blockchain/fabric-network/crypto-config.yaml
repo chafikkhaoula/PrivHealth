@@ -1,0 +1,29 @@
+OrdererOrgs:
+  - Name: PrivHealthOrderer
+    Domain: privhealth.local
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+        SANS:
+          - localhost
+
+PeerOrgs:
+  - Name: Hospital1
+    Domain: hospital1.privhealth.local
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+      SANS:
+        - localhost
+    Users:
+      Count: 1
+
+  - Name: Hospital2
+    Domain: hospital2.privhealth.local
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+      SANS:
+        - localhost
+    Users:
+      Count: 1
