@@ -1,4 +1,11 @@
-# PrivHealth experimental protocol — blockchain extension v0.3
+# PrivHealth pre-experiment protocol — archived
+
+> **Status:** This document records the protocol prepared during prototype
+> development. It is retained for development history and should not be read
+> as the final experimental report. The accepted paper reports the completed
+> 10,000-patient Synthea study. This repository provides the reference
+> implementation and test suites, but does not currently archive all final
+> experimental result artifacts.
 
 ## Scope
 
