@@ -13,10 +13,10 @@ The paper evaluates PrivHealth as a self-contained blockchain-assisted clinical
 data-release framework. It does not reuse or describe any broader healthcare
 workflow architecture. Clinical records and released tables remain off-chain.
 
-## Working title
+## Final paper title
 
-**PrivHealth: Blockchain-Assisted Adaptive De-identification for Verifiable
-Clinical Data Sharing**
+**PrivHealth: A Permissioned Blockchain-Governed Framework for
+Privacy-Verified Clinical Data Release**
 
 ## Research question
 
@@ -25,7 +25,7 @@ l-diversity targets while retaining more downstream analytical utility than
 fixed strategies, and can a permissioned blockchain enforce and preserve
 verifiable evidence for each privacy-valid release?
 
-## Main claim to test
+## Pre-specified hypothesis
 
 For the same formal privacy targets, selecting each generalization step by its marginal privacy-gain-to-weighted-utility-cost ratio reduces combined information loss and/or record suppression compared with fixed and uniform generalization.
 
