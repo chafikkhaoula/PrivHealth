@@ -252,17 +252,19 @@ class AdaptiveAnonymizer:
             for candidate in checkpoints
             if candidate["retained_rows"] > 0
         ]
-        if not valid_checkpoints:
-            selected = checkpoints[-1]
-        else:
-            selected = min(
-                valid_checkpoints,
-                key=lambda candidate: (
-                    candidate["release_information_loss"],
-                    candidate["release_suppression_rate"],
-                    candidate["step"],
-                ),
-            )
+if not valid_checkpoints:
+    raise ValueError(
+        "No non-empty privacy-valid checkpoint exists"
+    )
+
+selected = min(
+    valid_checkpoints,
+    key=lambda candidate: (
+        candidate["release_information_loss"],
+        candidate["release_suppression_rate"],
+        candidate["step"],
+    ),
+)
 
         final, metrics = finalize_candidate(
             original,
