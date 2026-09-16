@@ -54,15 +54,15 @@ class PrivHealthTests(unittest.TestCase):
     def test_adaptive_fails_when_no_nonempty_checkpoint_exists(self) -> None:
         impossible_data = self.data.copy()
         impossible_data["condition"] = "hypertension"
-    
+
         config = PrivacyConfig(k=2, l=2)
-    
+
         with self.assertRaisesRegex(
             ValueError,
             "No non-empty privacy-valid checkpoint exists",
         ):
             AdaptiveAnonymizer(config).fit_transform(impossible_data)
-        
+
     def test_hierarchy_loss_increases_with_generalization(self) -> None:
         initial = {"age": 0, "gender": 0, "zip_code": 0}
         changed = {"age": 1, "gender": 0, "zip_code": 1}

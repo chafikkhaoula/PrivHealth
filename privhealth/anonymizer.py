@@ -256,7 +256,7 @@ class AdaptiveAnonymizer:
             raise ValueError(
                 "No non-empty privacy-valid checkpoint exists"
             )
-        
+
         selected = min(
             valid_checkpoints,
             key=lambda candidate: (
