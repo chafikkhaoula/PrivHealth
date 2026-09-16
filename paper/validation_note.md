@@ -1,4 +1,8 @@
-# Prototype validation note — not final paper evidence
+# Early prototype validation note — archived
+
+> **Status:** This note documents an early 2,000-record software-validation
+> run completed on 22 July 2026. It is retained for development history and
+> is not the final experimental evidence reported in the accepted paper.
 
 Date: 22 July 2026
 
@@ -6,7 +10,7 @@ The current results use 2,000 records produced by the repository's deterministic
 demo generator. They validate the implementation and experimental pipeline;
 they must not be reported as the final Synthea experiment.
 
-All four unit tests pass. For the 2,000-record validation sample, the adaptive
+At the time of this early validation run, all four available unit tests passed. For the 2,000-record validation sample, the adaptive
 method satisfied each tested `(k, l)` target without row suppression:
 
 | Target | Achieved | Information loss | F1 retention | Median runtime |
